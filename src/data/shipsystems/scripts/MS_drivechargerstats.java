@@ -21,7 +21,7 @@ public class MS_drivechargerstats extends BaseShipSystemScript {
         
         if(!Global.getCombatEngine().isPaused()){
             ShipAPI ship = (ShipAPI) stats.getEntity();
-            if(vel!=new Vector2f() || effectLevel!=0){
+            if(!vel.equals(new Vector2f()) || effectLevel!=0){
                 //acceleration change of the ship
                 Vector2f offset=new Vector2f();
                 Vector2f.sub(vel, ship.getVelocity(), offset);

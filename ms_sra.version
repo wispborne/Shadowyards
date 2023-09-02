@@ -1,7 +1,6 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/MShadowy/shadowyards/master/ms_sra.version",
-    "modName":"Shadowyards",
-    "modThreadId":3491,
+    "masterVersionFile":"https://raw.githubusercontent.com/wispborne/Shadowyards/main/ms_sra.version",
+    "modName":"Shadowyards (Wisp)",
     "modVersion":
     {
         "major":"0",
