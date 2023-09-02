@@ -1,0 +1,43 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_morningstar_redwing",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "variantId": "ms_morningstar_redwing_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ms_shrike_rack",
+                "WS0008": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0006": "ms_mcepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_particleDart",
+                "WS0002": "ms_particleDart"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_spreadbeam",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": ["ms_wraith_wing"]
+}

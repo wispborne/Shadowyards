@@ -1,0 +1,73 @@
+{
+  "bounds": [
+    -8.5,
+    -12,
+    9,
+    -12,
+    9,
+    12,
+    -8.5,
+    12
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_miniminer"
+  },
+  "center": [
+    17,
+    14
+  ],
+  "collisionRadius": 24,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -8.5,
+        6
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -8.5,
+        -6
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 28,
+  "hullId": "ms_dromedary_drone",
+  "hullName": "Dromedary",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/shadow_ships/ships/ms_dromad.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        1.5,
+        -4.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 34
+}

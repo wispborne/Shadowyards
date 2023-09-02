@@ -1,0 +1,65 @@
+{
+  "bounds": [
+    -46,
+    40.5,
+    -12.5,
+    63,
+    25.5,
+    54,
+    53,
+    14,
+    53,
+    -14,
+    25.5,
+    -54,
+    -12.5,
+    -63,
+    -46,
+    -40.5
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "ms_harShields"
+  ],
+  "builtInWeapons": {
+        "MAIN": "ms_rhpbc_turr",
+  },
+  "center": [
+    66,
+    55
+  ],
+  "collisionRadius": 75,
+  "engineSlots": [],
+  "height": 110,
+  "hullId": "ms_module_lance",
+  "hullName": "Heavy Weapon Module",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    -70,
+    0
+  ],
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 86,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_lanceModule.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 160,
+      "id": "MAIN",
+      "locations": [
+        -12.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 132
+}

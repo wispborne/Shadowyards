@@ -1,0 +1,27 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "ms_seski",
+    "hullMods": ["extendedshieldemitter"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_seski_CS",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_cepc"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_slowbeamM"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "lrpdlaser"}
+        }
+    ]
+}

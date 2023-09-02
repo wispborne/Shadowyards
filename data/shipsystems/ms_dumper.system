@@ -1,0 +1,9 @@
+{
+	"id":"ms_dumper",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_dumperAI",
+	
+	"weaponDataId":"ms_dumper",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

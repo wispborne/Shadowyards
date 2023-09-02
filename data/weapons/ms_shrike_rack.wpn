@@ -1,0 +1,59 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "shrike_fire",
+  "hardpointAngleOffsets": [
+    0,
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    5,
+    -7,
+    5,
+    7,
+    3,
+    0
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_shrike_launcher_3x_turret.png",
+  "id": "ms_shrike_rack",
+  "projectileSpecId": "ms_shrike",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 4,
+    "blowbackLength": 50,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    -2,
+    -7,
+    -2,
+    7,
+    -4,
+    0
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_shrike_launcher_3x_rack.png",
+  "type": "MISSILE"
+}

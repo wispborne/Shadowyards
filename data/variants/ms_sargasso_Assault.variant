@@ -1,0 +1,29 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 18,
+    "hullId": "ms_sargasso",
+    "hullMods": ["stabilizedshieldemitter"],
+    "permaMods": [],
+    "variantId": "ms_sargasso_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0002": "irpulse",
+                "WS0016": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_shrike_pod"}
+        }
+    ],
+    "wings": [
+        "ms_wraith_wing",
+        "ms_raksasha_wing"
+    ]
+}

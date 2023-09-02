@@ -1,0 +1,58 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+        "insulatedengine",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_charybdis_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "ms_slowbeamH"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_stormBlaster",
+                "WS0007": "ms_stormBlaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_pdcepc",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "ms_shrike_rack",
+                "WS0010": "ms_shrike_rack"
+            }
+        }
+    ],
+    "wings": [
+        "ms_kobold_wing",
+        "ms_raksasha_wing"
+    ]
+}

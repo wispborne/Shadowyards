@@ -1,0 +1,29 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "ms_belet-seri",
+    "hullMods": [
+        "magazines",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_belet-seri_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_cepc",
+                "WS0003": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_spreadbeam"}
+        }
+    ]
+}

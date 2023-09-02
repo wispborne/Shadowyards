@@ -1,0 +1,22 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"shadow_industry",
+    
+    "rebelFleetSuffix":"Renegades",
+    
+    "morality":"good",
+
+    "startRelationships":{
+        "shadow_industry": 1,
+        "new_galactic_order":-1,	# this should never happen:but just in case it does
+    },
+    
+    "responseFleetName":"Heavy Interceptors",
+    
+    "startShipsSolo":[["ms_enlil_redwing_Balanced"], ["ms_seski_redwing_LA"]],
+    "startShipsCombatSmall":[["ms_morningstar_redwing_Assault", "ms_enlil_redwing_Standard", "ms_seski_redwing_CS"]],
+    "startShipsCombatLarge":[["ms_elysium_redwing_Standard", "ms_clade_redwing_Strike", "ms_seski_redwing_LA"]],
+    "startShipsCarrierLarge":[["ms_charybdis_redwing_Attack", "ms_morningstar_redwing_Strike", "ms_enlil_redwing_Balanced"]],
+    "startShipsSuper":[["ms_ninurta_standard"], ["ms_shamash_redwing_Balanced"]],
+}

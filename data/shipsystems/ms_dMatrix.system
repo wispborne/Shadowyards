@@ -1,0 +1,24 @@
+{
+	"id":"ms_dMatrix",
+	"type":"SHIELD_MOD",
+	"aiType":"FORTRESS_SHIELD",
+	
+	"statsScript":"data.shipsystems.scripts.MS_DefenseMatrix",
+	
+	"shieldRingColor":[0,80,255,255],
+	"shieldInnerColor":[0,255,0,50],
+	"shieldThicknessMult":2.0,
+	"shieldFluctuationMult":0.4,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.3,
+	
+	"clampTurnRateAfter":true,
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",
+}

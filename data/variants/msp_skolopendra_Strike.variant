@@ -1,0 +1,43 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 15,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "msp_skolopendra",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "msp_skolopendra_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "typhoon",
+                "WS0009": "typhoon",
+                "WS0014": "reaper",
+                "WS0015": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ioncannon",
+                "WS0002": "chaingun",
+                "WS0005": "lightdualac",
+                "WS0006": "lightdualac",
+                "WS0016": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0007": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "extendedshieldemitter",
+        "auxiliarythrusters",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "ms_enlil_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gravitonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_trishula",
+                "WS0003": "ms_trishula"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

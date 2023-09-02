@@ -1,0 +1,37 @@
+{
+	"id":"ms_apis_swarmer",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/shadow_weapons/missiles/missile_pd.png",
+	"size":[6,8],	
+	"center":[3,4],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,255,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":320,
+				  "acc":800,
+				  "dec":600},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"CUSTOM",
+                                    #"styleId":"ShadowyardsFlare",
+                                        "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[75,165,110,215],
+						"contrailDuration":1.25,
+						"contrailWidthMult":0.7,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[50,110,74,100],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.0,
+				    "length":15.0,
+				    "angle":180.0},
+				    ]
+}

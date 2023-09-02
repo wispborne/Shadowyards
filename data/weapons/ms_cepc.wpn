@@ -1,0 +1,51 @@
+{
+  "everyFrameEffect":"data.scripts.weapons.MS_ShotMaster",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "cepc_midline",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/shadow_weapons/weapons/ms_cepc_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    18.5,
+    2
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_cepc_hardpoint_base.png",
+  "hardpointUnderSprite": "graphics/shadow_weapons/weapons/ms_cepc_hardpoint_under.png",
+  "id": "ms_cepc",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "particleColor": [
+      250,
+      135,
+      75,
+      255
+    ],
+    "particleCount": 14,
+    "particleDuration": 0.12,
+    "particleSizeMin": 6,
+    "particleSizeRange": 6,
+    "spread": 0
+  },
+  "projectileSpecId": "ms_cepc_blast",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/shadow_weapons/weapons/ms_cepc_turret_recoil.png",
+  "turretOffsets": [
+    12,
+    2
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_cepc_turret_base.png",
+  "turretUnderSprite": "graphics/shadow_weapons/weapons/ms_cepc_turret_under.png",
+  "type": "ENERGY",
+  "visualRecoil": 4
+}

@@ -1,0 +1,202 @@
+{
+  "bounds": [
+    -15,
+    8,
+    3,
+    27,
+    6.5,
+    10.5,
+    16,
+    7.5,
+    8,
+    4,
+    8,
+    -4,
+    14.5,
+    -8.5,
+    6.5,
+    -12.5,
+    3,
+    -27,
+    -15,
+    -8
+  ],
+  "builtInMods": [
+    "ms_enjector",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0003": "ms_slowShiki",
+    "WS0004": "ms_microLance",
+    "SCAP_MAIN_PORT_02": "ms_enCapSmall",
+    "SCAP_MAIN_STBD_01": "ms_enCapSmall",
+    "TCAP_RETRO_PORT_04": "ms_enCapTiny",
+    "TCAP_RETRO_STBD_03": "ms_enCapTiny"
+  },
+  "center": [
+    32,
+    29
+  ],
+  "collisionRadius": 33.5,
+  "engineSlots": [
+    {
+      "angle": -147.5,
+      "contrailSize": 4,
+      "length": 3,
+      "location": [
+        -10.5,
+        -12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 3
+    },
+    {
+      "angle": 147.5,
+      "contrailSize": 4,
+      "length": 3,
+      "location": [
+        -10.5,
+        12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 3
+    },
+    {
+      "angle": -40,
+      "contrailSize": 4,
+      "length": 3,
+      "location": [
+        2.5,
+        -26.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 3
+    },
+    {
+      "angle": 40,
+      "contrailSize": 4,
+      "length": 3,
+      "location": [
+        2.5,
+        26.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 3
+    }
+  ],
+  "height": 53,
+  "hullId": "ms_shikome",
+  "hullName": "Shikome",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 43.5,
+  "spriteName": "graphics/shadow_ships/ships/ms_shikome.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        1.5,
+        -13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        1.5,
+        13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        9.5,
+        7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -48.5,
+      "arc": 90,
+      "id": "TCAP_RETRO_STBD_03",
+      "locations": [
+        2.5,
+        -26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 48.5,
+      "arc": 90,
+      "id": "TCAP_RETRO_PORT_04",
+      "locations": [
+        2.5,
+        26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 125.5,
+      "arc": 100,
+      "id": "SCAP_MAIN_PORT_02",
+      "locations": [
+        -10.5,
+        12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -125.5,
+      "arc": 100,
+      "id": "SCAP_MAIN_STBD_01",
+      "locations": [
+        -10.5,
+        -12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 64
+}

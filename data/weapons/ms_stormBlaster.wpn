@@ -1,0 +1,40 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "stormblaster_fire",
+  "frameRate": 20,
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    34,
+    0
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/chaingun/ms_chaingun_hp_00.png",
+  "id": "ms_stormBlaster",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "particleColor": [
+      255,150,200,235
+    ],
+    "particleCount": 11,
+    "particleDuration": 0.15,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "spread": 5
+  },
+  "numFrames": 4,
+  "projectileSpecId": "ms_stormproj",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    21,
+    0
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/chaingun/ms_chaingun_t_00.png",
+  "type": "ENERGY"
+}

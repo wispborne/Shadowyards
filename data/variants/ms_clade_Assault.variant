@@ -1,0 +1,44 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ms_clade",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "blast_doors",
+        "magazines"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_clade_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_tusk_rack",
+                "WS0003": "ms_tusk_rack"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ms_scattercepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser"
+            }
+        }
+    ]
+}

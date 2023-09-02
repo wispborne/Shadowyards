@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+                "shadowyards_public",
+        ],
+        
+        "shadowyards_public":{
+		"name":"ECA Public Broadcast",
+		"logo":"graphics/shi/icons/intel/shi_public.png",
+		"icon":"graphics/shi/icons/intel/shi_public.png",
+		"image":"graphics/shi/faction/shadowyards-eca.png",
+		"sound":"ui_channel_news",
+		"faction":"shadow_industry",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"shadowyards_internal":{
+		"name":"ShadowSec Intelligence",
+		"logo":"graphics/shi/icons/intel/shi_internal.png",
+		"icon":"graphics/shi/icons/intel/shi_internal.png",
+		"image":"graphics/shi/faction/shadowyards-eca.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"shadow_industry",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

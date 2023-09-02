@@ -1,0 +1,9 @@
+{
+	"id":"ms_phasemine",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_pmineAI",
+	
+	"weaponDataId":"ms_phasemine1",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

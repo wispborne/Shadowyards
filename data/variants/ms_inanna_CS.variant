@@ -1,0 +1,30 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "hullId": "ms_inanna",
+    "hullMods": [
+        "advancedoptics",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "variantId": "ms_inanna_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0003": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_spreadbeam",
+                "WS0005": "ms_spreadbeam"
+            }
+        }
+    ]
+}

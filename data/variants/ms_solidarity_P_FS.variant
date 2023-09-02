@@ -1,0 +1,35 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "ms_solidarity_P",
+    "hullMods": [
+        "blast_doors",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "ms_solidarity_P_FS",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "pilum"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "irpulse",
+                "WS0003": "ioncannon",
+                "WS0005": "lightdualmg",
+                "WS0006": "taclaser"
+            }
+        }
+    ]
+}

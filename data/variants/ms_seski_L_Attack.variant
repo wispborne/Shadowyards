@@ -1,0 +1,31 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_seski_L",
+    "hullMods": [
+        "blast_doors",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_seski_L_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pdlaser"}
+        }
+    ]
+}

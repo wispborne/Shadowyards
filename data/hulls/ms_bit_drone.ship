@@ -1,0 +1,85 @@
+{
+  "bounds": [
+    -3,
+    -4,
+    3,
+    -4,
+    3,
+    4,
+    -3,
+    4
+  ],
+  "center": [
+    6,
+    6
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_bitgun"
+  },
+  "collisionRadius": 6.041523,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 136.84761,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -2.5,
+        3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -136.84761,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -2.5,
+        -3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 12,
+  "hullId": "ms_bit_drone",
+  "hullName": "Bit Auxiliary Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/shadow_ships/ships/drones/ms_bit.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        4.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 12
+}

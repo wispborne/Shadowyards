@@ -1,0 +1,59 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+ms_rhpcblast_trail1,ms_rhpcblast,rhpcb_proj_trail,10,0,0.25,0.75,32,10,"[155,255,155]","[115,185,165]",0.6,128,128,3,2,1,FALSE,FALSE,TRUE,25,3,0,240,300,140,false,false
+ms_rhpcblast_trail2,ms_rhpcblast,rhpcb_proj_trail,10,0,0.25,0.75,32,10,"[155,255,155]","[115,185,165]",0.6,200,200,3,2,1,FALSE,FALSE,TRUE,25,3,0,120,60,220,false,false
+ms_rhpcblast_trail3,ms_rhpcblast,rhpcb_secondary_proj_trail,10,0,0.25,0.9,64,10,"[115,185,165]","[60,90,120]",0.4,200,400,3,6,1,FALSE,FALSE,TRUE,28,5,0,200,320,140,false,false
+ms_rhpcblast_trail4,ms_rhpcblast,rhpcb_secondary_proj_trail,10,0,0.25,0.9,64,10,"[115,185,165]","[60,90,120]",0.4,200,400,3,6,1,FALSE,FALSE,TRUE,28,5,0,100,80,220,false,false
+ms_rhpcblast_trail5,ms_rhpcblast,rhpcb_proj_trail,10,0,0.25,0.75,32,10,"[155,255,155]","[115,185,165]",0.6,200,200,3,4,1,FALSE,FALSE,TRUE,25,3,0,180,0,180,false,false
+ms_rhpcblast_trail6,ms_rhpcblast,rhpcb_secondary_proj_trail,10,0,0.25,0.9,64,10,"[115,185,165]","[60,90,120]",0.4,200,400,3,6,1,FALSE,FALSE,TRUE,28,5,0,180,0,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_wavetrail1,ms_wavebeam,wave_trail,5,0,0.05,0.1,64,2,"[165,215,145]","[125,155,115]",0.6,128,128,1,6,1,FALSE,FALSE,TRUE,16,2,0,180,0,180,false,false
+ms_wavetrail2,ms_wavebeam,wave_secondary_trail,5,0,0.075,0.1,96,96,"[145,165,215]","[115,125,155]",0.4,200,800,1,6,1,FALSE,FALSE,TRUE,22,3,0,180,0,180,false,false
+ms_wavetrail3,ms_wavebeam,rhpcb_proj_trail,5,0,0.05,0.075,64,2,"[165,215,145]","[60,90,120]",0.4,200,800,3,6,1,FALSE,FALSE,TRUE,18,4,0,180,0,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_rapidtrail1,ms_rapidwave,wave_trail,4,0,0.065,0.125,24,1,"[165,215,145]","[125,155,115]",0.6,128,128,1,6,1,FALSE,FALSE,TRUE,16,2,0,180,0,180,false,false
+ms_rapidtrail2,ms_rapidwave,wave_secondary_trail,4,0,0.1,0.125,32,6,"[145,165,215]","[115,125,155]",0.4,128,800,1,6,1,FALSE,FALSE,TRUE,22,3,0,180,0,180,false,false
+ms_rapidtrail3,ms_rapidwave,rhpcb_proj_trail,4,0,0.065,0.09,24,1,"[165,215,145]","[60,90,120]",0.4,128,800,3,6,1,FALSE,FALSE,TRUE,18,4,0,180,0,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_gugtrail1,ms_gug_shot,rhpcb_proj_trail,10,0,0.2,0.6,32,10,"[255,205,205]","[205,205,255]",0.6,128,128,2,10,1,FALSE,FALSE,TRUE,25,3,0,180,0,180,false,false
+ms_gugtrail2,ms_gug_shot,rhpcb_secondary_proj_trail,10,0,0.2,0.6,64,10,"[185,50,75]","[75,50,185]",0.4,200,200,2,15,1,FALSE,FALSE,TRUE,28,5,0,180,0,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_microLanceBlast_trail1,ms_microLanceBlast,rhpcb_proj_trail,4,0,0.25,0.75,16,4,"[155,255,155]","[115,185,165]",0.6,128,128,2,4,1,FALSE,FALSE,TRUE,25,3,0,120,60,220,false,false
+ms_microLanceBlast_trail2,ms_microLanceBlast,rhpcb_secondary_proj_trail,4,0,0.25,0.9,32,4,"[115,185,165]","[60,90,120]",0.4,200,200,2,8,1,FALSE,FALSE,TRUE,28,5,0,200,320,140,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_derazhoSpark_trail1,ms_derazhoSpark,derazho_spark_blip,3,0.1,0.25,0.6,24,4,"[45,155,255]","[10,30,80]",0.6,128,128,2,2,1,TRUE,TRUE,TRUE,28,4,0,180,60,180,false,false
+ms_derazhoSpark_trail2,ms_derazhoSpark,rhpcb_proj_trail,3,0.1,0.25,0.6,24,4,"[45,65,115]","[30,10,80]",0.4,128,128,2,8,1,TRUE,TRUE,TRUE,28,4,0,180,60,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ms_derazhoMain_trail1,ms_derazhoMainProj,derazho_helix,10,0.1,0.35,0.65,32,4,"215,235,255]","[10,30,80]",0.6,128,128,8,0,1,TRUE,TRUE,TRUE,100,100,0,180,0,180,false,false
+ms_derazhoMain_trail2,ms_derazhoMainProj,derazho_smoke_01,10,0.1,0.35,0.9,96,8,"[45,105,165]","[10,30,80]",1,200,200,8,2,1,FALSE,TRUE,TRUE,100,10,0,180,0,180,false,false
+ms_derazhoMain_trail3,ms_derazhoMainProj,derazho_smoke_02,10,0.1,0.35,0.9,96,8,"[45,105,165]","[10,30,80]",0.4,200,200,8,2,1,FALSE,TRUE,TRUE,100,10,0,180,0,180,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String trail: projectile ID plus a suffix if there are multiple trails for that proj,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String sprite: sprite ID in data\config\settings.json: in the graphics\fx category,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float minLength: minimal segment length. Saves performances especially when time warp in involved,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Can be set to a negative value to triggers a more optimized SLOW MODE for projectiles with speeds below 500. !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeIn: fade in time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float duration: full opacity duration in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeOut: fadeout time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeIn: initial width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeOut: final width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorIn: initial color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorOut: final color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float opacity: maximum opacity clamp,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textLength: texture length in pixels,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textScroll: texture scroll speed in pixels per seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float distance: distance behind the proj the trail spawns,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float dispersion: amount of randomization per second in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float drift: amount of sideway compensation for drifting projectiles,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean fadeOnFadeOut: forced fadeout if the proj fades,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean angleAdjustment reorient the trail in the direction of the velocity rather than the proj facing. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Must be FALSE for BALLISTIC_AS_BEAM projs !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean additive: normal or additive blending,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityIn: speed at which the trail segments are emited at in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityOut: final speed of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float randomVelocity: randomize both velocityIn and out in that proportion.,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float angle: offset angle of the trail relative to the projectile orientation after corrections if any (default 0 for directly backward),,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationIn: initial angular momentum of the trail segments relative to the projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationOut: final angular momentum of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean randomRotation: randomize the angular momentums. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   Can be used to create non-linear dispersion effects when used with various velocities and angular momentums,,,,,,,,,,,,,,,,,,,,,,,,,,,

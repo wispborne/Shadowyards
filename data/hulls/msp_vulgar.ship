@@ -1,0 +1,61 @@
+{
+  "bounds": [
+    -20.5,
+    2.5,
+    6.5,
+    19.5,
+    6.5,
+    -19.5,
+    -20.5,
+    -2.5
+  ],
+  "center": [
+    23.5,
+    22.5
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_mbvulgar"
+  },
+  "collisionRadius": 31,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -18.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 16
+    }
+  ],
+  "height": 38,
+  "hullId": "msp_vulgar",
+  "hullName": "Vulgar",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -1.5,
+    -0
+  ],
+  "shieldRadius": 28,
+  "spriteName": "graphics/shadow_ships/ships/ms_vulgar.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 47
+}

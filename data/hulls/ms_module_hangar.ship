@@ -1,0 +1,256 @@
+{
+  "bounds": [
+    -26,
+    9.5,
+    -54,
+    128,
+    -20,
+    176,
+    33.5,
+    196,
+    46,
+    136,
+    76.5,
+    108,
+    94,
+    52,
+    94,
+    -52,
+    76.5,
+    -108,
+    46,
+    -136,
+    33.5,
+    -196,
+    -20,
+    -176,
+    -54,
+    -128,
+    -26,
+    -9.5
+  ],
+  "moduleAnchor": [
+    -4,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "chassis_storage",
+    "missile_reload",
+    "ms_harShields"
+  ],
+  "center": [
+    195,
+    57
+  ],
+  "collisionRadius": 216,
+  "engineSlots": [],
+  "height": 168,
+  "hullId": "ms_module_hangar",
+  "hullName": "Module, Heavy Fighter",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -281.5,
+    -0
+  ],
+  "shieldRadius": 479,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_hangar.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -21.5,
+      "arc": 160,
+      "id": "WS0001",
+      "locations": [
+        23,
+        -145.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 21.5,
+      "arc": 160,
+      "id": "WS0002",
+      "locations": [
+        23,
+        145.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 9,
+      "arc": 160,
+      "id": "WS0003",
+      "locations": [
+        78.5,
+        58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -9,
+      "arc": 160,
+      "id": "WS0004",
+      "locations": [
+        78.5,
+        -58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -15,
+      "arc": 140,
+      "id": "WS0005",
+      "locations": [
+        40,
+        -93
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 15,
+      "arc": 140,
+      "id": "WS0006",
+      "locations": [
+        40,
+        93
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -28,
+      "arc": 140,
+      "id": "WS0007",
+      "locations": [
+        -19,
+        -145
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 28,
+      "arc": 140,
+      "id": "WS0008",
+      "locations": [
+        -19,
+        145
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        29,
+        -0,
+        27,
+        -10,
+        27.5,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        18,
+        -43.5,
+        21.5,
+        -34.5,
+        16,
+        -53.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        17,
+        47.5,
+        19.5,
+        39.5,
+        14.5,
+        56.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 4",
+      "locations": [
+        70,
+        1,
+        70.5,
+        -14.5,
+        70.5,
+        20.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 5",
+      "locations": [
+        2.5,
+        -95.5,
+        -2,
+        -106.5,
+        8,
+        -83.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 6",
+      "locations": [
+        2,
+        98.5,
+        5.5,
+        89.5,
+        -1,
+        108
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 392
+}

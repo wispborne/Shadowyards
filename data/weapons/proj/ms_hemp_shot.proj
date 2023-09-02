@@ -1,0 +1,20 @@
+{
+	"id":"ms_hemp_shot",
+	"specClass":"projectile",
+	#"onHitEffect":"data.scripts.weapons.MS_PolarizerOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":120.0,
+	"width":70,
+	"glowRadius":35,
+	"hitGlowRadius":105,
+	"fadeTime":0.3,
+	"fringeColor":[100,200,255,255],
+	"coreColor":[35,50,75,150],
+	"glowColor":[50,70,120,75],
+	"textureType":"ROUGH",
+	"textureScrollSpeed":-64.0,
+	"pixelsPerTexel":2.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

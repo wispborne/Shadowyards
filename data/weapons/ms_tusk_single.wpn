@@ -1,0 +1,47 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "tusk_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    3,
+    0
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_tusk_single_hardpoint.png",
+  "id": "ms_tusk_single",
+  "projectileSpecId": "ms_tusk",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 4,
+    "blowbackLength": 50,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    -3,
+    0
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_tusk_single_hardpoint.png",
+  "type": "MISSILE"
+}

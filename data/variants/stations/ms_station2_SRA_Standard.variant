@@ -1,0 +1,34 @@
+{
+	"displayName": "Battlestation",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "ms_station2_core",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "ms_station2_SRA_Standard",
+	"weaponGroups": [],
+	"modules": [
+	
+		# armour spurs
+		{"WS0003": "ms_module_SRA_Buffer"},
+		{"WS0004": "ms_module_SRA_Buffer"},
+		{"WS0005": "ms_module_SRA_Buffer"},
+		{"WS0006": "ms_module_SRA_Buffer"},
+		{"WS0007": "ms_module_SRA_Buffer"},
+		
+		# gun batteries
+		{"WS0001": "ms_module_SRA_attack_R_Standard"},
+		{"WS0002": "ms_module_SRA_attack_L_Standard"},
+		
+		# hangar
+		{"WS0008": "ms_module_SRA_hangar_OSBS"},
+		
+		#extenders
+		{"WS0009": "ms_module_decoExtension_R_Standard"},
+		{"WS0010": "ms_module_decoExtension_L_Standard"},
+		
+		#left and right bastions
+		{"WS0011": "ms_module_support_L_Standard"},
+		{"WS0012": "ms_module_support_R_Standard"},
+	],
+}

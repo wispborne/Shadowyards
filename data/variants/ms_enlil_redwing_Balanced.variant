@@ -1,0 +1,36 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "ms_enlil_redwing",
+    "hullMods": [
+        "blast_doors",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "ms_enlil_redwing_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_slowbeamM"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "ms_shrike_rack",
+                "WS0003": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

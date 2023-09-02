@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "ms_seski",
+    "hullMods": [
+        "fluxbreakers",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_seski_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_scattercepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_shrike_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_pdcepc"}
+        }
+    ]
+}

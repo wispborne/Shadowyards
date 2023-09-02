@@ -1,0 +1,18 @@
+{
+  "displayName": "Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "msp_vulgar",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "msp_vulgar_Bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ms_mbvulgar"
+      }
+    }
+  ]
+}

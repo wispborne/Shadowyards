@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 1250,
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "gugblastr",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    0
+  ],
+  "hardpointSprite": "graphics/ssp/weapons/boss/ms_gugblaster.png",
+  "id": "ms_gug_blastr",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "particleColor": [
+      220,
+      160,
+      160,
+      255
+    ],
+    "particleCount": 30,
+    "particleDuration": 0.5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 3,
+    "spread": 30
+  },
+  "projectileSpecId": "ms_gug_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    -8,
+    0
+  ],
+  "turretSprite": "graphics/ssp/weapons/boss/ms_gugblaster.png",
+  "type": "ENERGY",
+  "visualRecoil": 2
+}

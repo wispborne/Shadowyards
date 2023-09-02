@@ -1,0 +1,42 @@
+{
+	"baseHullId":"ms_enlil",
+	"skinHullId":"ms_enlil_vayra_revolutionary",
+	"hullName":"Enlil (RC)",
+	"descriptionId":"ms_enlil",  # optional
+	"descriptionPrefix":"This vessel bears the markings of the verbosely named Persean Democratic Revolutionary People's Council, and has undergone extensive modifications.",
+	"hints":["HIDE_IN_CODEX"],
+	"tags":["revolutionary"],
+	"tech":"Red Guards",
+	"spriteName":"graphics/shadow_ships/ships/enlil/ms_enlilRC.png",
+	"ordnancePoints":45,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "COMPOSITE"
+	   },
+	   "WS0004":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0005":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }
+    },
+}

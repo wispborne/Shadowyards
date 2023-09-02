@@ -1,0 +1,32 @@
+{
+	"id":"ms_lockdown",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":700,
+	"turretGlowSprite":"graphics/shadow_weapons/weapons/ms_lockdown_turret_glow.png",
+	"turretSprite":"graphics/shadow_weapons/weapons/ms_lockdown_turret_base.png",
+	"turretGunSprite":"graphics/shadow_weapons/weapons/ms_lockdown_turret_recoil.png",
+	"hardpointGlowSprite":"graphics/shadow_weapons/weapons/ms_lockdown_hardpoint_glow.png",
+	"hardpointSprite":"graphics/shadow_weapons/weapons/ms_lockdown_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/shadow_weapons/weapons/ms_lockdown_hardpoint_recoil.png",	
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[100,200,255,255],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[17, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":18.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":17.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.12,
+					   "particleCount":13,
+					   "particleColor":[100,200,255,255]},
+	"projectileSpecId":"ms_lockdownround",  # projectile that will be fired	
+	#"fireSoundOne":"needler_spinup",
+	"fireSoundTwo":"ms_lockdown_fire",
+}

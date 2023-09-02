@@ -1,0 +1,64 @@
+{
+    "displayName": "Crash",
+    "fluxCapacitors": 21,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ms_boss_mimir",
+    "hullMods": [
+        "insulatedengine",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "variantId": "ms_boss_mimir_crash",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_gug_blastr",
+                "WS0003": "hephag",
+                "WS0004": "ms_wamgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "harpoonpod",
+                "WS0030": "heatseeker",
+                "WS0031": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "heavymauler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_lockdown",
+                "WS0007": "irpulse",
+                "WS0012": "lightag",
+                "WS0014": "railgun",
+                "WS0015": "lightdualac",
+                "WS0029": "lightneedler",
+                "WS0032": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_stormBlaster",
+                "WS0008": "ms_stormBlaster",
+                "WS0009": "ms_stormBlaster",
+                "WS0010": "lightdualmg",
+                "WS0013": "ms_lempGun",
+                "WS0016": "lrpdlaser",
+                "WS0028": "lrpdlaser"
+            }
+        }
+    ]
+}

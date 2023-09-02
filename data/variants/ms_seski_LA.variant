@@ -1,0 +1,28 @@
+{
+    "displayName": "Light Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "ms_seski",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.699999988079071,
+    "variantId": "ms_seski_LA",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_tusk_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pdlaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_scattercepc"}
+        }
+    ]
+}

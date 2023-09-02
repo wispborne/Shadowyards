@@ -1,0 +1,35 @@
+{
+	"id":"ms_barrago_lrm_s1",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/shadow_weapons/missiles/ms_barragoS1.png",
+	"size":[13,36],	
+	"center":[6.5, 14],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{"turnAcc":150,
+				  "turnRate":100,
+				  "acc":60,
+				  "dec":50},
+	"engineSlots":[{"id":"ES1",
+				    "loc":[-17, 0.5],
+				    "style":"CUSTOM",
+                                        "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[210,125,105,215],
+						"contrailDuration":0.75,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":0.75,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.1, # how far away from engine it starts
+						"contrailColor":[255,220,240,50],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":55.0,
+				    "angle":180.0}]			    
+}

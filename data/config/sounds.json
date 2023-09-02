@@ -1,0 +1,588 @@
+{
+    ######MUSIC########
+    "music":{
+        "music_campaign":[
+        	{"file":"A Dreaming Sky.ogg","source":"sounds/sra/music","volume":0.65},
+        ],
+        "music_campaign_hyperspace":[
+        	{"file":"A Dreaming Sky.ogg","source":"sounds/sra/music","volume":0.65},
+        ],
+        "music_sra_market_neutral":[
+                {"file":"sra_market_neutral.ogg","source":"sounds/sra/music","volume":0.85},
+        ],
+        "music_sra_encounter_neutral":[
+                {"file":"sra_encounter_neutral.ogg","source":"sounds/sra/music","volume":0.5},
+        ],
+        "music_sra_encounter_friendly":[
+                {"file":"sra_encounter_friendly.ogg","source":"sounds/sra/music","volume":0.5},
+        ]
+    },
+    
+    ######SOUNDFX######
+    
+    "cepc_midline":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_std1.ogg","pitch":1,"volume":0.72}
+        ],
+    },
+    "cepc_small":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_small1.ogg","pitch":1,"volume":0.52}
+        ],
+    },
+    "cepc_scttr":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_scttr1.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    "cepc_hvy":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_hvy1.ogg","pitch":1,"volume":0.9}
+        ],
+    },
+    
+    "cepc_pop_small":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_pop_small.ogg","pitch":1,"volume":1}
+        ],
+    },
+    "cepc_pop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_pop.ogg","pitch":1,"volume":1}
+        ],
+    },
+    "cepc_pop_big":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_pop_big.ogg","pitch":1,"volume":1}
+        ],
+    },
+    
+    "storm_pop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster_explosion.ogg","pitch":1.1,"volume":0.2},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster_explosion.ogg","pitch":1,"volume":0.2},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster_explosion.ogg","pitch":0.9,"volume":0.2}
+        ],
+    },
+    
+    "storm_mini_pop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/cepc_pop_small.ogg","pitch":1.5,"volume":0.05}
+        ],
+    },
+    
+    "trishula_start":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/trishula_fire.ogg","pitch":1,"volume":0.4}
+        ],
+    },
+    
+    "trishula_loop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/trishula_loop.ogg","pitch":1,"volume":0.25}
+        ],
+    },
+    
+    "urumi_zap":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/urumi.ogg","pitch":1,"volume":1},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/urumi.ogg","pitch":0.9,"volume":1},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/urumi.ogg","pitch":1.1,"volume":1}
+        ],
+    },
+    
+    "barrago_stage_one_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_one_fire.ogg","pitch":1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_one_fire.ogg","pitch":0.9,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_one_fire.ogg","pitch":1.1,"volume":0.8}
+        ],
+    },
+    
+    "barrago_stage_two_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_two_fire.ogg","pitch":1,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_two_fire.ogg","pitch":0.9,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_two_fire.ogg","pitch":1.1,"volume":0.6}
+        ],
+    },
+    
+    "barrago_stage_three_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_three_burst.ogg","pitch":1,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_three_burst.ogg","pitch":0.9,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barrago_stage_three_burst.ogg","pitch":1.1,"volume":0.6}
+        ],
+    },
+    
+    "phaseGun":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/phaseGun.ogg","pitch":1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/phaseGun.ogg","pitch":1.1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/phaseGun.ogg","pitch":0.9,"volume":0.8}
+        ],
+    },
+    
+    
+    "gugblastr":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gugshotFX.ogg","pitch":1,"volume":1.0},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gugshotFX.ogg","pitch":1.1,"volume":1.0},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gugshotFX.ogg","pitch":0.9,"volume":1.0}
+        ],
+    },
+    
+    "phaseGunGapAsplode":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gapTear.ogg","pitch":1,"volume":0.75},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gapTear.ogg","pitch":1.1,"volume":0.75},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/gapTear.ogg","pitch":0.9,"volume":0.75}
+        ],
+    },
+    
+    "neriad_gun":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/neriadGun01.ogg","pitch":1,"volume":0.7},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/neriadGun02.ogg","pitch":1,"volume":0.7},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/neriadGun03.ogg","pitch":1,"volume":0.7}
+        ],
+    },
+    
+    "pbcBlast":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pbcBlast.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "pbcDrone":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pbcDrone.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "kobPDThing":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/koboldPD.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "ms_miniFlak":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/miniflak.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "ms_autoFlak":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/autoflak.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "wamgun":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/wamshot1.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/wamshot2.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/wamshot3.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    
+    "mtaf_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/mtaf_fire.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/mtaf_fire.ogg","pitch":1.1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/mtaf_fire.ogg","pitch":0.8,"volume":0.95}
+        ],
+    },
+    
+    "mtaf_split":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/mtaf_split.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/mtaf_split.ogg","pitch":0.9,"volume":0.95}
+        ],
+    },
+    
+    "pandora_charge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_charge.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_charge.ogg","pitch":1.15,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_charge.ogg","pitch":0.85,"volume":0.95}
+        ],
+    },
+    "pandora_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_fire1.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_fire1.ogg","pitch":1.1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_fire2.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/pandora_fire2.ogg","pitch":0.9,"volume":0.95}
+        ],
+    },
+    
+    
+    "microlance_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_shot.ogg","pitch":1.7,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_shot.ogg","pitch":1.8,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_shot.ogg","pitch":1.6,"volume":0.5}
+        ],
+    },
+    
+    "nidhoggr_shortcharge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_shortcharge.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    "nidhoggr_charge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_chargeup.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    "nidhoggr_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/nidhoggr_shot.ogg","pitch":1,"volume":1}
+        ],
+    },
+    
+    "tusk_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/tusk_launch.ogg","pitch":1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/tusk_launch.ogg","pitch":0.85,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/tusk_launch.ogg","pitch":1.15,"volume":0.8}
+        ],
+    },
+    
+    "shrike_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shrike_launch1_v2.ogg","pitch":1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shrike_launch2_v2.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "overloadActivate":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/overload_activate.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "overloadSteam":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/overload_steam.ogg","pitch":1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_systems/overload_steam.ogg","pitch":1.1,"volume":0.8},
+            {"file":"sounds/shadow_fx/fx/shadow_systems/overload_steam.ogg","pitch":0.8,"volume":0.8}
+        ],
+    },
+    
+    "polarizerSmall_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":1.3,"volume":0.7},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":1.38,"volume":0.7},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":1.22,"volume":0.7}
+        ],
+    },
+    
+    "polarizerLarge_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":0.9,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":1.06,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_fire1.ogg","pitch":0.74,"volume":0.9}
+        ],
+    },
+
+    "ms_lemp_shot_impact":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_impact1.ogg","pitch":1.24,"volume":0.7},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_impact2.ogg","pitch":1.24,"volume":0.7}
+        ],
+    },
+    
+    "ms_hemp_shot_impact":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_impact1.ogg","pitch":0.82,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/polarizer_impact2.ogg","pitch":0.82,"volume":0.9}
+        ],
+    },
+    "ms_slowBeamM_charge":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamM_Charge.ogg","pitch":1,"volume":0.6}
+        ]
+    },
+    
+    "ms_slowBeamM_Loop":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamM_Loop.ogg","pitch":1,"volume":0.6}
+        ]
+    },
+    
+    "ms_slowBeamH_charge":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamH_Charge.ogg","pitch":1,"volume":0.7}
+        ]
+    },
+    
+    "ms_slowBeamH_Loop":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamH_Loop.ogg","pitch":1,"volume":0.7}
+        ]
+    },
+    
+    "ms_slowBeamShi_charge":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamM_Charge.ogg","pitch":1.3,"volume":0.5}
+        ]
+    },
+    
+    "ms_slowBeamShi_Loop":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamM_Loop.ogg","pitch":1.3,"volume":0.5}
+        ]
+    },
+    
+    "ms_slowMini_Loop":{
+        "sounds": [
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/slowBeamH_Loop.ogg","pitch":1.3,"volume":0.1}
+        ]
+    },
+    
+    "REIS_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/REIS.ogg","pitch":1,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_systems/REIS.ogg","pitch":1.16,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_systems/REIS.ogg","pitch":0.84,"volume":0.9}
+        ],
+    },
+    
+    "ms_enginekill_impact":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/REIS_hit1.ogg","pitch":1,"volume":0.9},
+            {"file":"sounds/shadow_fx/fx/shadow_systems/REIS_hit2.ogg","pitch":1,"volume":0.9}
+        ],
+    },
+    "lockCreeper_loop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/ms_mimirSystemCreepSound.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    "barragoSeparator":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/barragoSeparator.ogg","pitch":1,"volume":0.8}
+        ],
+    },
+    
+    "splinter_launch":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/splinter.ogg","pitch":1,"volume":0.4},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/splinter.ogg","pitch":0.9,"volume":0.4},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/splinter.ogg","pitch":1.1,"volume":0.4}
+        ],
+    },
+    
+    "blackcap_launch":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/blackcap.ogg","pitch":1,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/blackcap.ogg","pitch":0.9,"volume":0.6},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/blackcap.ogg","pitch":1.1,"volume":0.6}
+        ],
+    },
+    
+    "stormblaster_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster.ogg","pitch":1,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster.ogg","pitch":0.9,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/storm_blaster.ogg","pitch":1.1,"volume":0.5}
+        ],
+    },
+    
+    "particle_dart_charge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/particle_dart_charge.ogg","pitch":1,"volume":0.9}
+        ],
+    },
+    
+    "particle_lance_charge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/particle_lance_charge.ogg","pitch":1,"volume":0.9}
+        ],
+    },
+    
+    "sra_compressor_start":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_systems/shadows_temporal_boost.ogg","pitch":1,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shadows_temporal_boost.ogg","pitch":0.9,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shadows_temporal_boost.ogg","pitch":1.1,"volume":0.5}
+        ],
+    },
+    
+    "sra_compressor_loop":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shadows_temporal_boost_loop.ogg","pitch":1,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shadows_temporal_boost_loop.ogg","pitch":0.9,"volume":0.5},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/shadows_temporal_boost_loop.ogg","pitch":1.1,"volume":0.5}
+        ],
+    },
+    
+    "ms_lockdown_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_01.ogg","pitch":1,"volume":0.35},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_01.ogg","pitch":0.9,"volume":0.35},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_01.ogg","pitch":1.1,"volume":0.35},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_02.ogg","pitch":1,"volume":0.35},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_02.ogg","pitch":0.9,"volume":0.35},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_lockdownfire_02.ogg","pitch":1.1,"volume":0.35}
+        ],
+    },
+    
+    "tanith_charge":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_chargeup.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    "tanith_fire":{
+        "sounds":[
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_shot1.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_shot2.ogg","pitch":1,"volume":0.95},
+            {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_shot3.ogg","pitch":1,"volume":0.95}
+        ],
+    },
+    "tanith_split":{
+    	"sounds":[
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_explosion.ogg","pitch":1,"volume":0.95},
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_explosion.ogg","pitch":1.1,"volume":0.95},
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_explosion.ogg","pitch":0.9,"volume":0.95},
+    	],
+    },
+    "tanith_subproj_splode":{
+    	"sounds":[
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_sub_explosion.ogg","pitch":1,"volume":0.95},
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_sub_explosion.ogg","pitch":1.1,"volume":0.95},
+    	    {"file":"sounds/shadow_fx/fx/shadow_weapons/ms_tanith_sub_explosion.ogg","pitch":0.9,"volume":0.95},
+    	],
+    },
+    
+
+        ######ENGINES######
+
+        "sra_engine_loop":{
+	        "sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineLoop_Fighter.ogg","pitch":1,"volume":0.61}, # index: 0
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineLoop_Frigate.ogg","pitch":1,"volume":0.69},    # index: 1
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineLoop_Destroyer.ogg","pitch":1,"volume":0.64},  # index: 2
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineLoop_Cruiser.ogg","pitch":1,"volume":0.68},    # index: 3
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineLoop_Capital.ogg","pitch":1,"volume":0.71},    # index: 4
+                ],
+	        "SHADOW_TECH":{"sounds":[0,1,2,3,4], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.21},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.31},
+		"DESTROYER":{"sounds":[2], "pitch":1, "volume":0.48},
+		"CRUISER":{"sounds":[3], "pitch":1, "volume":0.56},
+		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":0.64},
+	},
+	"sra_engine_accelerate":{
+	        "sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineBoost_01.ogg","pitch":1.0,"volume":0.9},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineBoost_02.ogg","pitch":1.0,"volume":0.9},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_engineBoost_03.ogg","pitch":1.0,"volume":0.9},
+                ],
+		"SHADOW_TECH":{"sounds":[0], "pitch":0.8, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[0], "pitch":0.9, "volume":0.7},
+		"CRUISER":{"sounds":[0], "pitch":0.8, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.7, "volume":0.9},
+	},
+	
+	#####OVERLOAD######
+	
+	"sra_shield_burnout":{
+	        "sounds":[
+                        {"file":"sounds/sfx_shields/shields_burnout_oneshot.ogg","pitch":1,"volume":1},
+                ],
+		"SHADOW_TECH":{"sounds":[0], "pitch":1.1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+	},
+	"sra_emp_loop":{
+		"sounds":[
+                        {"file":"sounds/sfx_shields/shields_burnout_loop.ogg","pitch":1,"volume":0.6},
+                ],
+		"SHADOW_TECH":{"sounds":[0], "pitch":1.1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+	},
+	
+	#####VENTING######
+	
+	"sra_flux_loop":{
+		"sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_vent_loop.ogg","pitch":1,"volume":0.8},
+                ],
+		"SHADOW_TECH":{"sounds":[0], "pitch":1.2, "volume":0.8},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1},
+	},
+	"sra_vent_flux":{
+		"sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_vent_start.ogg","pitch":1,"volume":0.8},
+                ],
+		"SHADOW_TECH":{"sounds":[0], "pitch":1.2, "volume":0.8},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1},
+	},
+	
+	######SHIELDS######
+	
+	"sra_shield_lower":{
+		"sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_dn_big.ogg","pitch":1,"volume":0.4},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_dn_mid.ogg","pitch":1,"volume":0.4},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_dn_sml.ogg","pitch":1,"volume":0.4},
+                ],
+		"SHADOW_TECH":{"sounds":[0,1,2], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1, "volume":0.6},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+	},
+	"sra_shield_raise":{
+		"sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_up_big.ogg","pitch":1,"volume":0.4},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_up_mid.ogg","pitch":1,"volume":0.4},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_shield_up_sml.ogg","pitch":1,"volume":0.4},
+                ],
+		"SHADOW_TECH":{"sounds":[0,1,2], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1, "volume":0.5},
+		"FRIGATE":{"sounds":[2], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},
+	},
+	
+	######ASPLODE######
+	
+	"sra_explosion_ship":{
+                "sounds":[
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_asplode_01.ogg","pitch":1,"volume":1.0},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_asplode_02.ogg","pitch":1,"volume":1.0},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_asplode_03_fighter.ogg","pitch":1,"volume":1.0},
+                        {"file":"sounds/shadow_fx/fx/shadow_ships/sra_asplode_04.ogg","pitch":1,"volume":1.0},
+                        ],
+                "SHADOW_TECH":{"sounds":[0,1,2,3], "pitch":1.3, "volume":0.9},
+                "FIGHTER":{"sounds":[2], "pitch":1.1, "volume":1.0},
+                "FRIGATE":{"sounds":[0,1,3], "pitch":1.0, "volume":1.0},
+                "DESTROYER":{"sounds":[0,1,3], "pitch":1.0, "volume":1.0},
+                "CRUISER":{"sounds":[0,1,3], "pitch":0.9, "volume":1.0},
+                "CAPITAL_SHIP":{"sounds":[0,1,3], "pitch":0.7, "volume":1.1},          
+        },
+}
+

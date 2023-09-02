@@ -1,0 +1,44 @@
+{
+  "bounds": [
+    -5.5,
+    43.5,
+    -45.5,
+    164.5,
+    -24,
+    180.5,
+    43.5,
+    54.5,
+    43.5,
+    -54.5,
+    -24,
+    -180.5,
+    -45.5,
+    -164.5,
+    -5.5,
+    -43.5
+  ],
+  "center": [
+    186,
+    51.5
+  ],
+  "collisionRadius": 149.5,
+  "engineSlots": [],
+  "height": 103,
+  "hullId": "ms_module_armour",
+  "hullName": "Armor Plate",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    -40,
+    0
+  ],
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 167.5,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_armorPlate.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 372
+}

@@ -1,0 +1,19 @@
+{
+    "displayName": "Fast",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "ms_ashnan",
+    "hullMods": ["augmentedengines"],
+    "permaMods": [],
+    "variantId": "ms_ashnan_Fast",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "lrpdlaser",
+            "WS0002": "ms_autoflak"
+        }
+    }],
+    "wings": []
+}

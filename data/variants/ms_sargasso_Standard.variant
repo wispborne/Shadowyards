@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_sargasso",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_sargasso_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_chaingang",
+                "WS0016": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": [
+        "ms_skinwalker_wing",
+        "ms_wraith_wing"
+    ]
+}

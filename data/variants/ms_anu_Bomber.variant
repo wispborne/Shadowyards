@@ -1,0 +1,26 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ms_anu",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_anu_Bomber",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ms_tusk_rack",
+                "WS0002": "ms_tusk_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_pdcepc"}
+        }
+    ]
+}

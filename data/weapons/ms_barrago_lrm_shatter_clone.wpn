@@ -1,0 +1,20 @@
+{
+	"id":"ms_barrago_lrm_shatter_clone",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":1250,
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"NONE",
+	"autocharge":true,
+	"projectileSpecId":"ms_barrago_lrm_shatter_clone",
+}

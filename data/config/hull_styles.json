@@ -1,0 +1,41 @@
+{
+    "SHADOW_TECH":{
+                "hyperspaceJitterColor":[210,125,105,200],
+		"baseCampaignExplosionColor":[95,205,140,255],
+		"baseCombatExplosionColor":[95,205,140,255],
+		"fighterRepairFlickerColor":[75,165,110,255],
+		"fighterChipIconColor":[65,166,141,255],
+		"weaponDisabledExplosionColor":[210,125,105,255],
+		"shieldRingColor":[255,190,205,255],
+		"shieldInnerColor":[165,115,120,75],
+		"fluxVentCoreColor":[95,205,140,255],
+		"fluxVentFringeColor":[50,110,74,255],
+		"engineLoopSet":"sra_engine_loop", 				# id of entry in sounds.json
+		"engineAccelerateSet":"sra_engine_accelerate",		        # id of entry in sounds.json
+		"empLoopSet":"sra_emp_loop",					# id of entry in sounds.json
+		"fluxLoopSet":"sra_flux_loop",					# id of entry in sounds.json
+		"ventFluxSet":"sra_vent_flux",					# id of entry in sounds.json
+		"shieldBurnoutSet":"sra_shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"sra_shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"sra_shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"sra_explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/shi/damage/ms_damage_decals_base.png",
+		"damageDecalGlowSheet":"graphics/shi/damage/ms_damage_decals_glow.png",
+		
+		"colorShiftCovers":false,
+		"coversColorShiftAmount":0.5,  # 0 to 1
+		
+		"coversMatchShipBrightness":false,
+		"slotCoverSmallTurret":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_ts.png",
+		"slotCoverSmallHardpoint":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_hps.png",
+		"slotCoverMediumTurret":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_tm.png",
+		"slotCoverMediumHardpoint":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_hpm.png",
+		"slotCoverLargeTurret":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_tl.png",
+		"slotCoverLargeHardpoint":"graphics/shadow_weapons/weapons/covers/ms_cover_shadow_hpl.png",	
+		
+		"dHullOverlayLight":"graphics/shi/damage/ms_dmod_overlay_light.png",
+		"dHullOverlayMedium":"graphics/shi/damage/ms_dmod_overlay_medium.png",
+		"dHullOverlayHeavy":"graphics/shi/damage/ms_dmod_overlay_heavy.png",
+    },
+
+}

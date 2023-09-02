@@ -1,0 +1,40 @@
+{
+    "planet_euripides":{
+		"name":"Semi-Arid",
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.2, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[140,150,165,140],
+		"texture":"graphics/planets/euripides.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[200,170,145,255],
+		"isStar":false,
+		"lightPosition":[1,-3,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[190,180,170,240],
+		"cloudRotation":-10, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},
+	
+	"planet_theramin":{
+		"name":"Irradiated Terran",
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":30, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,160],
+		"texture":"graphics/planets/deradiated.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,185,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":-5, # degrees/second, optional
+	},
+}

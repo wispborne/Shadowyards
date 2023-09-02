@@ -1,0 +1,2 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult,plugin,desc
+High Capacitance Storage,ms_hdbatteries,ms_hdbatteries,40,650,3,1,,"light_industry_in, heavy_industry_in",1000,1,graphics/shi/icons/cargo/ms_hdbatteries.png,ui_cargo_metals,ui_cargo_metals_drop,11.1,1.15,100,1,,

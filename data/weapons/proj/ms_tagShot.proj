@@ -1,0 +1,17 @@
+{
+	"id":"ms_tagShot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.MS_TAGOnHitEffect",
+	"length":20.0,
+	"width":11,
+	"hitGlowRadius":20,
+	"fadeTime":0.10,
+	"fringeColor":[155,155,155,115],
+	"coreColor":[225,225,225,155],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"sprite":"graphics/shadow_weapons/missiles/ms_tagProj.png"
+}

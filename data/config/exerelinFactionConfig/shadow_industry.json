@@ -1,0 +1,105 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "directoryUseShortName":true,
+    
+    "rebelFleetSuffix":"Renegades",
+    
+    "morality":"good",
+
+    "alignments":{
+        "ideological":0.5,
+        "technocratic":0.5,
+        "hierarchial":-0.8,
+        "corporate":-0.5,
+        "diplomatic":1,
+    },
+    "startRelationships":{
+        "hegemony": -0.6,			# hegemony's alright for fightin'
+        "persean": 0.1,			# a mixed bag of mostly jerks, but not the hegemony
+        "luddic_path": -0.9,			# lol eat shit
+        "SCY": 0.4,				# just kinda on the same side a lot, for some reason
+    	"blackrock_driveyards": -0.15, 	# press X to doubt
+    	"sad": -0.15,				# they're of the chain, mate
+    	"diableavionics": -0.5, 		# suffice to say, no
+    	"dassault_mikoyan": 0.2, 		# we'll roll with ya
+        "new_galactic_order": -1,		# clearly the only option is for these guys to get bent
+        "fpe": -0.74,				# huge space assholes, canonically right next doot
+        "tahlan_legioinfernalis": -0.74	# what a bunch of dorks... also evil
+    },
+    "maxRelationships":{
+    	"hegemony": 0.1,			# and bein alright for fightin' means never being friends
+    	"luddic_path": -0.8,			# yeah nope
+    	"diableavionics": 0.1, 		# still no, but peace treaties are a thing
+    	"new_galactic_order": -0.9,		# piss off
+    	"fpe": -0.65,				# still the asshats next door
+    	"tahlan_legioinfernalis": -0.65	# these guys pretty much suck
+    },
+    "diplomacyPositiveChance":{
+    	"hegemony": 0.35,			# it's a professional antagonism
+    	"luddic_church": 0.35,			# probably not gonna get along too well with you, sorry (not sorry)
+    	"luddic_path": 0.01,			# yeah, nah
+    	"interstellarimperium": 0.3, 		# you oppose the Hegemony, which we like...
+    	"communist_clouds": 0.6, 		# viva la revolucion
+    	"new_galactic_order": 0.01,		# asshat faction from an asshat
+    	"fpe": 0.1,				# maybe we'd dislike them less if they weren't right next to us...
+    	"tahlan_legioinfernalis": 0.1		# they're up to no good
+    },
+    "diplomacyNegativeChance":{
+    	"hegemony": 0.65,			# but we're still enemies
+    	"luddic_church": 0.65,			# just make it hard to do our thing
+    	"luddic_path": 1,			# seriously, no
+    	"interstellarimperium": 0.7, 		# but you're totalitarian as fuck
+    	"communist_clouds": 0.4, 		# but you guys got some troublesome theory to work out
+    	"new_galactic_order": 1,		# lol
+    	"fpe": 0.9,				# but you are right next to us
+    	"tahlan_legioinfernalis": 0.9		# and makin trouble in the neighborhood
+    },
+    
+    "diplomacyTraits":["helps_allies", "stalwart", "temperamental", "irredentist"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "factionIdForHqResponse":"redwings",
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    "specialForcesMaxFleets":1,
+    
+    "vengeanceLevelNames":["Grudge", "Vendetta"],
+    "vengeanceFleetNames":["Hunter Fleet", "Executors"],
+    "vengeanceFleetNamesSingle":["a Hunter Fleet", "Executors"],
+    
+    "customStations":["station_shi_prana","station_shi_med"],
+    
+    "startShipsSolo":[["ms_enlil_Balanced"]],
+    "startShipsCombatSmall":[["ms_clade_Standard", "ms_inanna_Standard", "ms_seski_CS"],
+        ["ms_lobatus_Attack", "ms_inanna_EMP", "ms_belet-seri_PD"]],
+    "startShipsTradeSmall":[["ms_solidarity_Standard", "ms_belet-seri_CS", "ms_ashnan_Standard"]],
+    "startShipsCombatLarge":[["ms_tartarus_Standard", "ms_morningstar_Standard", "ms_enlil_Balanced"],
+        ["ms_elysium_Standard", "ms_lobatus_Standard", "ms_inanna_Strike"]],
+    "startShipsTradeLarge":[["ms_cetus_Standard", "ms_solidarity_Fast", "ms_seski_BR"],
+        ["ms_minos_balanced", "ms_lambent_Standard", "ms_ashnan_Fast"]],
+    "startShipsCarrierSmall":[["ms_sargasso_Balanced", "ms_enlil_AF", "ms_belet-seri_CS"]],
+    "startShipsCarrierLarge":[["ms_charybdis_Attack", "ms_morningstar_CS", "ms_seski_LA"]],
+    "startShipsSuper":[["ms_shamash_EMP"]],
+    
+    "defenceStations":[
+        {"ids":["ms_orbitalstation", "ms_battlestation", "ms_starfortress"]},
+    ],
+	
+    "industrySeeds":[
+        {"id":"ms_orbitalShipyard", "mult":0.2},
+        {"id":"ms_modularFac", "mult":0.1},
+        {"id":"ms_supersolar", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+        {"id":"ms_redwingsCommand", "mult":0.2, "count":1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_any", "mult":0.1},
+    ],
+}

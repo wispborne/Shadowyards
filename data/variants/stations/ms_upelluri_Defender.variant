@@ -1,0 +1,21 @@
+{
+  "displayName": "Defender",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_upelluri",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "ms_upelluri_Defender",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ms_lempGun",
+        "WS0002": "ms_stormBlaster",
+        "WS0003": "ms_pdcepc",
+        "WS0004": "ms_pdcepc"
+      }
+    }
+  ]
+}

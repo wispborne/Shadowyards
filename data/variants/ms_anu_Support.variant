@@ -1,0 +1,26 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "ms_anu",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_anu_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ms_splinter_launcher",
+                "WS0002": "ms_splinter_launcher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_pdcepc"}
+        }
+    ]
+}

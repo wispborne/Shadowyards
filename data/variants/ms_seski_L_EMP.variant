@@ -1,0 +1,28 @@
+{
+    "displayName": "Overload",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_seski_L",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_seski_L_EMP",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_lockdown"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "irpulse"}
+        }
+    ]
+}

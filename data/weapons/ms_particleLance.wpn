@@ -1,0 +1,43 @@
+{
+  "id": "ms_particleLance",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 200,
+  "everyFrameEffect":"data.scripts.weapons.MS_particleLanceProjSpawner",
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_particleLance.png",
+  "turretGlowSprite": "graphics/shadow_weapons/weapons/ms_particleLance_glow.png",
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_particleLance_HP.png",
+  "hardpointGlowSprite": "graphics/shadow_weapons/weapons/ms_particleLance_HP_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [ 55, 120, 155, 255 ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [ 
+  	22, 
+  	0 
+  ],
+  "turretAngleOffsets": [ 0 ],
+  "hardpointOffsets": [ 
+  	31.5, 
+  	0 
+  ],
+  "hardpointAngleOffsets": [ 0 ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [ 55, 120, 155, 255 ],
+  "coreColor": [ 175, 255, 200, 255 ],
+  "width": 12,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "particle_lance_charge",
+  "fireSoundTwo": "high_intensity_laser_loop"
+}

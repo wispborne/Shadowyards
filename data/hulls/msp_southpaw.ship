@@ -1,0 +1,257 @@
+{
+  "bounds": [
+    23.5,
+    9.5,
+    29.5,
+    -1,
+    29,
+    -16,
+    16,
+    -42.5,
+    21,
+    -51,
+    -7,
+    -57,
+    -14.5,
+    -41,
+    -32.5,
+    -37,
+    -29,
+    -24.5,
+    -9,
+    -19.5,
+    -17,
+    -5.5,
+    -38.5,
+    -3.5,
+    -38.5,
+    3,
+    -16,
+    6.5,
+    -12.5,
+    11.5,
+    -41,
+    15.5,
+    -40,
+    23.5,
+    -20,
+    26,
+    -37.5,
+    29.5,
+    -37,
+    35.5,
+    -28,
+    37,
+    -8.5,
+    53,
+    8,
+    57.5,
+    12,
+    55,
+    12,
+    47.5,
+    27.5,
+    46.5,
+    33.5,
+    17.5,
+    24,
+    16.5
+  ],
+  "builtInWeapons": {
+    "MCAP_MAIN_CL_02": "ms_enCapMid",
+    "MCAP_MAIN_STBD_01": "ms_enCapMid",
+    "SCAP_MAIN_PORT_01": "ms_enCapSmall",
+    "SCAP_RETRO_PORT_04": "ms_enCapSmall",
+    "SCAP_RETRO_STBD_03": "ms_enCapSmall",
+  },
+  "center": [
+    62,
+    49
+  ],
+  "collisionRadius": 98.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 5,
+      "location": [
+        -29,
+        34
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 5,
+      "location": [
+        -24,
+        -29
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 5,
+      "location": [
+        6,
+        -55
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 5,
+      "location": [
+        6,
+        53
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 5,
+      "location": [
+        -27,
+        14.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlareTeal",
+      "width": 10
+    }
+  ],
+  "height": 87,
+  "hullId": "msp_southpaw",
+  "hullName": "Southpaw",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 84.5,
+  "spriteName": "graphics/shadow_ships/ships/ms_southpaw.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        29,
+        22.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        25,
+        41
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0.01,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        17,
+        -48.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -65,
+      "arc": 210,
+      "id": "WS0004",
+      "locations": [
+        3.5,
+        -35
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -105,
+      "arc": 110,
+      "id": "MCAP_MAIN_STBD_01",
+      "locations": [
+        -24,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 170,
+      "arc": 80,
+      "id": "MCAP_MAIN_CL_02",
+      "locations": [
+        -27,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 107.5,
+      "arc": 120,
+      "id": "SCAP_MAIN_PORT_01",
+      "locations": [
+        -29,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "SCAP_RETRO_STBD_03",
+      "locations": [
+        6,
+        -55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "SCAP_RETRO_PORT_04",
+      "locations": [
+        6,
+        53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 132
+}

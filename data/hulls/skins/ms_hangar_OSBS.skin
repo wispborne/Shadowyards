@@ -1,0 +1,10 @@
+{
+	"baseHullId":"ms_module_hangar",
+	"skinHullId":"ms_module_hangar_OSBS",
+	"hullName":"Module, Heavy Fighter",
+	"fighterBays": 4,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+}

@@ -1,0 +1,43 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_clade_P",
+    "hullMods": [
+        "hardened_subsystems",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_clade_P_FS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "taclaser",
+                "WS0003": "taclaser",
+                "WS0007": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan"
+            }
+        }
+    ]
+}

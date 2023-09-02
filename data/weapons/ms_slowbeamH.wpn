@@ -1,0 +1,65 @@
+{
+  "beamFireOnlyOnFullCharge": true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    200,
+    175,
+    255
+  ],
+  "displayArcRadius": 225,
+  "everyFrameEffect": "data.scripts.weapons.MS_DevaSoundPlugin",
+  "fireSoundTwo": "ms_slowBeamH_Loop",
+  "fringeColor": [
+    185,
+    60,
+    55,
+    255
+  ],
+  "glowColor": [
+    225,
+    100,
+    100,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    5,
+    -5
+  ],
+  "hardpointOffsets": [
+    24,
+    9,
+    24,
+    -9
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_slowBeamH_hardpoint.png",
+  "hitGlowRadius": 0,
+  "id": "ms_slowbeamH",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "pixelsPerTexel": 5,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 72,
+  "textureType": [
+    "graphics/shadow_weapons/fx/beam_slow_fringe.png",
+    "graphics/shadow_weapons/fx/beam_slow_core.png"
+  ],
+  "turretAngleOffsets": [
+    5,
+    -5
+  ],
+  "turretOffsets": [
+    11.5,
+    9,
+    11.5,
+    -9
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_slowBeamH_turret.png",
+  "type": "ENERGY",
+  "width": 24
+}

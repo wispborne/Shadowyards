@@ -1,0 +1,18 @@
+{
+  "displayName": "Miner",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_dromedary_drone",
+  "hullMods": [
+  ],
+  "variantId": "ms_dromedary_drone",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ms_miniminer"
+      }
+    }
+  ]
+}

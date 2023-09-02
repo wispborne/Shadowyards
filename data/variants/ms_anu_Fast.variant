@@ -1,0 +1,26 @@
+{
+    "displayName": "Fast",
+    "fluxCapacitors": 6,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "ms_anu",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_anu_Fast",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ms_shrike_rack",
+                "WS0002": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_pdcepc"}
+        }
+    ]
+}

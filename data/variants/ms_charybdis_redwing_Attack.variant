@@ -1,0 +1,49 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 16,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "ms_charybdis_redwing",
+    "hullMods": ["ms_fluxLock"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_charybdis_redwing_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "ms_gigacepc"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoon",
+                "WS0010": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_scattercepc",
+                "WS0007": "ms_scattercepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_pdcepc",
+                "WS0002": "ms_pdcepc",
+                "WS0003": "ms_lempGun",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": [
+        "ms_raksasha_wing",
+        "ms_raksasha_wing"
+    ]
+}

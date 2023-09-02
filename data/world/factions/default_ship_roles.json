@@ -1,0 +1,307 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+	        "ms_enlil_Standard":10,
+	        "ms_enlil_Balanced":10,
+	        "ms_enlil_Attack":10,
+	        "ms_enlil_Strike":10,
+	        "ms_inanna_Assault":10,
+	        "ms_inanna_Standard":10,
+	        "ms_inanna_Strike":10,
+	        "ms_seski_Attack":10,
+	        "ms_seski_Standard":10,
+	        "ms_seski_LA":10,
+	        "ms_belet-seri_CS":5,
+	        "ms_belet-seri_FS":5,
+	        "ms_belet-seri_PD":5,
+	        
+	        "ms_enlilRC_Common":10,
+	        "ms_enlilRC_Balanced":10,
+	        "ms_enlilRC_Attack":10,
+	        "ms_inannaRC_Assault":10,
+	        "ms_inannaRC_Standard":10,
+	        "ms_inannaRC_Strike":10,
+	        
+	        "msp_southpaw_CS":3,
+		"msp_southpaw_Assault":2,
+		"msp_southpaw_Balanced":3,
+		
+		"ms_seski_L_Attack":5,
+		"ms_enlil_L_Balanced":5,
+		"ms_enlil_L_CS":3,
+		"ms_enlil_L_EMP":3,
+		
+		"ms_ninurta_attack":8,
+		"ms_ninurta_emp":8,
+		"ms_ninurta_standard":8,
+		"ms_ninurta_torpedo":8,
+		"ms_enlil_redwing_Strike":10,
+	        "ms_enlil_redwing_Balanced":10,
+	        "ms_enlil_redwing_Attack":10,
+	        "ms_seski_redwing_CS":6,
+	        "ms_seski_redwing_Standard":6,
+	        "ms_seski_redwing_LA":6,
+	},
+	"combatSmall":{
+		"ms_enlil_Standard":10,
+	        "ms_enlil_Balanced":10,
+	        "ms_enlil_Attack":10,
+	        "ms_enlil_Strike":10,
+	        "ms_inanna_Assault":10,
+	        "ms_inanna_Standard":10,
+	        "ms_inanna_Strike":10,
+	        "ms_seski_Attack":5,
+	        "ms_seski_Standard":5,
+	        "ms_seski_LA":5,
+	        "ms_belet-seri_CS":5,
+	        "ms_belet-seri_FS":5,
+	        "ms_belet-seri_PD":5,
+	        
+	        "ms_enlilRC_Common":10,
+	        "ms_enlilRC_Balanced":10,
+	        "ms_enlilRC_Attack":10,
+	        "ms_inannaRC_Assault":10,
+	        "ms_inannaRC_Standard":10,
+	        "ms_inannaRC_Strike":10,
+	        
+	        "msp_southpaw_CS":3,
+		"msp_southpaw_Assault":2,
+		"msp_southpaw_Balanced":3,
+		
+		"ms_seski_L_Attack":5,
+		"ms_enlil_L_Balanced":5,
+		"ms_enlil_L_CS":3,
+		"ms_enlil_L_EMP":3,
+		
+		"ms_ninurta_attack":8,
+		"ms_ninurta_emp":8,
+		"ms_ninurta_standard":8,
+		"ms_ninurta_torpedo":8,
+		"ms_enlil_redwing_Strike":10,
+	        "ms_enlil_redwing_Balanced":10,
+	        "ms_enlil_redwing_Attack":10,
+	        "ms_seski_redwing_CS":6,
+	        "ms_seski_redwing_Standard":6,
+	        "ms_seski_redwing_LA":6,
+	},
+	"combatMedium":{
+		"ms_morningstar_AF":8,
+	        "ms_morningstar_Assault":8,
+	        "ms_morningstar_Standard":8,
+	        "ms_morningstar_Strike":8,
+	        "ms_clade_Assault":10,
+	        "ms_clade_Strike":10,
+	        "ms_minarette_Standard":8,
+	        "ms_minarette_Barrage":8,
+	        "ms_lobatus_Standard":8,
+	        "ms_lobatus_Attack":8,
+	        "ms_lobatus_CS":7,
+	        
+	        "ms_potniaTris_CS":5,
+	        "ms_potniaTris_Common":5,
+		"ms_potniaTris_Attack":5,
+	        "ms_cladeRC_Assault":5,
+	        "ms_cladeRC_Common":5,
+	        "ms_cladeRC_Strike":5,
+	        
+	        "msp_potniaBis_CS":3,
+		"msp_potniaBis_Attack":3,
+		"msp_potniaBis_AS":3,
+		"ms_clade_P_Assault":2,
+		"ms_clade_P_Common":2,
+		
+		"ms_morningstar_L_AF":5,
+		"ms_morningstar_L_Assault":4,
+		"ms_morningstar_L_EMP":4,
+		
+		"ms_morningstar_redwing_Strike":5,
+		"ms_morningstar_redwing_Assault":5,
+		"ms_morningstar_redwing_Standard":5,
+	        "ms_clade_redwing_Assault":5,
+	        "ms_clade_redwing_Standard":5,
+	        "ms_clade_redwing_Strike":5,
+	},
+	"combatLarge":{
+		"ms_delphi_standard":10,
+	        "ms_tartarus_Assault":10,
+	        "ms_elysium_Standard":10,
+	        "ms_delphi_assault":10,
+	        "ms_elysium_Strike":10,
+	        "ms_tartarus_Standard":10,
+	        "ms_elysium_CS":10,
+	        "ms_tartarus_CS":10,
+	        "ms_delphi_flux":10,
+	        
+	        "msp_thresher_Common":1,
+		"msp_thresher_Assault":1,
+		"msp_thresher_CS":1,
+		"ms_elysium_P_Brawler":1,
+		"ms_elysium_P_Striker":1,
+		"ms_elysium_P_FS":1,
+		
+		"ms_elysium_L_Assault":5,
+		"ms_elysium_L_Strike":5,
+		"ms_elysium_L_PD":5,
+		
+		"ms_elysium_redwing_Assault":5,
+		"ms_elysium_redwing_Standard":5,
+		"ms_elysium_redwing_Strike":5,
+	},
+	"combatCapital":{
+		"ms_mimir_CS":10,
+	        "ms_mimir_Standard":10,
+	        "ms_mimir_Strike":10,
+	        "ms_vardr_Assault":5,
+	        "ms_vardr_Common":5,
+	        "ms_vardr_Strike":5,
+	        
+	        "ms_mimir_redwing_Assault":10,
+	        "ms_mimir_redwing_Standard":10,
+	        "ms_mimir_redwing_Strike":10,
+	        "ms_vardr_redwing_Assault":8,
+	        "ms_vardr_redwing_Elite":8,
+	        "ms_vardr_redwing_Strike":8,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	        "ms_seski_BR":10,
+	        "ms_seski_CS":10,
+		
+		"ms_seski_L_BR":10,
+	        "ms_seski_L_Standard":10,
+	        
+	        "ms_seski_redwing_CS":10,
+	        "ms_seski_redwing_LA":10,
+	},
+	"combatFreighterMedium":{
+		"ms_solidarity_Fast":10,
+	        "ms_solidarity_Standard":10,
+	        
+	        "ms_solidarity_P_FS":2,
+	        "ms_solidarity_P_Attack":2,
+	},
+	"combatFreighterLarge":{
+		"ms_minos_balanced":10,
+	        "ms_minos_standard":10,
+	},
+	
+	"civilianRandom":{
+		"ms_anu_Fast":10,
+		"ms_anu_Support":10,
+		"ms_ashnan_Junker":8,
+		"ms_ashnan_Standard":8,
+	        "ms_seski_BR":6,
+	        "ms_solidarity_Standard":4,
+	        "ms_cetus_miner":2,
+		"ms_minos_balanced":1,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"ms_sargasso_Balanced":10,
+	        "ms_sargasso_LRM":10,
+	        
+	        "ms_sargasso_L_Support":6,
+		"ms_sargasso_L_Balanced":6,
+	        
+	        "msp_carmine_Common":4,
+	        "msp_carmine_Raider":4,
+	        "msp_carmine_Attack":4,
+	        
+	        "ms_carmine_RC_Assault":4,
+	        "ms_carmine_RC_Support":4,
+	        
+	        "ms_carmine_redwing_Assault":4,
+	        "ms_carmine_redwing_Standard":4,
+	        "ms_carmine_redwing_Strike":4,
+	        
+	        "msp_baseplate_bomber":1,
+		"msp_baseplate_runner":1,
+		"msp_baseplate_support":1,
+	},
+	"carrierMedium":{
+		"ms_charybdis_Attack":10,
+	        "ms_charybdis_PD":10,
+	        "ms_charybdis_Standard":10,
+	        "ms_charybdis_Elite":5,
+	        "ms_kabaloi_Standard":10,
+	        "ms_kabaloi_Attack":10,
+	        "ms_kabaloi_Support":10,
+	        
+	        "ms_charybdis_redwing_Attack":10,
+	        "ms_charybdis_redwing_Elite":10,
+	        "ms_charybdis_redwing_Standard":10,
+	},
+	"carrierLarge":{
+		"ms_skadi_Attack":10,
+	        "ms_skadi_CS":10,
+	        "ms_skadi_Com":10,
+	        "ms_skadi_Elite":5,
+	        
+	        "ms_skadi_redwing_Attack":10,
+	        "ms_skadi_redwing_Battle":10,
+	        "ms_skadi_redwing_Com":10,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"ms_shamash_Attack":10,
+	        "ms_shamash_Standard":10,
+		
+		"ms_shamash_P_Assault":1,
+		"ms_shamash_P_Gun":1,
+		
+		"ms_shamash_redwing_Attack":10,
+		"ms_shamash_redwing_Balanced":10,
+	        "ms_shamash_redwing_Standard":10,
+	},
+	"phaseLarge":{
+	        "ms_scylla_Standard":10,
+	        "ms_scylla_Assault":5,
+	        "ms_scylla_Beam":5,
+	        
+	        "msp_skolopendra_Common":0.5,
+		"msp_skolopendra_Raid":0.33,
+		"msp_skolopendra_Strike":0.33,
+		
+		"ms_scylla_redwing_Standard":10,
+	        "ms_scylla_redwing_Assault":5,
+	        "ms_scylla_redwing_Balanced":5,
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"ms_ashnan_Fast":10,
+		"ms_ashnan_Junker":10,
+		"ms_ashnan_Standard":10,
+	},
+	"freighterLarge":{
+		"ms_cetus_miner":5,
+		"ms_cetus_fast":10,
+		"ms_cetus_standard":10,
+	},
+	
+	"tankerMedium":{
+		"ms_lambent_Standard":10,
+	},
+	"tankerLarge":{
+		"ms_semele_Standard":10,
+	},
+	
+	"personnelSmall":{
+		"ms_anu_Fast":10,
+		"ms_anu_Bomber":4,
+		"ms_anu_Support":10,
+	},
+	"personnelMedium":{
+		"ms_potnia_Standard":10,
+	},
+	
+	"linerLarge":{
+		"ms_eir_standard":10,
+	},
+	
+}

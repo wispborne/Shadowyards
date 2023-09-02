@@ -1,0 +1,54 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "barrago_stage_one_fire",
+  "hardpointAngleOffsets": [
+    45,
+    -45
+  ],
+  "hardpointOffsets": [
+    4,
+    5.5,
+    4,
+    -5.5
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_barrago_lrm_hp.png",
+  "id": "ms_barrago",
+  "projectileSpecId": "ms_barrago_lrm_s1",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 12,
+    "particleSizeRange": 6
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    45,
+    -45
+  ],
+  "turretOffsets": [
+    0.5,
+    5.5,
+    0.5,
+    -5.5
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_barrago_lrm_turr.png",
+  "type": "MISSILE"
+}

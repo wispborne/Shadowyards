@@ -1,0 +1,48 @@
+{
+	"baseHullId":"ms_shamash",
+	"skinHullId":"ms_shamash_P",
+	"hullName":"Shamash (P)",
+	"descriptionId":"ms_shamash",  # optional
+	"descriptionPrefix":"While the SRA does what they can to prevent their phase ships from falling into the hands of pirates and other destablizing factors, skirmishes with the Hegemony has allowed a fair number of damaged specimens to be acquired--and heavily modified--by various pirates.",
+	"tags":["pirate_bp", "rare_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/shadow_ships/ships/phase/ms_shamash_P.png",
+	"baseValueMult":.8,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":["WS0003"], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0002":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0003":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0004":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }	
+    },
+}

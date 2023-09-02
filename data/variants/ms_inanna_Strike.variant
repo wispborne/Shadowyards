@@ -1,0 +1,31 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna",
+    "hullMods": [
+        "magazines",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "ms_inanna_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_mcepc",
+                "WS0003": "ms_mcepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

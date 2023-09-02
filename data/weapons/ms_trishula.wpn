@@ -1,0 +1,25 @@
+{
+	"specClass":"beam",
+	"id":"ms_trishula",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/shadow_weapons/weapons/ms_trishula_turret.png",
+	#"turretGlowSprite":"graphics/weapons/tactical_laser_turret_glow.png",
+	"hardpointSprite":"graphics/shadow_weapons/weapons/ms_trishula_hp.png",
+	#"hardpointGlowSprite":"graphics/weapons/tactical_laser_hardpoint_glow.png",
+	"turretOffsets":[0, 0, 12, 3, 12, -3], #13
+	"turretAngleOffsets":[0, 0, 0],
+	"hardpointOffsets":[0, 0, 18, 3, 18, -3], #19
+	"hardpointAngleOffsets":[0, 0, 0],
+	"fringeColor":[55,120,155,255],
+	"coreColor":[175,255,200,255],
+	"glowColor":[100,225,100,255],
+	"width":7.0,
+	"textureType":ROUGH,	
+	"convergeOnPoint":true,
+	"textureScrollSpeed":72.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"trishula_start",
+	"fireSoundTwo":"trishula_loop",	
+}

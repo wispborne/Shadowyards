@@ -1,0 +1,35 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "variantId": "ms_enlil_PD",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_spreadbeam",
+                "WS0003": "ms_spreadbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_chaingang"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser"
+            }
+        }
+    ]
+}

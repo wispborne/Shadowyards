@@ -1,0 +1,70 @@
+{
+  "bounds": [
+    -2.5,
+    10.5,
+    14,
+    -0,
+    -2.5,
+    -10.5,
+    -12.5,
+    -0
+  ],
+  "center": [
+    13,
+    19
+  ],
+  "collisionRadius": 17.755281,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -16.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 38,
+  "hullId": "ms_wraith_drone",
+  "hullName": "Wraith Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 18.580904,
+  "spriteName": "graphics/shadow_ships/ships/drones/ms_wraith.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        14.5,
+        5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        10.5,
+        -3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 26
+}

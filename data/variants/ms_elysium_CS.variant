@@ -1,0 +1,40 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 27,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "ms_elysium",
+    "hullMods": [
+        "extendedshieldemitter",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_elysium_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "ms_pandora"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_trishula",
+                "WS0003": "ms_trishula",
+                "WS0004": "ms_trishula",
+                "WS0007": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser"
+            }
+        }
+    ]
+}

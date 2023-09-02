@@ -1,0 +1,2 @@
+id,name,class,priority,special,requiredMod,notes
+ms_redwingsCommand,Redwings Command,data.campaign.econ.industries.exerelin.ms_redwingsExerelinCompat,,TRUE,shadow_ships,

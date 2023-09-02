@@ -1,0 +1,78 @@
+{
+  "bounds": [
+    16,
+    0,
+    -3,
+    -11,
+    -15,
+    -0,
+    -3,
+    11
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_neriad_gun",
+    WS0002:"ms_blackcap_3x"
+  },
+  "builtInMods": [
+    "ms_enjector",
+    "no_weapon_flux"
+  ],
+  "center": [
+    16,
+    20
+  ],
+  "collisionRadius": 22,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 45,
+      "length": 40,
+      "location": [
+        -9.5,
+        -0.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 7
+    }
+  ],
+  "height": 40,
+  "hullId": "ms_neriad",
+  "hullName": "Neriad",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/shadow_ships/ships/ms_neriad.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 40,
+      "id": "WS0001",
+      "locations": [
+        5,
+        4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        1.5,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 33
+}

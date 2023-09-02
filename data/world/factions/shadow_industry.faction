@@ -1,0 +1,240 @@
+{
+	id:"shadow_industry",
+	"color":[51,39,102,255],
+	"secondaryUIColor":[214,247,247,255],
+        "secondarySegments":5,
+	
+	"baseUIColor":[214,247,247,255],
+	"darkUIColor":[51,39,102,175],
+	"gridUIColor":[51,39,102,175],
+	
+	"displayName":"Shadowyards",
+	"displayNameWithArticle":"the Shadowyards Reconstruction Authority",
+	
+	"personNamePrefix":"yardie",
+	"personNamePrefixAOrAn":"a",
+	
+	"logo":"graphics/shi/faction/shadowyards-eca.png",
+	"crest":"graphics/shi/faction/crest_shadowyards-eca.png",
+	"shipNamePrefix":"SYS",
+	"shipNameSources":{
+		"SHADOWYARDS":1,
+		"PERSIAN":1,
+		"EGYPTIAN":1,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"fringe":1,
+		"old english":1,
+		"world":1,
+		"hindu":1,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"hulls":{
+			"buffalo2":0, # just say no
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp", "sra_bp", "sra_aux_bp", "sra_high_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "sra_bp", "sra_aux_bp", "sra_high_bp", "shadowyards"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["sra_bp", "sra_aux_bp", "sra_high_bp", "shadowyards"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["sra_bp", "sra_aux_bp", "sra_high_bp", "shadowyards"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "hightech_bp", "sra_bp", "sra_aux_bp", "sra_high_bp", "shadowyards"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":["sra_bp", "sra_aux_bp", "sra_high_bp", "shadowyards"],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "shadowyards"],
+		"hullMods":[
+		        "advancedshieldemitter",
+		        "advancedoptics",
+		        "augmentedengines",
+		        "auxiliarythrusters",
+		        "dedicated_targeting_core",
+		        "eccm",
+		        "missleracks",
+		        "extendedshieldemitter",
+		        "fluxcoil",
+		        "fluxdistributor",
+		        "frontemitter",
+		        "frontshield",
+		        "hardenedshieldemitter",
+		        "hardened_subsystems",
+		        "insulatedengine",
+		        "targetingunit",
+		        "adaptiveshields",
+		        "fluxbreakers",
+		        "stabilizedshieldemitter",
+		        "expanded_deck_crew",
+		        "recovery_shuttles",
+		        "operations_center",
+		        "nav_relay",
+		        "ecm",
+		        "ms_fluxLock",
+		        "ms_chargeCycler",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":3,
+		"numShips":1,
+		
+		"shipSize":3,
+		"aggression":3,
+		
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,                     # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.33,
+		
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"weapon_drills",
+			"wolfpack_tactics",
+			"carrier_group",
+			"officer_training",
+			"electronic_warfare",
+		],
+	},
+	"illegalCommodities":[
+		"organs",
+		"hand_weapons",	
+	],
+	"music":{
+	        "theme":"music_sra_market_neutral",
+	        "market_neutral":"music_sra_market_neutral",
+	        "market_hostile":"music_sra_market_neutral",
+	        "market_friendly":"music_sra_market_neutral",
+	        "encounter_neutral":"music_sra_encounter_neutral",
+	        "encounter_hostile":"music_sra_encounter_neutral",
+	        "encounter_friendly":"music_sra_encounter_friendly",
+	},
+	"internalComms":"shadowyards_internal",
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"spacer":10,
+			"scientist":10,
+			"official":10;
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"spacer":10,
+			"scientist":10,
+			"official":10;
+		},
+		"HIGH":{
+			"soldier":10,
+			"spacer":10,
+			"scientist":10,
+			"official":10;
+		},
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/ms_portrait_006.png",
+			"graphics/portraits/ms_portrait_007.png",
+			"graphics/portraits/ms_portrait_008.png",
+		],
+		"standard_female":[
+			"graphics/portraits/ms_portrait_001.png",
+			"graphics/portraits/ms_portrait_002.png",
+			"graphics/portraits/ms_portrait_003.png",
+			"graphics/portraits/ms_portrait_005.png",
+		],
+	},
+	"ranks":{
+		"ranks":{	
+		        "factionLeader":{"name":"Coordinating Secretary"},
+		        
+		        "spaceEnsign":{"name":"Assist"},
+		        "spaceLieutenant":{"name":"Lead Assist"},
+		        "spaceCommander":{"name":"Assistant Coordinator"},
+		        "spaceCaptain":{"name":"Ship Coordinator"},
+			"spaceAdmiral":{"name":"Fleet Coordinator"},
+			"spaceMarshal":{"name":"Strategic Operations Coordinator"},
+		
+		        "groundPrivate":{"name":"Partisan"},
+		        "groundSergeant":{"name":"Chief Partisan"},
+		        "groundLieutenant":{"name":"Cell Chief"},
+		        "groundCaptain":{"name":"Assistant Cell Coordinator"},
+		        "groundMajor":{"name":"Cell Coordinator"},
+		        "groundColonel":{"name":"Regional Cell Coordinator"},
+		        "groundGeneral":{"name":"Planetary Defence Coordinator"},
+			
+			"citizen":{"name":"Comrade"},
+		},
+		"posts":{
+		        "factionLeader":{"name":"Coordinating Secretary"},
+		        
+			"patrolCommander":{"name":"Patrol Coordinator"},
+			"fleetCommander":{"name":"Fleet Coordinator"},
+			
+			"baseCommander":{"name":"Local Operations Coordinator"},
+		        "stationCommander":{"name":"Orbital Operations Coordinator"},
+		        "outpostCommander":{"name":"Outpost Coordinator"},
+		        "portmaster":{"name":"Port Chief"},
+		        
+		        "supplyOfficer":{"name":"Logistics Assist"},
+		        "supplyManager":{"name":"Logistics Chief"},
+		        
+		        "administrator":{"name":"Coordinator"},
+		        "freeAdmin":{"name":"Freelance Coordinator"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},	
+},	

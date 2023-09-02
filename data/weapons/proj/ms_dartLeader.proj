@@ -1,0 +1,19 @@
+{
+	"id":"ms_dartLeader",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":10.0,
+	"width":10.0,
+	"fadeTime":0.2,
+	"fringeColor":[55,120,155,255],
+	"coreColor":[175,255,200,255],
+	"glowColor":[89,165,217,75],
+	"textureType":"ROUGH",
+	"glowRadius":20,
+	"hitGlowRadius":26,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/ms_spark.png"
+}

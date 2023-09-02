@@ -1,0 +1,48 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 7,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "ms_charybdis",
+    "hullMods": ["hardenedshieldemitter"],
+    "permaMods": [],
+    "variantId": "ms_charybdis_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "ms_hempGun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "ms_tusk_rack",
+                "WS0010": "ms_tusk_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_mcepc",
+                "WS0007": "ms_mcepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_pdcepc",
+                "WS0002": "ms_pdcepc",
+                "WS0003": "ms_pdcepc",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": [
+        "ms_shikome_wing",
+        "ms_skinwalker_wing"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Anti Flux",
+    "fluxCapacitors": 8,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_morningstar",
+    "hullMods": [
+        "advancedshieldemitter",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "ms_morningstar_AF",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0002": "irpulse",
+                "WS0003": "irpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "ms_shrike_rack",
+                "WS0008": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["ms_wraith_wing"]
+}

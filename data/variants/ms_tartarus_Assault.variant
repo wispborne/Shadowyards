@@ -1,0 +1,47 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "ms_tartarus",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_tartarus_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "ms_slowbeamH"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ms_scattercepc",
+                "WS0002": "ms_scattercepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser"
+            }
+        }
+    ]
+}

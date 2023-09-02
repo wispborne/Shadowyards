@@ -1,0 +1,30 @@
+{
+	"baseHullId":"ms_skadi",
+	"skinHullId":"ms_skadi_redwing",
+	"hullName":"Skadi (Redwings)",
+	"descriptionId":"ms_skadi",  # optional
+	"descriptionPrefix":"Bearing a red feather insignia and a substantial number of system upgrades, this vessel has been refitted to the elite Redwings Naval Detachments exacting standards. The elite battalion favors combat carriers, and so this vessels commission with the Redwings has replaced its SWACS support systems with a GAT combat augmentation, and is more focused on providing direct fire.",
+	"tags":["redwings_bp"],
+	"tech":"Redwings",
+	"spriteName":"graphics/shadow_ships/ships/redwings/ms_skadi_red.png",
+	"baseValueMult":1.2,
+	"ordnancePoints":280,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"ms_gat",
+	"addHints": ["COMBAT", "NO_AUTO_ESCORT"],
+	"builtInMods":["ms_redwingsPackage"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+           "WS0014":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+    },
+}

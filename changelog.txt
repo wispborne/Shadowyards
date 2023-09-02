@@ -1,0 +1,1228 @@
+0.9.6-rc1 Dev Changleog
+
+    Updated the SRA's relationships on generation to include more factions, which should resolve some weirdness in Nexerelin
+    An error with the Nidhoggr Lance that was preventing it from properly applying the piercing effect has been resolved
+    TODO Adjust firing script to allow for the Lance to to be held at partial charge, which should make the AI a little less weird with it
+    Increased the Ninurta's monthly and per deployment supply costs to 12 (from 8)
+    Increased the Cetus' monthly and per deployment supply costs to 9 (from 7)
+    Increased the Skadi's OP to 260 (from 220)
+    Realized I had not, in fact, given the Mimir (R) it's short hop version of the Lock Drive and fixed this oversight
+    Updated and improved the Tartarus sprite
+    Updated descriptions for the Modular Fabricators to remove now erroneous text referring to nanoforge compatability
+    The Radiation Absorbers structure is now properly hidden when unbuildable (which, at current, is always the case)
+    Entirely replaced the sprite for the Poseidon High Value Bounty, (TODO) and gave it a custom Flux Draining system and interlinked main weapon
+    	The System temporarily reduces the flux pool of the target vessel
+    		The Poseidon does not directly get this flux itself, instead powering it's main weapon with it
+    		The effect lasts about 15 seconds, but can be "reinvigorated" if the Poseidon can vampirize another ship
+    		Stacks up to 5 times, with weapon effect increases happening at 1, 3, and 5 pips
+    		System becomes much less accurate as number of pips increase
+    	The basic weapon effect is a faily basic plasma bolt, decent damage, not great flux efficiency, middling RoF
+    		Uses on hit effects to attach scripts
+    		Every weapon effect increase adds additional subprojectiles when the weapon is fired, each with it's own effect
+    			1 pip : Additional damage
+    			3 pips: Huge indiscriminate EMP bursts
+    			5 pips: Big shovey impulse blast / slight effect refresher on each hit
+    PARTIAL Added the Asphodel Test Bed Cruiser to High Value Bounties
+    	Still remaining to do is to adjust it's firing script so to make it friendlier for AI use
+    Updated the Maleficent sprite and gave it a unique hullmod, Wolfpack Systems
+    	WpS linearly improves weapon performance aboard the host ship for each additional ship with the same hullmod within a range of 800:
+    		RoF of Ballistic and Energy weapons increased by 20%
+    		Damage of Beams and Missile weapons increased by 25%
+    		If WpS cannot network with anything else, it gives no bonus
+    Increased beam speed for the Kamal and Mughal to 10,000 (from 2,000) 
+    Made the Yajna system significantly less compressed, which should hopefully help resolve some issues with patrols
+    Fixed an issue with unbuildable structures causing ridiculously inflated planet bounty prices in Nexerelin
+    Shikomes now no longer glow like the freakin' sun when under the effects of the Fighter Control Relay
+    Changed 12 (of 15) EveryFrameScripts that were always being loaded in combat so that they should only show up when being used
+    Updated the script for the SRA's faction doctrine to be more in line with the current system
+    Adjusted Charge Cyclers recharge increase down to 15% (from 25%)
+    Updated the Phase Anchor script to include the speed disruption effect in standard Phase Cloaks
+    	The speed disruption reaches its full effect more rapidly (at 33% flux/disruption) but is not as severe (50% speed reduction)
+    Fixed a bug in the GAT system where the system effect was not correctly unapplying
+    (MAYBE) Fixed a crash bug that could sometimes occur when the Dullahans Ghostfire projectiles failed to find a new target
+    Also generally went through and cleared out a number of old and unused scripts
+    Adjusted the flux dissipation on some of the Yardie derived ships:
+    	The Southpaws flux dissipation has beeing increased to 220 (from 150)
+    	The Potnia-bis' flux dissipation has been increased to 360 (from 300)
+    	The Potnia-tris' flux dissipation has been increased to 240 (from 200)
+    Trimmed the number of missions down to five
+    Removed the Cloned Organs commodity from circulation, due a number of issues with its basic implementation
+    Fixed a typo in the world gen scripts that was preventing a particular derelict from spawning
+    Added a new music track to the campaign layer, courtesy of Mesotronik
+    
+    CONSIDER Shuffling ships to specific factions/subfactions as a way of keeping up ship variety while reducing total number of ships
+    TODO Add one more Large Missile Launcher
+        2nd, another AoE weapon, missilized version of the Shamash's phase gun:
+          inital AoE damage and range is small, but ignores shields, follow up damage is from a persisting AoE DoT (explained as a "phase storm" caused by the p-mass bubble escaping
+          back into p-space)
+          duration undetermined; tentatively 4-8 seconds, randomized within a range
+          At ~1/2 to 2/3rds of the way through the effect it begins diminishing in size at a logarithmic/exponential pace (depending on what feels better)
+          sucks into the middle
+          greater intensity as it ends?
+          main elements:
+             main script tracking ships inside AoE and applying damage through EMP strikes at semi-random intervals
+          supporting elements:
+             scripted spawning of "wandering" non-colliding projectiles, serving as both visual elements and the purpose of AI Trickery (i.e. getting to keep their shields up)
+          visual elements:
+             scripted spawning of "wandering" invisible non-colliding projectiles to be chased by custom trail effects
+             scripted "phase storm cloud" effect consisting of two custom particle types
+                should approximately fill the effected area
+                mostly translucent "cloud" effect particle that is present for most of the time the effect is active; some rotation/movement?
+                "cloud to cloud" lightning particle; appears behind "cloud" particles at random intervals in semi-random clusters for short durations
+             non damaging emp arcs between random points within area of effect
+             SCRIPTS NEEDED:
+                MAIN SCRIPT - handles initial detonation, AoE damage and spawning of sub projectiles
+                SUBPROJ HANDLERS - directs sub projectiles and sets them to non-colliding, spawns custom trails that follow them
+                CLOUD HANDLER - handles the visual effects for the storm system, spawning the custom particles and timing the cloud-to-cloud lightning
+    TODO Trim and redo missions - PARTIAL; missions trimmed
+        KEEPERS - Triune, They Might be Giants, Drums in the Deep, Cease and Desist plus the Random missions and Stampede
+        CHANGES
+                TRIUNE - Expand mission events considerably with FS2 style mission expansion; at least a plot twist and some in mission dialogue
+                TMBG - Get ships predamaged as intended, set CR to the desired levels, change it to a pursuit mission
+                DRUMS - Expand mission events with FS2 style mission extension, have virus bomb attack shown in post mission success cutscene
+                CAD - Mission needs to be reconsidered and seriously rebalanced
+                RANDOM - Fix Random mission script so it actually spawns fleets successfully, solves bugs where it would sometimes fail to generate fleets (Done)
+                STAMPEDE - More Buffalo, more variations on Buffalo, fewer friendly ships, and fix it to make it work consistently
+
+0.9.5-rc4 Changelog
+
+    The Carmine (Redwings) should show up in SRA military and black markets and in Redwings fleets, as in retrospect there wasn't much reason to keep it from showing up while the mission string that would put it in game isn't even implemented yet
+    Finally seem to have resolved the ongoing Mimir vector crash bug, with thanks to President Matt Damon on the discord
+    Redwings Command no longers makes Euripides a military market, and as such its uh... military market has been removed
+    	Please note that this will not effect existing saves
+    Some adjustments to Modular Fabricators and their sub industries in order to prevent possible issues with industry ids getting confused
+    Went over the Elysium (P)'s description to make it less clunky
+    Replaced the Potnia-bis' flare launcher with a damper system
+    Fixed an issue with the Tartarus' colission radius being smaller than its shield
+    Shikomes should no longer kill themselves with their mini-lances, and re-added the trails for the shot
+    Gave Theramin a custom planet class, Irradiated Terran, and a matching planet graphic
+    Theramin once again has its Radiation Absorbers, to help deal with it's newly gained Irradiated condition
+
+0.9.5-rc3 Changelog
+
+    Fixed a dumb oversight crash with the SWACs system
+    Fixed a crash with the GAT system on destroyer scale ships
+
+0.9.5-rc2 Changelog
+
+    Reduced the cost of Charge Cyclers to 3/6/9/12 OP (from 5/10/15/20) and improved the charge regen rate to 10%
+    Changed the names of the Particle Dart and Lance (to the Kamal Particle Dart and Mughal Particle Lance) and improved their descriptions
+    Additionally the Mughal's range has been increased to 1300 (from 1250)
+    Added a Military Market to Euripides
+    Added a very *extra* player specific portrait
+    Fixed a NPE crash that could sometimes happen in Nexerelin due to not finding a planetary black market somehow
+    Improved the market handling script so that it will now add SRA related special items to their markets occasionally
+    Removed the guaranteed Shadowyards station bp from the Theramin military market
+    Fixed some color problems on the Skadi sprite 
+
+0.9.5-rc1 Changelog
+    
+    Added the Redwings subfaction to the SRA; their home base is located on Euripides
+    Implemented an item based upgrade system for Fabricator Industries, and expanded the number of industries to four: 
+    	Modular Fabricators (balanced but not as good as Heavy Industry)
+    	Massively Parallel Fabricators (a civilian industrial focus capable of putting out lots of machinery) 
+    	Military Production Lines (heavy weapons and supplies)
+    	Integrated Shipyards (very high quality ships and large quantities of ship hulls)
+    Updated the Shadowyards mod plugin to include warnings for not having required mods and some additional housekeeping in other miscellaneous scripts
+    Fixed an issue where the Shadowyards station type couldn't be built at orbitals in Nexerelin (Probably working)
+    Added Nexerelin diplomatic traits to the SRA
+    Hopefully fixed a bug where joining a battle in which Mimirs were present would sometimes generate a NPE crash
+    Replaced the aging Lance script with a modernized and much less buggy version; everything should work properly now
+    Reduced the range of the Nidhoggr Lance to 1200 (from 2000)
+    Fixed a targeting bug with the Apiary's submunitions which could sometimes cause a NPE crash
+    Fixed an issue with the Commissioned Crews hullmod which could make acquiring it a bit more annoying then necessary
+    Hopefully fixed the "Glowing Shikome" bug and made some improvements to the fighter finagling script
+    Reduced the projectile speed of the Skinwalker and Bit Drone guns to 2000 (from 4000)
+    Added some SRA industries to vanilla markets
+        Asharu, Nomios, Olinadu, and Tigra City have acquired Orbital Solar Arrays
+        Fikenhild, Qaras and Baetis have recieved Med Centers
+        Eldfell has gotten its hands on some Modular Fabricators
+    Adjusted the populations on a few of the markets added by the mod:
+    	Euripides has been reduced to size 7 (from size 8) - despite being a 75% hazard world with a modest pre-collapse population, that was a bit much
+    	Auris' Grip has been reduced to size 3 (from size 5) - given that it's only a few months old such a large population was pretty questionable
+    	Hotri has been increased to size 6 (from size 4) - very low hazard, colonized around the collapse
+    	Mantra has been reduced to size 5 (from size 6) - somehow colonized well before Hotri, but also a complete hellhole
+    Removed an extra variant of the Odin which, due to sharing the same id, was causing the game to become confused and load the wrong configuration
+    Added the Charge Cycler hullmod, which increased the charge recovery rate for Energy weapons which have that stat by 7.5%
+    Added 2 additional variants to act as CORE variants for each of the High Value Bounty ships
+    Added an additional small composite hardpoint to the Carmine, as well as 5 additional OP, and adjusted the firing angles of a couple of the turrets
+    Added 2 new defense buster beam weapons, the Particle Dart, and Particle Lance, which deal a portion of their overall damage as hard flux immediately upon the first hit
+    Reduced OP cost of Raksasha bombers to 20 OP (from 25)
+    Went over variants and updated them where needed
+    Fixed display bugs that were present with the GAT and Overdrive systems
+    Replaced the Armor Pierce scripts and adjusted color clamps in the Vectored Thrusters script, which should hopefully put an end to the color overflow crash
+
+0.9.1-rc3 Changelog
+
+    Fixed a bug with the flux lock armor where it would increase damage taken during the first frame of venting
+    Removed some sprite rendering stuff from the vectored thrusters script which may have been causing a showstopper bug due to color overflows
+    Removed CARRIER, COMBAT tag from the Charybdis
+    Added Commissioned Crews support through the Skirmish Tactics "hullmod"
+    Fixed a display glitch in the Hofud Assault Blasters name and added a description and role for it
+
+0.9.1-rc2 Changelog
+
+    Further improved vectored thrusters, which should make them more consistent and less resource intensive
+    Fixed a bug with the Nidhoggr Lance and the Shikome's micro-lance where it wasn't resetting the script between shots, leading to situations where it would fail to do appropriate damage
+    Fixed a bug where the Charybdis and Scylla were not spawning with their built in drone wings
+    The Flux Lock Armor hullmod now has an icon
+
+0.9.1 Changelog
+
+    Fixed an oversight in the pulse popper so it now pops giga cepc blasts
+    Gugnir Blaster renamed to the Hofud (Ho-fudzh, tl. Head) Assault Blaster
+        Range reduced to 750 (from 1200), damage and flux/shot reduced to 2000 (from 3000/3500), reload size changed to 1 (from 3)
+    The Charybdis has had one of it fighter bays permanently occupied by the Dullahan Heavy Drone
+        Equipped with a 2 round homing blaster
+        OP reduced to 165 (from 170) to account for the missing deck
+    The GAT can now be activated while phased, immediately drawing the ship out of phase, ready to strike
+    Added the Flux Lock Armor hullmod; specific to Shadowyards hulls and some derived variants this applies damage reduction based on flux acquired when venting
+    Med Centers now have a demand for capacitors of Size -5, with a minimum demand of 1
+    Apiary changes:
+        AI Targeting routines on the Apis submunitions have been adjusted to heavily weight towards fighters as the preferred target type
+        Maximum ammo reduced to 5 (from 10) and ammo regen reduced to 0.05 (from 0.1)
+        Damage type changed to FRAGMENTATION (from HIGH EXPLOSIVE)
+    The Overdrive system now takes 6 seconds to return to a ready to use state (from 10)
+    An error which was causing a mismatch between the vectored thruster covers and the engine plume has been resolved
+    All ships with vectored thrusters should now have engine trails that follow straight behind them on the campaign map
+
+0.9 Changelog
+
+    Rebalanced ship deployment/maintenance costs
+        Elysium deployment costs increased to 20 supplies per (from 16)
+        Charybdis deployment costs increased to 30 supplies per (from 25)
+        Scylla deployment costs reduced to 30 supplies (from 35)
+        Tartarus increased to 16 fleet points (from 15)
+        Skadi fleet points increased to 25 (from 22), deployment costs increased to 45 supplies per (from 40) 
+        Lambent supply costs reduced to 3 mo/per deployment (from 6)
+    Wavepulse Cannon range reduced to 800 (from 900)
+    Scatter CEPC changed to make it more "Heavy Blaster" like
+        Now fires a single large, high damage shot with a number of ancilliary emp blasts
+        Overall damage remains the same
+    The Shrike ASM has been renamed to the Stiletto ASM
+    Added the Gugnir Lance Blaster for the Odin IBB
+    A number of weapons have had their shot colors tweaked to make them more distinct
+    Changes to the Lobatus:
+        Fixed issues with the shield failing to correctly adjust when Siege Mode was turned off (thanks Wyvern!)
+        OP increased to 110 (from 90)
+    The Carmine has been made a little tougher:
+        Flux Capacity increased to 6500 (from 6000)
+        Hull strength incresed to 3000 (from 2500)
+    Changes to the Charybdis:
+        Shield efficiency reduced to 0.8 (from 0.7)
+    The Scyllas hitpoints have been increased to 7000 (from 6000), armor increased to 1500 (from 1100)
+    Added the Kabaloi class Fleet Carrier
+        Mid sized fleet carrier equipped with an SWACS system
+        A straightforward and logistically undemanding carrier, but it lacks the Charybdis' direct combat capabilities
+    Added the Apiary Hive Missile, a multiple warhead missile specialized in breaking up enemy strike craft formations
+    Changed some of the Blackcap behavior scripting, they should be better at plotting intercepts and should clump up less
+    Fixed the issues with the Revolutionary Council skins that were preventing them from correctly acquiring the RC faction hullmod, and corrected their tech base description
+    Further Shikome balancing and fiddling
+        Flux cap reduced to 1000 (from 1500), hull to 600 (from 750), armor to 100 (from 200)
+    The Hangar module on the SRA Orbital Station and Battlestation has been reduced to 4 wings (from 6) to make them slightly less overwhelming compared to vanilla equivalents
+    Removed the Refinery industry from Jnana and the Modular Fabricator from Theramin, bringing them down to the correct number of industries for their size
+    Fixed a minor oversight that would sometimes allow fighter specific weapons to appear as loot
+
+0.8.7RC2 Changelog
+
+    Fixed the tags for SRA industries so they now work properly with the updated colony mechanics
+    Further changes to the Vulgar
+        Weapon changed to a single shot mining blaster
+        Ships increased to 3 per wing
+        Some minor adjustments to attack run range
+        Formation changed to Claw
+    The Upelluri now has a short description, and has had the Targetting Supercomputer hullmod added
+
+0.8.7 Changelog
+
+    Fixed a typo that was causing the lockdown not to appear in exports blueprints package
+    Increased the Baseplates supply cost/month to 4 (from 2) supply cost/deployment to 4 (from 3)
+    Spawn weight for Carmine variants increased to 4 for a total of 12 weight
+    Some adjustments to SRA frigate supply costs
+        Seski cost/deployment reduced to 3 supplies (from 4)
+        Inanna cost/deployment reduced to 5 (from 6) and cost/month increased to 5 (from 4)
+        Belet-seri cost/deployment reduced to 4 (from 5)
+    Shikome changes:
+        Damage for Mini Lance reduced to 1000 (from 1500)
+        Damage/Second for CAS Assault Beamer reduced to 350 (from 500), impact reduced to 250 (from 1450)
+        Lowered spawn probability to 1 in 40 (from 1 in 20)
+    Heckler changes:
+        OP cost/wing increased to 9 (from 6)
+        Range decreased to 6000 (from 7000)
+        Max Flux decreased to 300 (from 450)
+    Vulgar changes:
+        Hammer mounts changed from 2 single Hammer racks to one double mount
+        Shield removed
+    Added a number of additional skins for the Revolutionary Council subfaction added by Vayra's Kadur Remnant mod
+    SRA Phase ships with custom phase systems should now be categorized properly when custom building ships
+    SRA ship costs adjusted to properly match the new vanilla prices
+    Finally remembered to replace the overly bright cockpit pods for the Skinwalker and Raksasha
+    Improved visual effects for Nidhoggr Lance and Wavepulse Cannon
+    
+0.8.6 Changelog
+
+    New Ships:
+        The Eir-class Passenger Liner, a massive ship capable of moving large numbers of people in style and comfort
+        The Carmine-class Light Carrier, a fast ship designed for raiding that has somehow gotten into pirate hands
+    New Fighters:
+        The Heckler-class Heavy Interceptor, which has a very long attack range and blistering if incredibly short ranged firepower
+        The Vulgar-class Bomber, slow and immaneuverable, little more than a shuttle for Hammer Torpedoes
+    Detrimental built-in hullmodds removed from SRA pirate ships
+    Changes to the Enlil:
+        Ship system changed to the Booster Jets system
+        Top speed increased to 160 (from 150)
+    Changes to the Inanna:
+        Top speed reduced to 140 (from 150)
+        Now has a built in Integrated Targeting Unit
+        The Inanna was somehow lacking core variants, and many of it's variants had minor issues, which have been fixed
+    Changes to the Shikome:
+        Reduced odds of appearing in fleets
+        CAS Assault Beam chargedown increased to 0.6 (from 0.4); total firing cycle time increased to 1.4 (from 1.2)
+        Beam damage and energy weapon RoF while system is active reduced by 66%
+    The GAT system now applies a more sizeable buff for the Delphi (and cruiser sized ships in general), and has had its status text improved
+    The Scylla's HEF has been replaced with the GAT system
+    The Clade's retro drive AI has been adjusted to account for the speed boost from Safety Overrides and should crash into ships behind it less often
+    Shadowyards ships now have custom d-mod decals
+    The REIS system has been changed to an On Hit effect, with a chance of piercing shields based on flux of the target ship, that applies heavy EMP strikes to the targets engines
+    Fixed an NPE crash with Massive Solar Arrays that would occur in Nebulas for some reason
+    A number of ships have had their prices adjusted
+        Enlil - to 10,000 credits (from 14,000)
+        Seski - to 8,000 credits (from 10,000)
+        Shamash - to 36,000 credits (from 24,000)
+        Inanna - to 12,000 credits (from 16,000)
+        Southpaw - to 9,000 credits (from 16,000)
+        Clade - to 26,000 credits (from 30,000)
+        Minarette - to 24,000 credits (from 28,000)
+        Lobatus - to 25,000 credits (from 28,000)
+        Tartarus - to 60,000 credits (from 65,000)
+        Delphi - to 42,000 credits (from 55,000)
+        Minos - to 44,500 credits (from 52,500)
+        Skadi - to 235,000 credits (from 250,000)
+    SRA related IBB Bounties no longer use the autofit system
+    An oversight which was causing the Belet-seri and Seski to fail to construct properly has been fixed
+
+0.8.1 Changelog
+
+    Added 4 custom starts
+        Play as the leader of a small salvage coop, a bold partisan fighter, a dashing pirate rogue or a down on your luck mercenary
+    Corrected the position of the Yajna Sensor Array
+    Updated the Charybdis' sprite to ease out some of the roughness and incorporate some new design ideas
+    Some adjustments to the economies of planets added by the mod
+    Fixed an oversight which was causing the T3 SRA Station to spawn without a Nidhoggr Lance
+    Fixed a crash issue with Solar Arrays
+    Solar Arrays now have a sanity check to prevent from being built in unsuitable systems
+    Added a flux monitor that displays the additional flux dissipation Harmonic Shield Conduits provides and rewrote the hullmod description to make it's function clearer
+    Fixed the math for the Phase Anchor Interface hullmod so it will now display the correct signature reduction
+    The Skolopendra has had the phasefield hullmod added
+    Nexerelin compatibility handled
+
+0.8rc2 Changelog
+
+    Fixed an oversight that was causing the SRA station to upgrade (and downgrade) to the wrong type of station
+    Instituted a sanity check to prevent Modular Fabricators and Heavy Industries (and their attendant upgrades) from being built on the same planet
+    The SRA station now requires blueprints or a Shadowyards faction relationship of Welcoming to be able to build
+
+0.8 Changelog
+
+    Reduced price of the Cetus to 32500 (from 45000)
+    High Maintenance has been removed from the Scylla and Shamash
+        Both ships now have a "Phase Anchor Interface" hullmod, with reduces their sensor signature by 20%
+    The SRA now has their own custom station type
+    The Raksahsa's skimmer is now technically a teleporter
+    Added the Lobatus class Heavy Destroyer
+        Designed for heavy escort duty and defense, the Lobatus is equipped with the siege mode system
+    Adjusted fighter attack ranges so the should hopefully be a bit less passive
+    The Kobold has had some tweaks so it should hopefully return to rearm a bit more readily
+        It also now has decoy flares rather than missile defense flares
+    Wraith wing OP cost increased to 2 (from 0)
+    Variants gone over and cleaned up (again)
+
+0.7.0.1rc4 Changelog
+
+    Solar Collector Arrays now correctly export High Capacitance Storage
+    Solar Collector Arrays now also have bonus production depending on Star class
+    Modular Fabricators may now demand batteries in order to keep up with production demand.
+    Med Centers have had the population growth boosted to Pop Size * 2 (from 50% Pop Size), as well as a reduction in Cloned Organs produced (from size - 2 to size -4)
+    Fixed an oversight in the SRA faction file that was keeping Yardie civilian ships from appearing on the open market
+    The SRA has had it's rules text expanded, so more interactions now have custom flavor text
+    Fixed a bug with the Potnia's MARCOM hullmod that was preventing it from correctly applying it ground attack bonus
+
+0.7.0.1rc3 Changelog
+
+    Fixed a showstopper bug with the Barrago Missile AI that would occur when targeting ships without shields
+    Modular Fabricators can now have Nanoforges installed correctly
+    The Medical Center now correctly applies its population growth bonus
+    Implemented the correct vectored thruster plugin
+    The Tartarus' ship system now adjusts its speed malus depending on whether is has Safety Overrides installed
+    Went over the descriptions to fix a number of typos, weird sentence structures and also the Enlil's incorrect reference to having Universal hardpoints
+
+0.7.0.1rc2 Changelog
+
+    Reduced weighted picker chance for all SRA Pirate Ships
+    Industrial options should now function more as intended:
+        All SRA Industry types now have a build time; additionally industrial bps which were non-functional previously now function correctly
+        Modular Fabricators can now be upgraded to Massively Parallel Fabricators, and can be equipped with Nanoforges
+            Modular Fabricators are less expensive to build and maintain, quicker to get set up, and have a higher base production quality
+            They also have slightly lower overall production, and get 50% of the bonus from having a Nanoforge equipped
+        Medical centers now add a small boost to population growth
+        Radiation Absorbers can now no longer be built, as is suitable for an inexplicable monolith of arcane Domain tech wizardry
+    Updated the SRA's Marine Command Relay system to work with the updated ground combat systems
+    Some adjustment to SRA blueprint packages; the Shamash, Charybdis, Tartarus, Mimir and Skadi are now rare blueprints
+    Added blueprint package graphics
+
+0.7.0.1 Changelog
+
+    Updated compatibility for 0.9a
+    Scatter CEPC flux cost per shot reduced to 800 (from 1100)
+    Delphi fuel use/ly reduce to 2.75 and supply per month/recovery reduced to 18 (from 3, 20)
+    Fixed the Vectored Thruster Script so that it should no longer freeze up
+    Added MagicLib trail effects to the Nidhoggr Lacne and Mini Lance
+    Finally fixed the Barrago AI, which should make it considerably more annoying
+        First stage now quickly acquires it target and separates appropriately
+        Due to a typo the second stage AI wasn't active; this has been resolved
+    Tightened up the shot accuracy for Scatter CEPC
+    Fixed the Particle effects on the SWACs system to be less demanding
+
+0.7 Changelog
+
+    Added the Semele-class Tanker
+    Added the Delphi-class Cruiser
+    Adjusted the Sargassos fuel/ly to 2.2 (from 1.45) and supplies per month and deployment to 12 (from 8)
+    Added Civilian Grade Hull hullmod to the Cetus
+    Enlils Medium Synergy hardpoint changed to Energy
+    Inanna changes:
+        Slot layout changed to 2x medium, 2x small (from 1x medium, 4x small)
+        High Energy Focus changed to GAT system
+    CEPC OP cost increased to 6 (from 5)
+    Ships variants updated
+    Adjusted the stats of the Shikome's Combat Shell system
+        Time Dilation speed reduced to 3x (from 4x)
+        Active time reduced to 4 seconds, down time reduced to 1 second (from 5, 2)
+    Fixed incorrect lore text for the Deva
+
+0.6.4b Changelog
+
+    Fire rate of both Polarizers reduced to 30 shots/minute
+    Small Polarizer AoE increased to 30 (from 25)
+    Fixed another bug with the Polarizers that could cause a ctd when fighting Templars
+    Added the Lockdown HMG (weapon courtesy of Soren)
+        A collaboration between the League and the SRA, the lockdown is a ballistic mounted emp machine gun
+
+0.6.4a Changleog
+
+    Did a balance pass on the small Polarizer
+        AoE radius reduced to 25 (from 75), EMP amount reduced to 400 (from 500), range reduced to 500 (from 700)
+    Fixed a CTD bug that occurs when fighting Templars with the Polarizers
+    Rewrote the Polarizer descriptions to make their AoE nature more clear
+    Added the misisng Shikome ships system description
+
+0.6.4 Changelog
+    
+    Added derelict gates to Gigas and Yajna; Gigas' has been partly disassembeled by the SRA for research purposes
+    Further fixed Yajna's rings (I totally forgot about the ones dividing the system)
+    Implemented an improved version of the TAG system AI (tongo assisted)
+    Added the Anu-class Shuttle and the Cetus-class Freighter
+        Both fitted with Siren flares
+    Added the Skolopendra-class Phase Cruiser (an extensively modified Cetus)
+        Decently fast but has miserable acceleration
+        Comes with the Ammofeeder system
+    Added the Shikome-class Elite Fighter
+    The Southpaws shield efficiency has been improved to 0.9 (from 1.15)
+    The Potnia-bis basic stats have been modestly improved
+        Hitpoints to 3000 (from 2500), Armor to 350 (from 300), flux to 7000 (from 6000), dissipation to 300 (from 250)
+    The Ashnans "Loader" Drones have been renamed to being "Stevedore" drones
+    Improved the Mimir's Nidhoggr Lance weapon
+        Now applies even ticks of damage (20% of the shot base damage) at regular intervals
+        Added a sanity check that adjusts the shots damage downward as it penetrates through a ship
+        The weapon no longer autocharges, so the AI should hopefully waste less shots
+        Generally improved visual effects
+    Polarizers now function as a kind of EMP flak; their damage, emp, fire rate and flux usage has been adjusted considerably
+        Polarizer: 50 damage/shot, 500 emp/shot, 60 flux/shot, chargeup of 0.15 and cooldown of 0.6 (from 150, 800, 1000, 0.35, 5)
+        Heavy Polarizer: 150 damage/shot, 1500 emp/shot, 200 flux/shot, chargeup 0f 0.25 and cooldown of 0.75 (from 800, 4000, 2500, 0.35, 8)
+    Finally remembered to set up the Vardr's engine section correctly
+    New Explosion sound effects for SRA ships
+
+0.6.3a Changelog
+
+    Fixed the Vardr's inexplicable and terrible default variants
+        How the hell did I manage this?
+    Fixed a typo in the Murti and Deva files which were causing the beams to occasionally glitch out
+    Fixed some strange issues with the descriptions messing up for some of the ship systems
+    Updated the graphics for the old missile launchers; the Shrike, Black Cap, Tusk and Splinter launchers are now all up to spec
+
+0.6.3 Changelog
+
+    Wraith refit time increased to 6 seconds (from 4) and Crawler beam dps reduced to 70 (from 85) and impact reduced to 15 (from 50)
+    Reduced Deva and Murti beam sweep offset to 5° (from 10°)
+    Reduced armor bonus and increased Health bonus of League Refit 
+        Armor values are now Frigates: 30, Destroyers: 100, Cruiser: 200, Capital: 400 (from 50, 200, 500, 1000)
+        Health values are now FF: 100, DD: 200, CV: 400, BB: 800 (from 25, 100, 250, 500)
+    Lambent:
+        Fuel capacity reduced to 450 (from 600), Crew required increased to 8 (from 2), supplies/month and supplies/rec increased to 6 (from 2)
+    Fixed a bug in the Clades retro drive AI which would cause a crash when the ship was fitted with a Shield Bypass
+    Adjusted the SWACS system visual effects
+    Added the Minarette-class missile destroyer
+        3 Medium Missile mounts, a missile autoforge... more than enough to explode anything that moves (twirls spoaceship)
+    Shamash's Phase Mass Projector range increased to 600 (from 500) and bug causing a damage overflow issue was resolved
+    Added the no flux hullmod to all SRA fighters
+    Neriad primary weapon arc broadened to 40° (from 5°)
+    Improved system graphics for the rings around Yajna
+    Anar now has bunches of Nebulae all over the place, oh no! Also got around to properly removing Berins Stash
+    Weapons sounds for the Urumi, Trishula, Splinter, Black Cap and Barrago have now been added (credit to MesoTroniks for his help)
+
+0.6.2c Changelog
+
+    Deva and Murti now do a "cross slash" behavior, walking their beams inwards across their firing angles
+    Redid Barrago LRM Launcher sprite
+    Reduced particle count and particle lifespan for Storm Blaster flak burst effects
+    Impact of the Wraiths Crawler Beam reduced to 50 (from 300)
+    Added a sanity check to the Retro Drive AI to keep it from launching off the map
+
+0.6.2b Changelog
+
+    Charybdis Hull/armor increased to 7000/700 (from 5000/500)
+    TEST - Charybdis OP increased to 170 (from 150)
+    Elysium balance tweaks:
+        Cost reduced to 45000 (from 49000)
+        Turret facings adjusted so the class should be able to better focus firepower
+    Seski price reduced to 10000 (from 11000)
+    Clade shield efficiency improved to 0.8 (from 1.1)
+    Added missing Leage Refit hullmod to the Morningstar L
+    Changed some turret angles on the Morningstar to try and prevent it fom butt tanking shots
+    Changed all remaining UNIVERSAL slots to SYNERGY
+    Wavegun flux per shot decreased to 300 (from 400)
+    Increased Inanna side moun arcs to 90 (from 60)
+    League Refit Changes:
+        Flux malus increased for Destroyers to -250 capacity, -25 vent rate (from -200, -20) and Cruisers to -500, -50 (from -400, -40)
+        Now Reduces Speed somewhat; Frigates and Destroyers by 10, Cruisers by 15
+    TEST Neriad alterations:
+        1 additional Neriad per wing
+        The Neriads built-in gun now has a small aoe burst effect
+    Kobold changes:
+        Inbuilt Burst PD damage/sec increased to 200 (from 125) and has had 100 EMP damage added
+        TEST Kobold mounted rocket now carries 12 rounds that it will fire in rapid succession
+    TEST - added 1 Raksasha per wing
+    Deva flux/sec decreased to 1000 (from 1400)
+    Murti flux/sec decreased to 400 (from 600)
+    Splinter damage per rocket increased to 200 (from 175)
+
+0.6.2a Changelog
+    
+    Hotfixes: Vardr now is correctly a battleship, error which was casuing Murti to not sweep fixed
+
+0.6.2 Changelog
+
+    Added Vardr-class battleship
+        Ship system: Cyclic Plasma Thrusters; stops forward momentum but greatly increases lateral mobility while up
+    Revised Morningstar sprite, making it larger and beefier
+    Revised some segments of the Mimir sprite
+    Further refined the stripe style, leaving it slightly cooler and darker and with fewer stripes
+    Berin's Stash in Anar and Maks Hole in Yajna have been removed from the campaign
+    Added a beam sweep effect to the Deva and Murti
+    Urumi base damage/sec increased to 400 (from 250)
+    Retouched many of the weapon sprites:
+        All CEPC's have had their sprites updated, as well as the Wavepulse, Heavy and Light Polarizers, Urumi and Trishula
+
+0.6.1.2 Changelog
+
+    Forgot to add built-in hullmods to the Minos; this has also been fixed
+        Added Survey Equipment, Salvage Gantry and a "Science Ship" hullmod which is a combination of High Res Sensors scan boost and Civilian Grade Hulls detection problem
+    Reduced flak explosion variance on Storm Blaster to 0.33 (from 0.75)
+    Revised Shamash's built weapon
+        Damage increased to 400 (from 350), Windup removed, cooldown reduced to 0.2 (from 0.8); Amma capacity of 3, reload size of 3, reloads in 8 seconds, range reduced to 500 (from 600)
+        Now functions kinda like an Energy Bomb, possessing a sizeable AOE damage effect; applies damage indiscriminately to targets within radius
+        Yes, you too
+    Adjusted the REIS script so that, for the Elysium, it matches aim to the Pandora Array; additionally further improvements have been made to the REIS AI to make it less dumb
+    Increased the Seski's armor to 150 (from 100), increased shield width to 90 (from 60)
+    Increased Southpaws shield width to 120 (from 90), and Potnias-bis' and Threshers shield width to 160 (from 120)
+    Increased Potnia-bis flux capacity to 6000 (from 4500), reduced maintenance to 8/mo (from 9/mo)
+    Changes to the Skadi
+        Top speed increased to 55 (from 45) and overall maneuverability improved just to give her an area she has an edge in
+        Ships central medium weapon mounts have been changed to MISSILE (from ENERGY)
+        Variants gone over and updated
+    The Neriads main gun has had it's damage type changed to FRAGMENTATION
+        Additionally it's been switched to a 10 round burst from full auto, and had it's damage increased to 40 (from 25) to partly offset the damage type change
+    Finally got around to updating sim opponents
+    Revised descriptions for the most dated SRA ships and equipment to remove outdated references and generally make things make better sense
+    Pandora Type sensors now apply a flat 50% sensor strength boost across all ship classes.
+    Partially went over missions
+    Finally figured out what was wrong with the version file and fixed it
+    
+0.6.1.1 Changelog
+
+    Fixed some minor problems in the faction files
+    Removed the Spaceport condition from markets which also have an Orbital Station--specifically Euripides and Mantra
+    Somehow the Minos' material, normal, and surface maps had not gotten included; this is now fixed
+    Replaced the sprite for the Mimir's Lock drive overlay which I somehow forgot
+    Polarizer chargedown reduced to 5 seconds (from 8)
+    Fixed an issue with the Raksasha which was causing it to launch it's torpedoes at point blank range
+    Raksasha loadout redone; one Tusk Torpedo removed, OP cost reduced to 25 (from 28), Base Price reduced to 13,000 (from 15,000)
+        Also slightly revised the sprite 
+    Tusk damage reduced to 2000 (from 2500) doing 400 per bomblet (from 500)
+    Tusk Rack OP decreased to 6 (from 7)
+    Fixed a glitch in the Morningstars system AI which was preventing it from using its system
+    Did some refinement work for the REIS system AI; it should be less pointlessly trigger happy now
+    Reduced ratio of Yardie Pirate to standard pirates to try and make them not so dominant in the spawn lists
+    Added more d-mods to the following SRA pirate ships:
+        Clade P; added Glitched Sensor Array
+        Shamash P; added Phase Coil Instability and Compromised Hull
+
+0.6.1a Changelog
+
+    Fixed a null pointer error in the Minos' ship system
+
+0.6.1 Changelog
+    
+    Adjusted down most fighter base prices
+        Skinwalkers to 11,000 (from 18,000)
+        Neriads to 4,000 (from 10,000)
+        Kobold to 8,000 (from 15,000)
+    Removed (or rather changed purpose of) the small Blackcap Launcher
+        Fighter only weapon, fitted to Neriad and Skinwalker
+        Starts with 2 ammo; regenerates 1 shot every 15 seconds
+    Skinwalkers shrike launcher changed to fighter specific built-in; regenerates 1 shot every 45 seconds.
+    Fixed an oversight related to misreading the the tables that left the Raksasha and Kobold with lower OP than their vanilla equivalents
+        Raksahsa OP to to 28 (from 8)
+        Kobold OP to 12 (from 5)
+    Added the Skadi-class fleet carrier
+        Vaguely between the Astral and Legion while being more fragile than either
+    Added the Minos-class Cruiser
+        Exploration focused civilian ship
+    Shamash changes:
+        Ordnance Points increased to 40 (from 35)
+        Additional small energy mount added
+        ENERGY hardpoints on the arms changed to SYNERGY
+        Ship system changed from the Flak flares system to the Remote Engine Inhibitor System
+    Changed the Morningstars ship system, removing the drone and tweaking the stats
+    Morningstar L (formerly Civ) system changed to Plasma Jets
+    Civilian Modifications removed and replaced with League Refit
+        Reduced flux loss compared to CM
+        Cargo expansion removed
+        Armor and hull health improved
+    Added the Storm Blaster, a short range assault weapon for ENERGY mounts
+        It shoots a hail of small flak rounds at a very high rof, doing loads of frag damage
+    Created dummy files for the Pirates, Persean League, Independents and Scavengers so that they spawn with SRA ships or cobbled together pirate uglies
+    Expanded and revised faction description slightly
+    Changed civilian skins to be Persean League skins; League variants have more health and armor but worse flux stats, with much of their offensive equipment becoming BALLISTIC
+    Added Pirate Skins
+        Ships with these skins--Clade, Elysium, Shamash and Solidarity
+        Layouts are very different with most energy mounts stripped and replaced with BALLISTIC or COMPOSITE mounts
+    Added the Baseplate class Utralight Carrier
+        Converted Ashnan, basically little more than a flight deck in space
+    General graphical overhaul for sprites in the mod; overall style changed
+        Original style available as a seperate graphics pcack for those who want it
+    Added autofit variants
+    
+    
+
+0.6.0.7.1 Changelog
+
+    Fixed a stupid coding decision with the Sargasso's SWACs system that made it stupidly and unintentionally overpowered
+    Decided I didn't like Anar and Gigas' positions in hyperspace and have decompressed them some
+        Anar is now at -9000, 3400
+        Gigas is now at -6500, -1550
+    A new star system, Yajna, has been added
+        Yajna is shared (somewhat uneasily) between the SRA and the Persean league, both quietly contesting over a valuable, nominally independent world
+        Located at -3600, -200
+
+0.6.0.7 Changelog
+
+    Adjusted Scatter CEPC flux costs to 1100 per volley (from 900/volley)
+        Also fixed a mistake with the flux cost which was causing the flux generated per volley to be a couple orders of magnitude lower than it should be, oops
+        Gave it more of a shotgun like effect to help bring up the polish level a wee bit
+    Booster jets system changed to make it a punchier short duration thruster
+    The Inanna has had it's layout adjusted to resolve a consistent problem resulting from it's broadside layout, and should now broadside much more effectively.
+        Additionally, the Inanna's flux cap has been reduced to 2500 (from 3000) and it's dissipation rate to 250 (from 300) in order to somewhat offset this increase in effectiveness
+    The Scylla's Supply cost/month has increased to 35 (from 30)
+    The speed boost SRA phase ships gain while phased now varies based on hull size
+        Previously a flat 90; the boost is now 60 for frigates and fighters, 50 for destroyers, 40 for cruisers and 30 for capital ships
+    Added the Delicate Machinery hullmod to the Shamash and Scylla
+    Increased Potnia's MarcCom hullmod effectiveness to give a 33% strength increase to Marines in boarding actions (from 20%)
+    Reduced Enil Peak Operation Time to 340 seconds (from 420)
+    Changes to the Charybdis
+        Added the CARRIER, COMBAT tag
+        Mildly reduced mobility: Max Speed reduced to 65 (from 70), Turn Rate to 35 (from 40), and Turn Acceleration to 35 (from 45)
+        Thetis Drones system removed and replaced with Booster Jets
+    Changes to the Sargasso
+        Sprite updated to make it look generally better
+        Ship system updated and streamlined alongside the fighter updates
+    Changes to the Ashnan
+        The Ashnan's drone system has been removed; the ship now comes with a built in wing of 3 "loader" type utility nad mining drones
+        The Ashnan now has the Booster Jets system
+    Changes to the Mimir's Lock Drive system
+        Removed the ability to vent during use from the Mimir's Lock Drive system
+        Rewrote parts of the Lock Drive AI handling collision evaluation, which should result in the AI being less crash happy
+    Changes to the Belet-Seri's TAG System
+        TAG range increased to 1000 (from 800)
+        Duration increased to 20 seconds and damage taken increased by 1.5* (from 10 seconds, 1.25 *)
+        Cooldown decreased to 20 seconds (from 25)
+    Carriers flight decks adjusted for 0.8a
+    Fighters retooled and balance adjusted for 0.8a
+        Neriad's Shrike ASM replaced with a Blackcap Launcher
+        Health, Armor and Flux stats generally reduced
+    The SRA now fields the QME-2200 Wraith Drone Fighter
+        Fast, cheap, swiftly replaced craft equipped with a moderate damage/high impact beam weapon and a miniflak
+        0 OP to fit
+        6 fighters per wing; bulk up on these (They still lose to Talons)
+    Adjusted Hue and details of SRA craft to bring them in line with new visual standards
+    Added Vectored Thrusters to the Charybdis, Enlil, Mimir, Potnia/Potnia-Bis and Southpaw
+    Returned Cyan/Teal utility hulls to SRA sprite pool
+    Added weapon covers
+    Buffed Blackcap Missiles
+        Missile damage increased to 300 and turn rate to 75 (from 150 and 60, respectively)
+        Added a relatively simple target leading AI that should make the missile more effective against fighters
+    Barrago Changes
+        Adjusted base stage damage of the Barrago accurately reflect the damage of the final stage
+        Made a number of fixes to the Barrago AI that should improve it's accuracy
+    Fixed an issue with Splinter Rockets sometimes failing to accelerate on launch
+    Greatly increased the amount of Cloned Organs produced by the Medcenter condition
+    Fixed a compatibility problem with the Knights Templar mod which would lead to a crash
+    Changed Skinwalker and Bit Drone Particle Guns to Projectiles from Beams
+        Bit Drone Guns DPS remains 50, F/S remains 25
+        Skinwalker Particle Gun to 117 DPS, 75 F/S (from 111, 67)
+    Gigas moved to -3700, 100
+    Anar moved to -4500, 1500
+    Adjusted and updated SRA related economic conditions
+    Implemented improvements to the Random mission generator to more closely match campaign fleet generation, and fixed a bug that was including the deprecated Knights of Ludd faction in the factions lists.
+    Resolved shot trajectory issue plaguing the Nidhoggr lance by converting the shot to BALLISTIC (was formerly BALLISTIC_AS_BEAM)
+    Improved behavior of the TAG System AI (thanks Tongo!)
+
+0.6.0.5 Changelog
+
+    Adjusted Phase Anchor balance to 0.7.2 standards
+        Reduced flux/second build up for Shamash and Scylla to 0.08 (from 0.09)
+        Reduced flux/second build up for Hydra phase drones to 0.06 (from 0.09)
+        Increased armor of the Shamash to 300 (from 200)
+        Shamash's supplies usage increased to 7 (from 6)
+        Increased armor of Scylla to 1100 (from 600) -- low armor was causing undesirable combat behavior for both craft
+        Reduced range of Scylla's built in beam to 900 (from 1150)
+    Added USE_VS_FRIGATES to Wavepulse Cannon
+    Fixed excessive glow of Barrago impacts on the final stage projectile
+    The intert stages from the Barrago and Tusk should no longer appear on Common Radar's... Radar
+
+0.6.0.4 Changelog
+    
+    SRA Phase anchors have gotten an experimental semi-buff(?):
+        Flux cost of SRA phase anchors set to 0.02 on use and 0.09 f/s gain (from 0.01, 0.07 on the Shamash, 0.02, 0.08 on the Scylla)
+        Phase anchors flat speed boost increased (to +90, from 50)
+    Some balance changes to the Overdrive system; weapons flux cost while system is active is now reduced by 20%
+    Finally renamed Lumen.  This tiny planet is now known as to Lambence so as to reduce confusion with the Lumen added in vanilla
+    Wavepulse Cannon Firing Sound improved somewhat
+    Finally fixed the problem with the Vectored thrusters showing up outside of combat/the refit screen
+    Added custom engine and flux venting sounds to SRA craft
+
+0.6.0.3 Changelog
+
+    Added 2 SRA stations to vanilla systems
+        Outpost Tiger, an SRA firebase from the Askonia Crisis, is in a trojan orbit with Umbra in Askonia
+        Udāna Station, an overcrowded and isolated station built to help manage the humanitarian crisis from the end of the second AI War, orbits Hanan Pacha in Yma
+    Fixed a missile placement issue with the hardpoint version of the Barrago
+    Fixed an oversight which accidentally removed the magazine reloading on the Scatter CEPC
+    Fixed a typo that I kept making where I would type Belet as Belit which was keeping the Belet-Seri's description from appearing
+
+0.6.0.2 Changelog:
+
+    Fixed a Null Pointer Exception with the Seige Mode system that could occur while the System was active, the shield was off, the ship had less than 25% of it max flux, and an officer with Helmsmanship 10 was piloting it
+        Additionally removed the tiny 0.02 f/s cost that prevented this issue from coming up earlier; now anyone can get a 50% effective 0 flux speed boost
+    Fixed an issue with the Clades vectored thrusters which would cause weird visual glitches similar to the more general issue fixed in 0.6.0.1 while the system was active
+    Increased the volume of the Nidhoggr Lance charge and firing effects, and made the firing sound effect sharper; hopefully it will make the weapon firing more noticeable
+
+0.6.0.1 Changelog:
+
+    Converted the somehow stereo sound effect the Medium CEPC 'popping' back to monoaural, which was causing the audio to play way too loudly and the positional audio to not work
+    Fixed an error with the Vectored Thruster plugin that was causing flashing, weirdly stretched engine flares
+    Fixed an issue with the second stage of the Barrago where it's flight time was way shorter than it should have been
+    Fixed a major bug where Anar and Gigas wouldn't spawn if Nexerelin wasn't loaded
+    Fixed a number of description typoes and errors
+        The SRA faction description had somehow gotten deleted, this has been restored from a backup
+        The description for Cinderbox had somehow been broken into two sections which caused it to read oddly in game
+        Port descriptions for Lumen and Stillness now displaying properly
+        Fixed a weird issue in rules.csv which was keeping the sidebar text for the Berin's Stash market page from displaying properly
+                Also, changed the name of the small asteroid field around it to the Gliese Field
+        Added in a description for Sturmvald, which I'd forgotten to do
+    Fiddled with Berins' Stash market conditions (added Organized Crime and Hydroponics)
+
+0.6 Changelog:
+
+    Added the Clade class heavy destroyer:
+        Both the Clade and Belet have a type of Vectored thruster system--functionally just aesthetic though
+        Equipped with the "Retro Drive" system
+                The Retro Drive is essentially a Burn Drive... in reverse.  Lasts 5 seconds (1 up, 3 active, 1 down), cooldown of 8 seconds.
+    Added the Belet-Seri class Sensor Frigate
+        Equipped with a TAG system; launches a non damaging projectile which, if it hits the hull, debuffs the effected ship
+                Debuff increases damage taken by the victim by 25%
+                Lasts 10 seconds, 25 second cooldown
+    Added Barrago-type LRM, a support missile which does course corrections prior to flying pell mell and exploding at its target in a hail of shrapnel.
+    Added "Trishula" class small beam laser.  Similar to the Urumi fires multiple beams, though these converge at target position.
+        TacLaser equivalent.  Somewhat stronger, slightly less range, 4 OP.
+    Broad (Experimental) Changes to CEPC's
+        All CEPCs except Scatter CEPC:
+                Doubled Damage, Doubled Flux Use, Doubled Downtime between shots
+                        Light CEPC - 40 damage, 44 flux/shot, 1.4 second total cycle time (from 20, 22, 0.7)
+                        CEPC - 100 damage, 110 flux/shot, 1.8 second total cycle time (from 50, 55, 0.9)
+                        Medium CEPC - 200 damage, 220 flux/shot, 1.6 second total cycle time (from 100, 110, 0.8)
+                        'Chaingang' CEPC - 40 damage, 44 flux/shot, 2.5 second total cycle time (from 20, 22, 1.25)
+        Scatter CEPC:
+                Tripled Ammo Capacity to 120 (from 40), doubled recharge rate to 4/sec (from 2/sec)
+                Reduced Flux cost per shot to 900 (from 1300)
+        Added a "popper" script to CEPC projectiles; this does what it sounds like, causing CEPC projectiles to pop while fading
+                Fade time for CEPC weapons reduced and range increased to compensate for the effective range reduction
+    Significantly improved flux efficiency of Deva and Murti CAS beams, greatly increased turn speed of both
+        Deva: turn rate increased to 15 (from 6), flux usage decreased to 1400/sec (from 1700/sec), charge up decreased to 0.75 second (from 1 second)
+        Murti: turn rate increased to 24 (from 11), flux usage decreased to 600 (from 700), charge up decreased to 0.5  (from 1 second)
+    Replaced the Morningstars standard Sensor drones with the Seer-type scan drone
+        Individually more effective than regular sensor drones, but the ship carries only one into battle
+                Increases sensor range by 40% and weapon range by 25% (10% and 5% reduction, respectively)
+                Has a short ranged, innacurate beam weapon
+    The Scylla's Hydra Phase Drones have finally had their weapon loadout changed to match the system description, replacing the Miniflak with a small anti-missile missile launcher
+    The Charybdis and Ashnan's Thetis drones have had their shield efficiency reduced to 1.2 (from 0.8)
+    The Shamash's useless mine launcher system has been replaced with an enhanced smart flares type system
+        Launches 2 tracking flares per launcher (4 total); these flares have a short ranged fuse which allows them to potentially knock down a bunch of missiles at once
+    Fixed a bug with REIS system timing... maybe?
+    The Innana has recieved a moderate buff to offset it's awkwardity:
+        Armor increased to 350 (from 300)
+        Flux Dissipation increased to 300 (from 160)
+        Flux reserves increasd to 3000 (from 2500)
+        Shield width doubled to 160 (from 80)
+        Shield upkeep increased to 0.3 (from 0.2)
+        Shield damage ratio increased to 1.1 (from 0.7)
+        Reverted port side weapon mounts to hardpoints and reduced weapon facing radius to 15°
+    Removed Military Markets from Stillness, Lance Base and Euripides
+    Updated SRA Systems with significant amounts of terrain
+    
+    
+        
+
+0.5.2.5 Changelog:
+
+    General improvments to feel and effects the Nidhoggr Lance, the Mimir's built in heavy weapon:
+        Made the weapon significantly more a gamble to fire - damage and flux use doubled.  Bigger payout, bigger risk.
+        Made the projectile for the Niddhoggr Lance significantly more bling (thanks to Tartiflette)
+        Improved sounds for the Nidhoggr Lance firing sequence (thanks to Cycerin and Foxer)
+        Weapon now has a charge and firing animation (many thanks to Tartiflette)
+        Fixed a longstanding error in which the Lance projectile would veer off course.
+    Changes to CEPC line of weapons:
+        Shots fired should look significantly better now.
+        Improved sounds across the board. (Thanks to HELMUT poking me and myself figuring out how to make better use of EQ)
+        Light CEPC changes:
+                Damage/shot reduced to 20 (from 25).
+                Ammo received in 5 shot magazines (2 seconds/mag); charge reserves increased to 60 (from 40).
+        "Chaingang" changes as above except recharge rate reduced to 3.75 shots/second (from 5 shots/second), with 20 round magazines (5.3 seconds/mag).
+        Standard CEPCs recharge rate down to 1.35 shot/second (from 2 shots/second) recieved in 3 shot magazines (2.2 seconds/mag); charge reserves increased to 30 (from 12).
+        Medium CEPC recharge rate down to 0.85 shots/second (from 1.5 shots/second) received in 2 shot magazines (2.4 seconds/mag); charge reserves increased to 20 (from 14).
+        The Scatter CEPC is now significantly more burst focused, making use of the "clip" mechanic to throttle its DPS. 
+                Fire rate massively increased -- 0.6 second turnaround (0.2 second up, 0.4 second down).
+                Ammo recharge rate down to 2 shots/second (from 4 shots/second) recieved in 20 round magazines (10 seconds/mag).
+                Damage/shot reduced to 40 (from 45).
+    Fixed sound implementation for Deva and Murti CAS beams so that the charge up sound plays, and reauthored sounds for both weapons to give them more zazz.
+    Murti CAS Beam - increased range to 650 (from 500)
+    Deva CAS Beam - increased range to 750 (from 700)
+    Reduced the flux/damage ratios of all weapons to approximately 1.1 to 1.
+    Mimir -- changes to logistics and ship system:
+        CR% to deploy to 25 (from 18).    
+        Changed the Heavy Skimmer system to the Lock Drive system; the system will send the ship haring off along it's current vector, as well as reducing all damage by 50%, while locking weapons and shields off.  Lasts ~2 seconds; has a 15 second cooldown.
+    Charybdis CR% to deploy to 20 (from 18).
+    Scylla and Shamash -- added High Maintenace hullmod.
+    Southpaw -- generally made it more killy but also more vulnerable to flux issues:
+        Flux capacity increased to 3000 (from 1900).
+        Shield damage multiplier increased to 1.15 (from 0.8)
+    Thresher -- as above, more killy but vulnerable to overloading:
+        Flux capacity increased to 11000 (from 7500).
+        Shield damage multiplier increased to 1.3 (from 1.1)
+    Skinwalker -- slight tweaks.
+        Traversal on it's forward gun has been increased to 45° (from 25°).
+        The bit drones have similarly had their traversal increased to 45° (from nothing whatsoever).
+    Raksasha -- split the double Tusk rack into a pair of single Tusks in order to let them fire their ordnance more quickly.
+    Made Tusk Torpedo sprite more readable.
+    Updated and fixed ship variant OP usage.
+    Adjustments and replacements to ring systems in Anar and Gigas.
+    Added a secret pirate base, Berins Stash, to the outer reaches of the Anar system.
+    Corvus Mode support for Nexerelin added.
+    Fixed a number of typoes and removed all archaic references to the SRA's previous moniker from the descriptions.
+
+0.5.2.3 Changelog:
+
+    Added timers to all Shadowyards craft, excepting fighters and drones.
+        Timers for the frigates have been unchanged.
+        The Elysiums CR Timers has been increased to 480 seconds.
+        Morningstar (and (C) variant) - 300 seconds; Sargasso, Potnia (and -bis variant) - 360 seconds; Solidarity, Lambent, Scylla, Charybdis - 420 seconds; Tartarus, Thresher - 480 seconds; Mimir - 540 seconds.
+    The SRA should now issue named bounties.
+    Version Checker is now supported.
+    The Nidhoggr Lance now does energy typed damage instead of high-explosive.
+
+
+0.5.2.2 Changelog:
+
+    Fixed a crash resulting from an omission in the Civilian variant modification.
+    Some missile tweaks:
+        Increased acceleration of Tusk Torpedo (50 to 200), Splinter Rocket (50 to 400), and Blackcap Missile (800 to 900).
+        Adjusted range of the Shrike ASM to more accurately represent it's actual range; also implemented a custom AI to return it to it's simple, direct approach behavior, due to the new missile AI causing the Shrike to miss shots unnecessarily from the increased maneuvering missiles now undergo. (Thanks Tartiflette!)
+
+
+0.5.2.1 Changelog:
+
+    Fixed an issue with Anar's economy that was causing high fuel prices and fuel shortages.
+    Removed some redundant surface and normal maps.
+    Replaced surface maps due to color channel errors causing some minor issues
+    Because I was looking at it, also retouched the Tartarus' sprite and all related maps
+    Descriptions for SRA planets should be fixed
+    
+        
+0.5.2 Changelog:
+
+    Added the Ashnan-class small Freighter
+    Added Civilian skins for the Enli, Seski, Sargasso, Morningstar and Elysium
+        Excepting the Seski these ships have lower flux stats and OP.
+        The Civilian Elysium has also (provisionally) lost its Pandora built-in weapon.
+    Increased the Seski's armor to 100 (from 50), and it's cargo capacity to 65 (from 35)
+    Reduced the Enlils cargo capacity to 50 (from 60)
+    Reduced the Morningstars flux capacity to 5000 (from 6000)
+    Substantial increases to the logistics load of all Shadowyards craft.
+    Increased OP Cost of the Medium CEPC to 14
+    Decreased the OP cost of the PD CEPC to 4
+    Added the Deva and Murti anti-ship neutron beam cannons; these fearsome weapons have high burst damage and are effective against hulls, but falter somewhat against shields
+    Added the Urumi "fan" laser, a point defense beam weapon that has a somewhat spread beam focus
+    Added the "Gigas" system, which has been recently attacked by the Hegemony, throwing the entire system into chaos.
+        Ports of call in this system are the moon "Stillness," still under Shadowyards control, the Hegemony's forward operating post "Lance Base", and the Pirate station "Auris' Grip" which has set up shop to profit from the chaos
+    Removed Pirates from Anar; added ports on Lumen (shadowyards) and Melancholia(independent), generally made the system an absurd economic powehouse
+    Generally brought the mod up to date with 0.65a, as well as well as updating it's ShaderLib compatablity.
+
+
+0.4.7c Changelog:
+
+    Fixed a dumb error with the Potnia-bis and probably the Solidarity that was causing CTDs.
+        Note: As it turns out this in not all errors with the Potnia-bis, for now please use the dev version of SHI.
+    Added normal maps for all SHI vessels.
+
+
+0.4.7b Changelog:
+
+    Fixed a bug with Harmonic Shield Conduits which was causing it to enhance flux dissipation by at least an order of magnitude greater than it should have been.
+    Adjusted the flux dissipation of all Shadowyards vessels with the HSC hullmod down by roughly 10-20%
+    Changes to the Mimir:
+        Cleaned up and made the sprite for the Mimir more distinct; the vessel should pop much better now.
+        Added a decorative glowy bit for a reactor glow effect
+        Fixed an over expenditure of OP on the "Standard" Mimir variant, and improved the PD variant to expend all of it's OP.
+    Changes to the Inanna:
+        Made the engine nozzles actually legible as opposed to being the random spindly bits they were previously.
+    ShaderLib support updated to latest version of ShaderLib.
+    Added material maps for all SHI ships.
+
+
+0.4.7 Changelog:
+
+    Added the Thresher-class Light Cruiser.
+    Added the Southpaw-class Frigate.
+        These craft are fast and heavily armed, but not terribly sturdy.
+        Both are equipped with the Overdrive system.
+        This system doubles the firepower of all types of weapon for 2.5 seconds, but halves firepower for 4 seconds afterwards.
+        Also emits steam while cooling down.
+    Both of these craft are available in limited numbers at the pirate held Shadowyards research station over Theramin in Anar.
+    Rebalanced the CR ratings of most Shadowyards craft.
+        Craft not changed are the Skinwalker, Neriad, Raksahsa, Kobold and Morningstar.
+        Changes generally increase the overall supply cost for getting into fights while keeping the general costs for maintenance low.
+    Added the mission "Stampede"; this is a crazy mission of a handful of SHI vessels facing down a massive stampede of rampaging Buffalo (Mk IIs).
+        How long can you survive?
+        If you're somehow able to win, you'll have to hit the escape key in order to get it to register as a victory.
+
+
+0.4.4b Changelog:
+
+    Fixed a couple of typos/grammatical errors I'd noticed in ship descriptions.
+    Fixed a foul up the splinter pods cost, as well as mixing up the reload speed and volley size.
+    Added support for ShaderLib by Dark Revenant.
+    Forgot to mention, new launch sounds for the Shrike and Tusk, courtesy of Cycerin
+
+
+v 0.4.4a Changelog:
+
+    Cleaned and optimized all java used by SHI.
+        Also moved a great deal more java scripts to the jar file.
+    Redid a couple variants and made sure that medium sized splinter launcher was being correctly shipped.
+
+
+0.4.4 Changelog:
+
+    Added a new hullmod to most Shadowyards vessels -- Harmonic Shield Conduits; these flux systems increase passive flux dissipation at higher hard flux.
+        Also added icons for all Shadowyards hullmods.
+    Added the Kobold class support fighter to SHI's fleets.
+    Added the Splinter type rocket launcher in both small and medium sizes.
+    Completely reworked the Elysium-class Light cruiser.
+        Entirely different and asymmetrical turret layout.
+        Replaced buggy Pandora array with much nastier Pandora which shoots a fan of damaging emp/lighting bolts --  a lightning shotgun if you will.
+        Replaced absurd Engine thrust system with a new Remote Engine Inhibitor System, which can remotely cause engine malfunctions in ships hit with the device.
+    Added an on hit effect to the Wavebeam to allow it to occasionally deal extra damage on hits to the enemies hull.
+        Also changed it's name to the Wavepulse Cannon
+    Adjusted maintenance costs for all ships to account for general balance changes in 0.6.2a
+    Additional balancing and adjustments to maintenance costs for the following Shadowyards destroyers.
+        Morningstar adjusted to 4.5 supplies/day and 3.5% repaired/day
+        Sargasso adjusted to 3 supplies/day and 3% repairs/day.
+        Solidarity adjusted to 3 supplies/day and 3.5% repaired/day.
+        Potnia-bis adjusted to 2.5 supplies/day and 3.5% repaired/day.
+            It's possible that this may be a bit much. Please let me know if I've overdone it.
+    Numerous changes to Shadowyards fightercraft:
+        Skinwalker - minor adjustments to main weapon power.
+            Additionally now comes with a pair of option like drones armed with weaker particle beams that follow it around.
+        Neriad - Main armament replaced with a rapid fire, reasonably accurate machine gun type weapon; this should make it more effective as an interceptor.
+            Additionally adjusted the logic for it's afterburner type system to hopefully be more intelligent about when it fires is speed boost.
+        Raksasha bomber given a short range phase skimmer with 2 charges and a somewhat slower charge rate than the regular version.  Also has a wider spread.
+    Added additional descriptions for a number of ship systems.
+
+
+v 0.4.3 Changelog:
+
+    Slimmed down the settings.json file to just include the landing illustration.
+    Revised the Character Creation Plugin along Trylobots guidelines to make it play a little nicer with Exerelin and UsS, though the latter is like not entirely necessary.
+    Added the Potnia-class Troop Transport and her heavily modified cousin the Potnis-bis class Destroyer.
+        The Potnia comes with a jamming type subsystem that reduces hostile ships auto-aim and range.
+        She also has a built in hull mod that should improve the effectiveness of Marines if they're operating from the Potnia.
+        The bis version just has lots of guns and a flarelauncher.
+    Removed the CARRIER designation from the Charybdis is the ship_data.csv file.
+
+
+0.4.2.3 Changelog:
+
+    Excepting fighters and phase ships, all Shadowyards vessels now have running lights.
+        Totally original idea, I know. /sarcasm
+    Adjusted Shadowyards frigates speeds downwards to account for nav buoys increasing their combat speeds.
+        Enlils speed reduced to 150 from 160.
+        Seskis speed reduced to 185 from 225.
+        Shamash's speed reduced to 170 from 200.
+        Inanna's speed reduced to 150 from... uh, 170?
+    Adjusted the supply costs for the Sargasso down sharply; from 5 to 2.
+    Some minor book-keeping changes in relation to how SHI tracked it's relationships with other (default) factions.  Also, they no longer get along with the Sindrian Diktat.
+    Tweaked the Codex entry on the standard CEPC to more accurately reflect the front loaded nature of the weapons output.
+    Added a smaller version of the Euripides landing screen so that its less likely to show the empty sky or desert.
+
+
+0.4.2.2 Changelog:
+
+    Partially updated Pandora Array scripts; may apply damage more consistently.
+        Sparks still colliding with objects though.
+    Further changes to the Elysiums drive system, in response to it being entirely too awesome as well as the changes to Peak Combat Time:
+        Now 5 second duration (3 seconds up, 2 seconds down) instead of indefinite duration.  Still toggleable.
+        While active the system prevents forward acceleration but greatly enhances lateral thrusters.
+        While deactivating it provides a considerable (+200%) boost to speed.
+            For like two seconds, just so we're clear here.
+    Added another variant for the Solidarity.  Because.
+    Euripides now has a custom graphic when approaching it.
+    Updated Mission scripts to be compatible with 0.6.1a
+    Made some adjustments to the weapons sounds for the Wamgun, Pandora, and Nidhoggr.
+
+
+0.4.2.1 changelog:
+
+    Added cross mod compatibility with Exerelin.
+    Decided to stop using that 'a, b, c, etc.' nomenclature for minor releases.
+    No other changes.
+
+
+0.4.2 Changelog:
+
+    Solidarity class armed transport added; one is available at Impresario Shipyards from the start.
+        Equipped with a booster engine system that allows her to run if the heat gets too severe.
+    Elysium drive system made simpler to use for the ai, added visual effects for system use.
+    Unique graphics for Euripides and the Anar systems background now added.
+    Went over ship descriptions and brought the older ones more up to date.
+    Added descriptions for the Thetis and Hydra drones systems.
+        Totally forgot to add the interceptor missile system the Hydra supposedly carries, doh.
+    Updated the Niddhoggrs on hit effect to be more noticeable and made sure it was passing through missiles correctly; was unable to figure out how to make it blow up missiles though.
+    Brought Shadowyards missions generally in line with standard 0.6a missions.
+        Postponed fully going over "They Might Be Giants."
+    The Hegemony have been evicted from Anar, and now launch raids from Corvus.
+
+
+0.4.1a and 0.4.1b Changelog:
+
+    Fixed an identification error with the Shadowyards SDF fleet.
+    Shadowyards fleets now sometimes launch raids on Corvus.
+    Shadowyards Supply fleet now correctly delivers supplies.
+    Removed the Hegemony and Pirate Supply Convoys delivering goods to the temporary/temporarily occupied stations.
+    Shamash:
+        Cargo capacity increased to 40 from 20.
+        Fuel capacity decreased to 70 from 90.
+        Flux dissipation increased to 300 f/s from 200 f/s.
+    Scylla:
+        Flux dissipation increased to 1000 f/s from 700 f/s.
+    Added a hull mod, Enhanced Ejection Systems, to SHI fighters; this system reduces pilot casualties by ~66%.
+
+
+0.4.1 Changelog
+
+    Updated Shadowyards to be compatible with Starsector 0.6a
+    Adjusted all craft to have appropriate (if hypothetical) CR deployment costs.
+    Added CR draining to frigates... and the Elysium.
+    Adjusted frigate speeds to be in line with vanila frigates.
+    Added Anar system.
+
+
+v 0.4.0a Changelog
+
+    Fixed a crash issue with generators.csv (I should've checked to see if that actually would comment stuff out.)
+
+
+v 0.4.0 Changelog
+
+    Charybdis:
+        PD Drones replaced with "Thetis" class fighter drone system
+        Hitpoints increased from 4,500 to 5,000
+        Base price is 37,500 from 36,500.
+        She also has had her sprite replaced with a newer and far more refined version.
+    Morningstar:
+        Base price has increased to 14,000 from 11,000.
+        Sprite has had color correction applied and should be less muddy looking.
+    Enlil:
+        Deployment cost reduced to 5 from 6.
+        Flux dissipation improved to 200 from 180.
+        Base price increased to 7,000.
+        Sprite has also had color correction applied and should also be less muddy looking.
+    Seski:
+        Flux dissipation up to 160 from 140.
+        Mass decreased to 60 from 100 (not that this seems to do anything, but it did change).
+        Base price increased to 5,500.
+    Skinwalker:
+        Has recieved substantive improvements in it's armaments package.
+        New primary weapon - a short ranged energy beam cannon with a short pulse duration, the PBC. (Not sure how damaging this one is)
+        A single additional Shrike missile has been mounted to give a bit of extra anti ship oomph.
+        Also has fighter flares now, but these don't seem to actually do anything.
+    Added a hell of a lot of new ships;
+        Frigates:
+            The Innana class bombardment frigate - a wierd sideways scuttling ship with a heavy port arms package. System - HEF
+            The Shamash class phase frigate - a nimble little phase cloaked attack ship that works best when taking chances. System - Mines.
+        Destroyers:
+            The Sargasso class Escort Carrier - not very well defended but has a fighter enhancing sub-system. Still needs effects, d'oh! System - SWACS
+            The Lambent Medium Tanker - an automated fueling ship. Not much else to be said. - Flares
+        Cruisers:
+            The Elysium class light cruiser - absurdly mobile heavy cavalry with a somewhat unusual weapon: the Pandora Array. - System: Probably absurd burn drive variant
+            Tartarus class heavy cruiser - a stolid ship who adds some meat to Shadowyards forces. System - "Siege Mode," a defensive system that boosts shields and range, at the cost of mobility. (And whose AI is giving me some trouble)
+            The Scylla class phase cruiser - maybe just a bit dangerous. System - Hydra class phase drones.
+        Capital Ships:
+            The Mimir class Battlecruiser - the Largest of SHI's combat vessels; armed with a shockingly heavy primary weapon. System - Heavy Skimmer
+        Strike Craft:
+            Added the Raksasha class medium bomber - armed with a mirv torpedo, fairly survivable.
+    Scatter CEPC:
+        Recipient of a serious overhaul. It should now actually be rather like a shotgun as opposed to... not.
+        Has received large changes in statline as a result of this alteration.
+    The "Chaingang" CEPC, a medium pd weapon, is now availabe.
+    The so-called "Wavebeam" has been added as a large nergy weapon.
+    A multiple warhead torpedo system, the "Tusk," is available in single and double racked form.
+    Some additional small weapons have been added for SHI fighters and drones; these are the pbc, miniflak, and the Hydra Drones little peashooter.
+    Many new missions have been added:
+        Drums in the Deep - Show some Lud Cultists the door
+        They Might Be Giants - A great band. Also a mission in which a pair of Elysiums fight a rearguard action against a superior Hegemony force.
+        Misdirected - Your Onslaught has gotten lost, now you need to fight off SHI.
+        Between Scylla and Charybdis - Should probably be harder.
+        Bolivian Army Ending - This is only here because I kinda like the mission text. Probably not winnable.
+        Randum Battul - Fite! (Both for and against SHI versions available)
+    Added Shadowyards ships to the title screen and as simulation opponents.
+    Scripting updated to improve mod compatibility.
+
+
+v. 0.3.2c Changelog
+
+    Updated mod to be compatible with Starsector 0.54.1a.
+    Changed the fleet spawning system to use LazyLib; the LazyLib mod is now required for the mod to function.
+    Changed weapon balance on all CEPC type weapons.
+    All CEPC weapons are now burst firing, in order to throttle their their burst damage somewhat.
+    Light CECP:
+        Flux cost per shot has increased from 10 to 20.
+        Accuracy has been somewhat reduced (max spread from 0 to 3).
+        Shots recharged/second has been reduced from 4 to 2.5.
+    CEPC:
+        Now fires in three round bursts.
+        Flux cost has increased from 40 to 65 per shot.
+        Accuracy has been minutely reduced (max spread from 0 to 1).
+        Fire rate adjusted somewhat to account for burst firing; burst delay is 0.2, is chargedown 0.3.
+    Medium CECP:
+        Now fires in two round bursts.
+        Flux cost per shot has increased from 110 to 130.
+        Shot regen reduced to 1.5.
+        Damage increased by 5 (from 95 to 100).
+    Scatter CECP:
+        Damage has been reduced from 60 to 50.
+        Flux cost per shot increased from 65 to 100.
+    Enlil:
+        Fixed a typo in the description.
+        Increased flux capacity from 2,000 to 2,250.
+    Seski:
+        Increased flux capacity from 1,300 to 2,000.
+        Added some additional fleet types.
+
+
+v. 0.3.2b Changelog
+
+    Fixed a typo in the Skinwalker description.
+    Removed some backup files that had snuck into the zip and were bloating the files size.
+
+
+v. 0.3.2a Changelog
+
+    Charybdis improved due to finally being able access to Balance Suite:
+        FP Cost reduced from 20 to 18
+        Max Speed increased to 70, Turn Rate to 40, and Turn Acceleration to 45
+        Fuel Efficiency (like that matters) improved from 3.5 to 2.75
+        Range increased from 86 to 90 just so it's a multiple of 5.
+    Morningstar:
+        Shield Upkeep is now 0.2, Efficiency is 0.7
+        Price reduced to 11000
+    Enlil:
+        Increased speed from 90 to 110
+        Increased Acceleration and Deceleration to 80 (from 70 and 55, respectively)
+        Shield Upkeep is now 0.2, Efficiency is 0.7
+        Increased cost to 6500
+    Added the Seski Class-Corvette, with three variants, Standard, Attack, and Blockade Runner
+    All ships: Improved bounds fidelity and accuracy thanks to Trylobots ship editor (running in wine, sadly).
+    Added weapons systems:
+        The CEPC line of weapons, heavily focused on high burst damage but fairly low sustained damage (4):
+            Standard CEPC - General all purpose small energy gun
+            Light CEPC - Point Defense focused small turret, high rate of fire
+            Medium CEPC - Well rounded and deadly weapon, suited for Strike operations
+            Scatter CEPC - Murderous short ranged assault gun, fires a cone of CEPC rounds
+            I type CECP when I'm not paying attention, which caused some serious errors yesterday
+        Finished the Shrike and Blackcap line of missiles (2):
+            Shrike Missile Pod - Double barreled Shrike missile system with a reserve of twelve missiles
+            Blackcap Missile Pod - Double barreled Blackcap launcher with a reserve of twenty missiles
+    Added Missions:
+        Stricken: A small Shadowyards Security Force is attempting to evade a Hegemony taskforce; don't let them escape!
+        Nuts ta this!: As commander of a Shadowyards sponsored techmining operation, resolve a claims dispute with a similar Tri-Tachyon group... forcefully.
+
+
+0.3.1a
+
+    Updated to Starfarer 0.53a
+    Added Point Defense drones to the Charybdis.
+    Added Sensor Drones to the Morningstar.
+    Added the Enlil class Multi-Role frigate.
+    Added two missions:
+        Triune, an easy mission featuring the Enlil.
+        Insecurity, a medium difficulty mission which is essentially an all out brawl.
+    Added a couple character portraits because why not.
+    Did a little fiddling with the Shadowyards faction (their ships should now carry the Shadowyards Security [SYS] prefix now; changed their portraits because, again, why not?)
+
+
+0.3.0b
+
+    Increased Charybdis flux capacity to 12000, vents to 700, Ordnance Points to 135.
+    Increased Morningstar flux capacity to 6000, vents to 400 and added a new "standard" variant with 3 taclasers, 2 pd lasers, 2 harpoon missile racks and a heavy blaster. Old standard variant is now "anti-flux" variant.
+    Changed the Skinwalker's main weapon to an i.r. pulse laser.
+    Slightly decreased Skinwalker's turn rate; greatly increased the turn acceleration of both Skinwalker and Neriad classes.
+    Mission "Out of Your Depth": changed Vigilance class frigate to fire support, added an additional Tarsus class frieghter.
+    Mission "The Bender": replaced hostile Eagle Cruiser (Balanced) with Falcon Light Cruiser (Close Support); it should now be somewhat difficult but still doable.
+
+
+0.3.0a
+
+    Rebalanced Charybdis
+    Added Morningstar class DD and Skinwalker and Neriad Fighters
+    New Mission: Out of Your Depth
+    Added Shadowyards Heavy Industries faction to campaign mode
+    
+
+0.1.1a
+
+    Tweaked Charybdis graphic and weapons groups
+    Tweaked the Bender
+    Balance tweaks
+    
+
+0.1.0 - Initial release

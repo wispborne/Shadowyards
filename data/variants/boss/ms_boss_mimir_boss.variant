@@ -1,0 +1,69 @@
+{
+    "displayName": "Boss",
+    "fluxCapacitors": 29,
+    "fluxVents": 35,
+    "hullId": "ms_boss_mimir",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods":[
+        "targetingunit",
+        "missleracks",
+        "eccm",
+        "fluxbreakers"
+    ],
+    "quality": 1,
+    "variantId": "ms_boss_mimir_boss",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_gug_blastr"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "hurricane",
+                "WS0031": "ms_tusk_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ms_wamgun",
+                "WS0005": "heavymauler",
+                "WS0006": "ms_slowbeamM",
+                "WS0008": "ms_scattercepc",
+                "WS0009": "ms_scattercepc",
+                "WS0032": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "multineedler",
+                "WS0010": "lightneedler",
+                "WS0012": "lightneedler",
+                "WS0014": "lightneedler",
+                "WS0015": "lightneedler",
+                "WS0011": "chaingun",
+                "WS0029": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ms_spreadbeam",
+                "WS0013": "ms_spreadbeam",
+                "WS0016": "ms_spreadbeam",
+                "WS0028": "ms_pdcepc",
+                "WS0030": "heatseeker"
+            }
+        }
+    ]
+}

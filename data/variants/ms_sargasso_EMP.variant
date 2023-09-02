@@ -1,0 +1,34 @@
+{
+    "displayName": "Overload",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_sargasso",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_sargasso_EMP",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "ms_lempGun"}
+        }
+    ],
+    "wings": [
+        "ms_kobold_wing",
+        "ms_wraith_wing"
+    ]
+}

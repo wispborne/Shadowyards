@@ -1,0 +1,170 @@
+{
+  "bounds": [
+    -38.5,
+    81.5,
+    44.5,
+    91,
+    29,
+    70,
+    51.5,
+    30,
+    51.5,
+    -16,
+    29,
+    -56,
+    44.5,
+    -77,
+    -38.5,
+    -67.5
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "ms_harShields"
+  ],
+  "center": [
+    95,
+    61.5
+  ],
+  "collisionRadius": 186.5,
+  "engineSlots": [],
+  "height": 116,
+  "hullId": "ms_module_gunplatform_R",
+  "hullName": "Module, Combat",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    -51,
+    1
+  ],
+  "shieldCenter": [
+    -129,
+    -0
+  ],
+  "shieldRadius": 241,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_gunModuleS_R.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -3.5,
+      "arc": 140,
+      "id": "WS0001",
+      "locations": [
+        21.5,
+        -68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 3.5,
+      "arc": 140,
+      "id": "WS0002",
+      "locations": [
+        21.5,
+        68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 140,
+      "id": "WS0003",
+      "locations": [
+        41.5,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 140,
+      "id": "WS0004",
+      "locations": [
+        41.5,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -3.5,
+      "arc": 120,
+      "id": "WS0005",
+      "locations": [
+        -18.5,
+        -67.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 3.5,
+      "arc": 120,
+      "id": "WS0006",
+      "locations": [
+        -18.5,
+        67.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 140,
+      "id": "WS0007",
+      "locations": [
+        22,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 140,
+      "id": "WS0008",
+      "locations": [
+        -23.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -2,
+      "arc": 90,
+      "id": "WS0009",
+      "locations": [
+        3,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 2,
+      "arc": 90,
+      "id": "WS0010",
+      "locations": [
+        3,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 190
+}

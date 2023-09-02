@@ -1,0 +1,9 @@
+{
+	"id":"ms_tagSystem",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_tagAI",
+	
+	"weaponDataId":"ms_tag",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

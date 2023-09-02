@@ -1,0 +1,28 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_elysium_P",
+    "hullMods": [
+        "insulatedengine",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_elysium_P_FS",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "heatseeker",
+            "WS0002": "lightdualac",
+            "WS0003": "lightdualac",
+            "WS0004": "heatseeker",
+            "WS0005": "lightdualmg",
+            "WS0006": "lightdualmg",
+            "WS0007": "heavyac",
+            "WS0008": "mark9"
+        }
+    }]
+}

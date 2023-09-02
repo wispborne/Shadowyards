@@ -1,0 +1,31 @@
+{
+    "displayName": "Overload",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna",
+    "hullMods": [
+        "fluxbreakers",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "variantId": "ms_inanna_EMP",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_stormBlaster",
+                "WS0003": "ms_stormBlaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_lempGun",
+                "WS0005": "ms_lempGun"
+            }
+        }
+    ]
+}

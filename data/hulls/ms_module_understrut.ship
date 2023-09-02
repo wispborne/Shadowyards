@@ -1,0 +1,40 @@
+{
+  "bounds": [
+    -76,
+    62.5,
+    84.5,
+    39.5,
+    84.5,
+    -39.5,
+    -76,
+    -62.5
+  ],
+  "builtInMods": [
+    "vastbulk",
+    "never_detaches"
+  ],
+  "center": [
+    73,
+    85
+  ],
+  "collisionRadius": 119.5,
+  "engineSlots": [],
+  "height": 185,
+  "hullId": "ms_module_understrut",
+  "hullName": "Brace",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    0,
+    1
+  ],
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 130.5,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_understrut.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 146
+}

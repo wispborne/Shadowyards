@@ -1,0 +1,35 @@
+{
+    "displayName": "Partisan",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_shamash",
+    "hullMods": [
+        "auxiliarythrusters",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "ms_shamash_Starter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_shrike_rack"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_phasegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_cepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ms_pdcepc"}
+        }
+    ]
+}

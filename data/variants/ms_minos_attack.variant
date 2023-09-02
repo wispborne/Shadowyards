@@ -1,0 +1,47 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ms_minos",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_minos_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "ms_tusk_pod",
+                "WS0004": "ms_tusk_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_splinter_launcher",
+                "WS0002": "ms_splinter_launcher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_scattercepc",
+                "WS0006": "irpulse",
+                "WS0007": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser"
+            }
+        }
+    ]
+}

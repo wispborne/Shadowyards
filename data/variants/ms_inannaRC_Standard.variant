@@ -1,0 +1,30 @@
+{
+    "displayName": "Common",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna_vayra_revolutionary",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_inannaRC_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vulcan",
+                "WS0005": "vulcan"
+            }
+        }
+    ]
+}

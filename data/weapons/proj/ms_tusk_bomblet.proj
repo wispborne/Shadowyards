@@ -1,0 +1,40 @@
+{
+	"id":"ms_tusk_bomblet",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/shadow_weapons/missiles/ms_bomblet.png",
+	"size":[12,9],	
+	"center":[6,4.5],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"maxFlightTime":1.5,	
+	"engineSpec":{"turnAcc":280,
+				  "turnRate":140,
+				  "maxSpeed":300,
+				  "acc":400,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+                                    #"styleId":"ShadowyardsFlare",
+                                        "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[210,125,105,215],
+						"contrailDuration":0.35,
+						"contrailWidthMult":0.4,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.1, # how far away from engine it starts
+						"contrailColor":[255,150,100,100],
+						"glowSizeMult":2,
+						"glowAlternateColor":[255,200,175,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

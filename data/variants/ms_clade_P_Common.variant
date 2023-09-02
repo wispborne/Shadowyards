@@ -1,0 +1,44 @@
+{
+    "displayName": "Common",
+    "fluxCapacitors": 7,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "ms_clade_P",
+    "hullMods": [
+        "armoredweapons",
+        "blast_doors",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_clade_P_Common",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ioncannon",
+                "WS0003": "ioncannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "irpulse"
+            }
+        }
+    ]
+}

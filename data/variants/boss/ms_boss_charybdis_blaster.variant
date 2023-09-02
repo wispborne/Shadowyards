@@ -1,0 +1,58 @@
+{
+    "displayName": "Blaster",
+    "fluxCapacitors": 9,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "ms_boss_charybdis",
+    "hullMods": [
+        "blast_doors",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "variantId": "ms_boss_charybdis_blaster",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "annihilatorpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker",
+                "WS0028": "heatseeker",
+                "WS0029": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_cepc",
+                "WS0006": "ms_scattercepc",
+                "WS0007": "ms_scattercepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "msp_heckler_wing",
+        "msp_heckler_wing",
+        "msp_heckler_wing"
+    ]
+}

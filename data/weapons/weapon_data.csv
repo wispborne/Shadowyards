@@ -1,0 +1,100 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Shadowyards,,,,,,,,,,,,
+Blackcap Rotary Launcher,ms_blackcap_6x,0,,210,1200,,300,,25,75,4,16,,,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,450,100,6,35,ANTI_FTR,"strike2, missile5, sra_aux_bp",,Shadowyards,,Anti Fighter,Fast,Good,,,,,,,,5201.2
+Blackcap Pod,ms_blackcap_pod,1,,1800,1200,,300,,25,75,10,32,,,HIGH_EXPLOSIVE,0,,0,3,3,0.5,0,0,0,0,,450,100,6,35,ANTI_FTR,"strike2, missile5, sra_aux_bp",,Shadowyards,,Anti Fighter,Fast,Good,,,,,,,,5201.3
+Stiletto ASM (Single),ms_shrike_single,0,,50,2000,,750,150,300,30,1,1,,,KINETIC,0,,0,1,1,,0,0,0,,,800,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR","strike10, missile8, kinetic7, sra_bp",,Shadowyards,,Strike,Fast,Poor,,,,,,,,5202.1
+Stiletto ASM,ms_shrike_rack,1,,250,2000,,750,150,300,30,5,3,,,KINETIC,0,,0,1,1,,0,0,0,,,800,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR","strike10, missile8, kinetic7, sra_bp",,Shadowyards,,Strike,Fast,Poor,,,,,,,,5202.2
+Stiletto ASM Pod,ms_shrike_pod,2,,2100,2000,,750,150,300,30,10,12,,,KINETIC,0,,0,8,3,0.5,0,0,0,0,,800,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR","strike10, missile8, kinetic7, sra_bp",,Shadowyards,,Strike,Fast,Poor,,,,,,,,5202.3
+Tusk Torpedo (Single),ms_tusk_single,1,,200,1200,,100,,50,10,3,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,125,4,275,GUIDED_POOR,"strike15, missile9, sra_high_bp",,Shadowyards,,Torpedo,Medium,Medium,,,,,,,,5208.1
+Tusk Torpedo Rack,ms_tusk_rack,2,,400,1200,,100,,50,10,6,2,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,125,4,275,GUIDED_POOR,"strike15, missile9, sra_high_bp",,Shadowyards,,Torpedo,Medium,Medium,,,,,,,,5208.2
+Narwahl Tusk Launcher,ms_tusk_pod,2,,2200,1200,,100,,50,10,10,5,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,400,125,4,275,GUIDED_POOR,"strike15, missile9, sra_high_bp",,Shadowyards,,Torpedo,Medium,Medium,,,,,,,,5208.3
+Barrago LRM,ms_barrago,1,,850,10000,,500,,10,10,12,30,0.1,2,KINETIC,0,0,0,15,2,0.4,0,0,0,0,,70,40,120,50,"DO_NOT_AIM, CONSERVE_1","utility13, missile7, sra_aux_bp",,Shadowyards,,Long Range Support,Fast,Poor,,,,,,,,5217
+Light CEPC,ms_pdcepc,0,,200,350,,30,,2,50,4,60,2.5,5,ENERGY,4,,0,0.2,5,0.1,0,5,1,15,,800,,,10,"PD, ANTI_FTR","pd4, energy5, SR, sra_bp",,Shadowyards,,Point Defense,,,,,,,,,,5203.1
+CEPC,ms_cepc,0,,300,675,,100,,3,40,6,30,1.35,3,ENERGY,110,,0,1.2,3,0.2,4,8,4,10,,800,,,30,,"energy7, sra_bp",,Shadowyards,,General,,,,,,,,,,5204
+Medium CEPC,ms_mcepc,2,,2250,800,,200,,8,15,14,20,0.85,2,ENERGY,220,,0,1.1,2,0.25,3,6,2,10,,800,,,30,,"energy10, sra_bp",,Shadowyards,,General,,,,,,,,,,5205
+Scatter CEPC,ms_scattercepc,2,0.6,2500,650,,800,200,8,14,12,4,0.2,,ENERGY,800,,0.2,0.4,1,,12,20,9,40,,800,,,30,,"energy10, strike8, sra_bp",,Shadowyards,,Strike (Area),,,,,"Fires a single %s damage shot and ten %s damage, %s EMP damage submuntions",400 | 40 | 20,,,,5206
+Wavepulse Cannon,ms_wamgun,1,,7500,800,,300,,25,15,20,,,,ENERGY,300,,,0.75,,,0,0,0,10,,800,,,30,"STRIKE,USE_VS_FRIGATES","energy10, strike1, sra_bp",,Shadowyards,,General,,,,,Has a %s chance to cause %s extra energy damage to unshielded ships ,20% | 200,,,,5207
+'Chaingang' CEPC,ms_chaingang,0,,1750,350,,30,,2,30,10,60,5,20,ENERGY,4,,0,0.8,20,0.025,0,5,0.25,15,,800,,,10,"PD, ANTI_FTR","pd6, energy9, SR, sra_aux_bp",,Shadowyards,,Point Defense,,,,,,,,,,5203.2
+Splinter Rocket Launcher,ms_splinter_launcher,0,,150,800,,200,25,20,20,5,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.1,0,0,0,0,,450,100,2,50,CONSERVE_1,"rocket7, strike0, sra_aux_bp",,Shadowyards,,Pressure,Fast,None,,,,,,,,5209
+Splinter Rocket Pod,ms_splinter_pod,1,,1400,800,,200,25,20,20,10,120,,,HIGH_EXPLOSIVE,0,,0,5,8,0.1,0,0,0,0,,450,100,2,50,CONSERVE_1,"rocket13, strike0, sra_aux_bp",,Shadowyards,,Pressure,Fast,None,,,,,,,,5209.2
+Polarizer,ms_lempGun,2,0.8,800,500,,30,300,15,25,6,,,,ENERGY,60,,0.5,1.5,,,0,0,0,0,,1000,,,100,"PD,PD_ALSO","energy13, sra_high_bp",,Shadowyards,,Point Defense (Area),,,,,"Bursts when near missiles or ships, dealing %s energy damage and %s EMP damage.",30 | 300,,,,5210
+Heavy Polarizer,ms_hempGun,2,0.3,9000,800,,150,1500,50,12,22,,,,ENERGY,200,,0.5,1.5,,,0,0,0,0,,1000,,,150,"PD,PD_ALSO","energy15, sra_high_bp",,Shadowyards,,Point Defense (Area),,,,,"Bursts when near missiles or ships, dealing %s energy damage and %s EMP damage.",150 | 1500,,,,5211
+Murti CAS Beam,ms_slowbeamM,1,0.6,2750,650,650,,,1450,24,12,,,,HIGH_EXPLOSIVE,,400,0.5,0.5,2,6,0,0,0,0,2200,,,,,"STRIKE,USE_VS_FRIGATES","strike9, beam7, he2, sra_high_bp",,Shadowyards,,Anti Armor,,,,,"Stalls enemy ships and interferes with control systems, pinning targets in place",,,,,5213
+Deva Heavy CAS Beam,ms_slowbeamH,2,0.3,8500,750,1600,,,2700,15,26,,,,HIGH_EXPLOSIVE,,1000,0.75,0.5,2.5,7.75,0,0,0,0,2200,,,,,STRIKE,"strike12, beam10, he5, sra_high_bp",,Shadowyards,,Anti Armor,,,,,"Stalls enemy ships and interferes with control systems, pinning targets in place",,,,,5214
+Urumi Fan Laser,ms_spreadbeam,1,,400,500,400,,,0,50,8,3,0.5,,ENERGY,,300,0.1,0.1,0.4,0.35,3,10,,,9000,,,,,PD,"pd8, beam6, sra_aux_bp",,Shadowyards,,Point Defense,,,,,,,,,,5215
+Trishula Tactical Laser,ms_trishula,0,,200,850,90,,,0,22,4,,,,ENERGY,,100,0.1,0.1,,,,,,,3000,,,,,,"beam7, sra_aux_bp",,Shadowyards,,General,,,,,,,,,,5216
+Storm Blaster,ms_stormBlaster,0,,900,525,,100,,4,30,10,,,,FRAGMENTATION,30,,0.25,1.25,20,0.05,0,20,1,7,,800,,,30,"PD,PD_ALSO","he11, sra_bp",,Shadowyards,,Suppression (Area),,,,,"Particle packets burst late in the packets lifetime, causing higher damage under a certain range.",,,,,
+Apiary Hive Missile,ms_synaptic,1,0.5,4500,2500,,500,,50,10,18,5,0.05,,FRAGMENTATION,,,0,5,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, ANTI_FTR","missile18, strike10, sra_aux_bp",,Shadowyards,,Anti Fighter (Area),Medium,Good,,,Produces a shockwave while splitting that can push smaller ships.,,,,TRUE,16
+Kamal Particle Dart,ms_particleDart,2,0.8,500,1100,600,,,0,15,6,,,,ENERGY,,750,0.2,0.5,1,3.3,0,0,0,,10000,,,,,"STRIKE,USE_VS_FRIGATES","energy5,strike7,sra_high_bp",,Shadowyards,,Sniper Beam,,,,,Beam follows a leader projectile that deals %s of the weapons DPS on successful hit.,20.00%,,,,
+Mughal Particle Lance,ms_particleLance,2,0.6,6500,1300,1950,,,0,8,24,,,,ENERGY,,2200,0.2,0.5,1,5.8,0,0,0,,10000,,,,,"STRIKE,USE_VS_FRIGATES","energy10,strike12,sra_high_bp",,Shadowyards,,Sniper Beam,,,,,Beam follows a leader projectile that deals %s of the weapons DPS on successful hit.,20.00%,,,,
+Lockdown HMG,ms_lockdown,3,0.3,800,600,,30,120,1,20,10,,,,KINETIC,30,,0,1.92,10,0.12,5,15,2,15,,750,,,10,,"kinetic9, sra_export_bp",,Shadowyards,,General,,,,,,,,,,3.65
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Mass/Bubble Projector,ms_phasegun,0,,8000,600,,400,,100,0,12,3,0.375,3,ENERGY,350,,0,0.2,1,0,0,0,0,0,,600,,,30,"STRIKE, USE_VS_FRIGATES, SYSTEM, SHOW_IN_CODEX",,,Shadowyards,,General (Area),,,,,,,,,,5701
+Pandora Array,ms_pandora,0,,20000,900,,200,,0,15,22,,,,HIGH_EXPLOSIVE,175,,0.5,10,1,0,4,10,0,0,,4000,,,30,"STRIKE, SYSTEM, SHOW_IN_CODEX",,,Shadowyards,,Anti Armor,,,,,,,,,,5702
+Phase Mine,ms_phasemine1,0,,3000,5000,,750,,0,0,,,,,KINETIC,200,,0,0,0,0,0,0,0,0,,,,,500,SYSTEM,,,,,,,,,,,,,,,5703
+Particle Cannon,ms_pbc,0,,150,500,,35,,2,50,5,,,,ENERGY,22.5,,0.1,0.2,1,0,0,0,0,,,2000,,,30,"SYSTEM, STRIKE, USE_VS_FRIGATES, ANTI_FTR",,,,,,,,,,,,,,,5704
+Nídhöggr Lance,ms_rhpbc,0,,25000,1200,,8000,750,1000,10,25,1,0.083333333,1,ENERGY,6000,,4,12,,,0,0,,,,1000,,,30,"SYSTEM, SHOW_IN_CODEX",,,Shadowyards,,Anti Armor,,,,,"Penetrates unshielded hull, dealing %s of the shots base damage at intervals up to the total strength of the hit.",20.00%,,,,5705
+Mini Flak,ms_miniflak,0,,150,400,,12,,2,50,0,10,2.5,10,FRAGMENTATION,3,,0,0.25,1,0,6,12,1,,,900,,,30,"SYSTEM, PD",,,,,Point Defense,,,,,,,,,,5706
+WavebeamComp,ms_2wave,0,,7500,750,,45,,25,20,,,,,KINETIC,0,,0.5,,,,,,0,10,,800,,,30,SYSTEM,,,,,,,,,,,,,,,Wavebeam Component
+Phased Graviton Beam,ms_phasebeam,0,,9000,900,100,,20,600,10,10,,,,KINETIC,,125,0.25,0.75,,,,,,,2000,,,,,SYSTEM,,,,,General,,,,,,,,,,5707
+Phase Drone Gun,ms_phzdn_gun,0,,200,450,,30,,2,50,8,,,,HIGH_EXPLOSIVE,50,,0,0.2,5,0.1,3,7,0,15,,1000,,,10,"SYSTEM, PD",,,,,,,,,,,,,,,5708
+Bit Gun,ms_bitgun,0,,50,500,,15,,2,50,2,,,,ENERGY,7.5,,0.1,0.2,1,0,0,0,0,,,2000,,,30,"SYSTEM, PD",,,,,,,,,,,,,,,5709
+Type 17 AC,ms_neriad_gun,0,,200,450,,40,,,50,4,,,,FRAGMENTATION,10,,0,0.3,10,0.08,9,20,4,20,,1500,,,10,"SYSTEM, STRIKE, USE_VS_FRIGATES, ANTI_FTR",,,,,,,,,,,,,,,5710
+Splinter Rocket Launcher,ms_splinterKol,0,,150,800,,200,,20,30,3,12,,,KINETIC,0,,0,0.1,1,0,0,0,0,0,,450,200,2,50,"SYSTEM, CONSERVE_1",,,,,,,,,,,,,,,5711
+Barbette PD System,ms_pdburstCustom,0,,200,500,200,,150,0,100,3,,,,ENERGY,,150,0.1,0.1,0.3,0.1,,,,,10000,,,,,"SYSTEM,PD_ONLY,ANTI_FTR",,,,,,,,,,,,,,,5712
+Auto Flak,ms_autoflak,0,,210,400,,25,,4,75,0,10,2.5,10,FRAGMENTATION,12,,0,0.25,1,0,6,12,1,,,900,,,30,"SYSTEM, PD",,,Shadowyards,,Point Defense,,,,,,,,,,5706
+Bit Blaster,ms_bitblaster,0,,60,550,125,,,,50,,,,,ENERGY,,100,0,0.1,0.1,0.1,10,18,,,40000,,,,,"SYSTEM, PD",,,,,,,,,,,,,,,
+Micro PD Missile,ms_pdMissile,0,,200,1000,,75,,5,50,,50,,,FRAGMENTATION,,,,3,0,0.2,0,0,0,0,,400,175,5,25,"SYSTEM,PD_ONLY,ANTI_FTR",,,,,,,,,,,,,,,
+Crawler Beam,ms_slowMini,1,,200,400,70,,,15,65,4,,,,HIGH_EXPLOSIVE,,85,0.1,0.1,1,1,0,0,0,0,3000,,,,,"SYSTEM,USE_VS_FRIGATES","strike1, beam3",,,,,,,,,,,,,,5722
+Shrike ASM (Fighter),ms_shrike_skinwalker,0,,50,2000,,750,150,300,30,1,1,0.022222222,,KINETIC,0,,0,1,1,,0,0,0,,,800,250,3,100,"SYSTEM,STRIKE,USE_VS_FRIGATES,GUIDED_POOR","strike10, missile8, kinetic7",,,,,,,,,,,,,,5202.1
+Blackcap Launcher (Fighter),ms_blackcap_3x,0,,80,1200,,300,,25,75,2,2,0.066666667,,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,450,100,6,35,"SYSTEM, ANTI_FTR","strike2, missile5",,,,,,,,,,,,,,5201.1
+Mining Pulse,ms_miniminer,0,,50,500,,60,,0,9,0,,,,ENERGY,90,,,2,,,,,,,,1000,,,,SYSTEM,energy6,,,,,,,,,,,,,,
+Mega Chain CEPC,ms_gigacepc,2,,2250,800,,150,,8,15,14,60,2,20,ENERGY,150,,0,2,20,0.05,5,10,2,10,,800,,,30,"SYSTEM, SHOW_IN_CODEX",energy10,,Shadowyards,,,,,,,,,,,,5205
+CAS Assault Beam,ms_slowShiki,1,,2500,500,350,,,250,24,12,,,,HIGH_EXPLOSIVE,,20,0.1,0.6,0.7,0.1,0,0,0,0,2200,,,,,"SYSTEM,STRIKE,USE_VS_FRIGATES,ANTI_FTR","strike6, beam5, he",,,,,,,,,,,,,,5213
+Micro Lance,ms_microLance,0,,4000,1000,,1000,150,250,,14,1,0.0625,1,ENERGY,20,,,10,,,0,0,,,,1000,,,30,"SYSTEM,STRIKE,USE_VS_FRIGATES",,,,,,,,,,,,,,,5705
+Mining Blaster,ms_mbvulgar,0,,1000,500,,700,,0,7,10,1,,,ENERGY,,,,,,,,,,,,1000,,,,"SYSTEM,STRIKE,USE_VS_FRIGATES",energy12,,,,General,,,,,,,,,,22.125
+Apis Swarm Missile,ms_swarm_mssl,0,,120,800,,150,,20,,,,,,FRAGMENTATION,0,,0,0.1,1,0,0,0,0,0,,450,200,4,150,SYSTEM,,,,,,,,,,,,,,,5711
+Hofud Assault Blaster,ms_gug_blastr,0,,30000,750,,2000,1000,2000,10,30,3,0.25,1,ENERGY,2000,,0.2,1,3,0.35,4,12,3,0.5,,800,,,,SYSTEM,,,Madmen,,Assault,,,,,,,,,,5734
+Ghostfire Blaster,ms_dullahan_ghostfire,0,,500,1200,,20,20,,30,0,,,,ENERGY,0,,0.05,0.5,2,0.05,10,20,4,1,,400,,,,SYSTEM,,,,,,,,,,,,,,,5735
+Wavepulse Repeater,ms_rapidwave,2,,15000,1000,,400,,15,15,20,,,,ENERGY,400,,,1.55,3,0.15,0,8,1,1,,800,,,,"SYSTEM, SHOW_IN_CODEX",energy8,,Shadowyards,,,,,,,Has a %s chance to cause %s extra energy damage to unshielded ships ,20% | 200,,,,
+Mega Chain CEPC,ms_gigacepc_red,2,,2250,800,,150,,8,15,14,60,2,20,ENERGY,150,,0,2,20,0.05,5,10,2,10,,800,,,30,SYSTEM,energy10,,Shadowyards,,,,,,,,,,,,5205
+Derazho Object,ms_derazhoObject,0,,20000,700,,400,,0,15,,1,0.2,,ENERGY,800,,4.5,1,1,0,4,10,0,0,,600,,,30,"STRIKE, SYSTEM, SHOW_IN_CODEX",energy8,,Shadowyards,,Suppression (Area),,,,,Splits into multiple wandering blits which explode for %s damage after  %s to %s seconds.,400 | 2 | 3,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scatter Shot,ms_scattercepc_clone,1,,0,650,,400,0,8,14,12,,4,20,ENERGY,800,,0,1.2,1,0.1,0,0,0,40,,800,,,30,SYSTEM,,,,,,,,,,,,,,,
+Scatter Shot B,ms_scattercepc_emp,1,,0,650,,40,20,,14,12,,,,ENERGY,800,,0,1.2,1,0.1,0,0,0,40,,800,,,30,SYSTEM,,,,,,,,,,,,,,,
+Barrago Stage 2,ms_barrago_lrm_s2,1,,0,7750,,200,0,10,10,12,30,0.1,2,HIGH_EXPLOSIVE,0,,0,19,1,0.1,0,0,0,0,,400,100,80,50,SYSTEM,,,,,,,,,,,,,,,
+Barrago shatter,ms_barrago_lrm_shatter_clone,0,,0,450,,25,,,,,,,,KINETIC,,,0,0,1,,,,,,,150,,,,SYSTEM,,,,,,,,,,,,,,,
+Spark,ms_spark,0,,400,900,,150,,50,85,,,,,ENERGY,,,,,,,0,0,0,,,150,,,99999,SYSTEM,,,,,,,,,,,,,,,Pandora Sparks
+dart leader,ms_dartLeader,1,,0,800,,30,,,14,12,,,,ENERGY,0,,0,0,0,0,0,0,0,40,,2000,,,30,SYSTEM,,,,,,,,,,,,,,,
+lance leader,ms_lanceLeader,1,,0,800,,61,,,14,12,,,,ENERGY,0,,0,0,0,0,0,0,0,40,,2000,,,30,SYSTEM,,,,,,,,,,,,,,,
+Arc,ms_pandoraEmitter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,ElysiumEMPSpawner
+ArcTarget,ms_pandoraEmitterTarg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,ElysiumEMPTarget
+Pod,ms_swpod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,Skinwalker Command Pod
+Pod,ms_rakpod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,Raksasha Command Pod
+Blinky,ms_blinky,,,,1,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,blinkinlights
+BlinkyB,ms_blinkyB,,,,1,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,blinkinlights
+Mimir Core,ms_coreGlow,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Charge,ms_rhpbc_chargeAnim,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Heat,ms_rhpbc_heat,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Flash,ms_rhpbc_muzzle,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Zaps,ms_rhpbc_chargeZap,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Inverter,ms_mimvert,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Mimir Zappadappa,ms_mimZap,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Thruster,ms_enThrust,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+tnCap,ms_enCapTiny,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+smCap,ms_enCapSmall,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+mdCap,ms_enCapMid,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+lgCap,ms_enCapLarge,0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+strander,ms_strander,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,blinkinlights
+Spark,ms_derazhoSpark,0,,400,450,,400,,50,85,,,,,ENERGY,,,,,,,0,0,0,,,150,,,99999,SYSTEM,,,,,,,,,,,,,,,Pandora Sparks
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dreamcatcher Flare Launcher,ms_swflares,,,,300,,10,50,,,,,0,,ENERGY,0,0,0,0.1,3,0.1,30,30,0,0,,150,200,5,1,SYSTEM,,,,,,,,,,,,,,,37
+Stopper,ms_stopper1,,,,800,,1,1,100,,,,,,ENERGY,0,0,0,10,1,0.1,9,18,0,40,,800,,,30,SYSTEM,,,,,,,,,,,,,,,38
+TAG Launcher,ms_tag,,,,1000,,,,20,,,,,,KINETIC,0,0,0.1,40,1,0.1,5,10,0,10,,700,,,30,SYSTEM,,,,,,,,,,,,,,,
+Siren Flare Launcher,ms_flare_shamash,,,,500,,100,200,,,,,0,,FRAGMENTATION,0,0,0,0.1,2,0.25,90,90,0,0,,300,200,7,1,SYSTEM,,,,,,,,,,,,,,,38
+Flux Dumper,ms_dumper,,,,500,,250,500,,,,2,0.0175,,ENERGY,0,0,0,2,1,,15,30,0,0,,150,200,5,1,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dummy Lance,ms_rhpbc_replacement,0,,25000,1200,,8000,750,1000,,25,,,,ENERGY,12000,,4,12,,,0,0,,,,1000,,,30,SYSTEM,,,,,,,,,,,,,,,5705
+Glow Lance,ms_rhpbc_glow,0,,25000,1200,,0,0,0,,25,,,,ENERGY,0,,4,12,,,0,0,,,,1000,,,30,SYSTEM,,,,,,,,,,,,,,,5705
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nídhöggr Lance,ms_rhpbc_turr,0,,25000,1200,,8000,750,1000,10,25,1,0.0625,1,ENERGY,6000,,1,15,,,0,0,,,,1000,,,30,SYSTEM,,,,,Anti Armor,,,,,,,,,,5705

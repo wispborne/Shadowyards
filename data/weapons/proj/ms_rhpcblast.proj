@@ -1,0 +1,16 @@
+{
+	"id":"ms_rhpcblast",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":19.0,
+	"width":19.0,
+	"hitGlowRadius":60,
+	"fadeTime":0.22,
+	"fringeColor":[197,210,191,255],
+	"coreColor":[234,251,234,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/ms_nidhoggr.png"
+}

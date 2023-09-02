@@ -1,0 +1,32 @@
+{
+    "displayName": "Miner",
+    "fluxCapacitors": 4,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "ms_cetus",
+    "hullMods": ["heavyarmor"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ms_cetus_miner",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_trishula"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["ms_dromedary_wing"]
+}

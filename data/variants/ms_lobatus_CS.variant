@@ -1,0 +1,45 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_lobatus",
+    "hullMods": ["advancedoptics"],
+    "permaMods": [],
+    "variantId": "ms_lobatus_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ms_chaingang",
+                "WS0009": "ms_chaingang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_trishula",
+                "WS0002": "ms_trishula"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_spreadbeam",
+                "WS0004": "ms_spreadbeam",
+                "WS0005": "ms_lempGun"
+            }
+        }
+    ]
+}

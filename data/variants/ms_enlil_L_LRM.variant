@@ -1,0 +1,34 @@
+{
+    "displayName": "Ranged Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_enlil_L",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_enlil_L_LRM",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "railgun",
+                "WS0003": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ]
+}

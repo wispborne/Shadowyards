@@ -1,0 +1,8 @@
+{
+	"id":"ms_flare_shamash",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"ms_flare_shamash",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

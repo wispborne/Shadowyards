@@ -1,0 +1,48 @@
+{
+	"baseHullId":"ms_solidarity",
+	"skinHullId":"ms_solidarity_P",
+	"hullName":"Solidarity (P)",
+	"descriptionId":"ms_solidarity",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/shadow_ships/ships/solidarity/ms_solidarity_P.png",
+	"baseValueMult":.8,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["ms_harShields"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0002":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0003":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0004":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "COMPOSITE"
+	   },
+	   "WS0005":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }
+    },
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "msp_southpaw",
+    "hullMods": [
+        "blast_doors",
+        "turretgyros",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "msp_southpaw_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "phasebeam",
+                "WS0002": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "ms_shrike_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "lightmg"}
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "bounds": [
+    -8.5,
+    -0,
+    3.5,
+    8.5,
+    3.5,
+    -8.5
+  ],
+  "center": [
+    10,
+    9.5
+  ],
+  "collisionRadius": 14.603082,
+  "engineSlots": [
+    {
+      "angle": -170.362457,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -3.5,
+        -3
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 170.362457,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -3.5,
+        3
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 16,
+  "hullId": "ms_scandrone",
+  "hullName": "Scandrone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 12.747549,
+  "spriteName": "graphics/shadow_ships/ships/drones/ms_scandrone.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        4.5,
+        -2.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 20
+}

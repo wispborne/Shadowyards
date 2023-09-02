@@ -1,0 +1,35 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 8,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ms_sargasso_L",
+    "hullMods": ["blast_doors"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_sargasso_L_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0002": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "lrpdlaser"}
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "warthog_wing"
+    ]
+}

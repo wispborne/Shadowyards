@@ -1,0 +1,45 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 1250,
+  "everyFrameEffect": "data.scripts.weapons.MS_ArmorPiercePlugin",
+  "fireSoundOne": "nidhoggr_shortcharge",
+  "fireSoundTwo": "nidhoggr_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    5,
+    0
+  ],
+  "hardpointSprite": "",
+  "id": "ms_rhpbc_turr",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "particleColor": [
+      160,
+      220,
+      160,
+      255
+    ],
+    "particleCount": 14,
+    "particleDuration": 0.12,
+    "particleSizeMin": 6,
+    "particleSizeRange": 6,
+    "spread": 0
+  },
+  "projectileSpecId": "ms_rhpcblast",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    61.5,
+    4
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/lanceTurret/ms_lance_turret.png",
+  "type": "ENERGY"
+}

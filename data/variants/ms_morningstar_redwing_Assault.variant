@@ -1,0 +1,43 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 15,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "ms_morningstar_redwing",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_morningstar_redwing_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "ms_splinter_launcher",
+                "WS0008": "ms_splinter_launcher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "ms_slowbeamM"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_lempGun",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": ["ms_neriad_wing"]
+}

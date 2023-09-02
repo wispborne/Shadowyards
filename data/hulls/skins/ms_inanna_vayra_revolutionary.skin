@@ -1,0 +1,42 @@
+{
+	"baseHullId":"ms_inanna",
+	"skinHullId":"ms_inanna_vayra_revolutionary",
+	"hullName":"Inanna (RC)",
+	"descriptionId":"ms_inanna",  # optional
+	"descriptionPrefix":"This vessel bears the markings of the verbosely named Persean Democratic Revolutionary People's Council, and has undergone extensive modifications.",
+	"hints":["HIDE_IN_CODEX"],
+	"tags":["revolutionary"],
+	"tech":"Red Guards",
+	"spriteName":"graphics/shadow_ships/ships/inanna/ms_inannaRC.png",
+	"ordnancePoints":50,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0003":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0002":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0005":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }
+    },
+}

@@ -1,0 +1,36 @@
+{
+	"id":"ms_splinter_rocket",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/shadow_weapons/missiles/ms_splinter.png",
+	"size":[4,14],	
+	"center":[2,6],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual	
+	"engineSpec":{"turnAcc":180,
+				  "turnRate":45,
+				  "acc":400,
+				  "dec":0},
+	"engineSlots":[
+	                {"id":"ES1",
+			"loc":[-6, 0],
+			"style":"CUSTOM",
+                        "styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[210,125,105,215],
+                            "contrailDuration":1,
+                            "contrailWidthMult":1,
+                            "contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailMinSeg":30, # min segment length, in pixels
+                            "contrailMaxSpeedMult":1f,
+                            "contrailAngularVelocityMult":1f,
+                            "contrailColor":[85,35,50,30],
+                            "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                        },
+			"width":4.0,
+			"length":30.0,
+			"angle":180.0}
+	              ]
+}

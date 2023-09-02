@@ -1,0 +1,45 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "everyFrameEffect":"data.scripts.weapons.MS_ShotMaster",
+  "fireSoundTwo": "cepc_hvy",
+  "frameRate": 20,
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    16.5,
+    0
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/gigacepc/ms_giga_cepc_red_00.png",
+  "hardpointSprite": "graphics/shadow_weapons/weapons/gigacepc/ms_giga_cepc_red_00.png",
+  "id": "ms_gigacepc_red",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "particleColor": [
+      250,
+      135,
+      75,
+      255
+    ],
+    "particleCount": 20,
+    "particleDuration": 0.05,
+    "particleSizeMin": 8,
+    "particleSizeRange": 20,
+    "spread": 0.4
+  },
+  "numFrames": 4,
+  "projectileSpecId": "ms_gigacepc_blast",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    2.5,
+    0
+  ],
+  "type": "ENERGY"
+}

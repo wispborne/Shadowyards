@@ -1,0 +1,148 @@
+id,trigger,conditions,script,text,options,notes
+# SHI fleet greeting lines,,,,,,
+greetingSHINeutral,OpenCommLink,"$faction.id == shadow_industry
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Got you on scan, Captain and are monitoring you.  Keep your distance.""",,
+greetingSHIHostileWeaker,OpenCommLink,"$faction.id == shadow_industry
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"The Yardie $personRank does a fairly admirable job of keeping their voice from trembling as $heOrShe warns, ""Whatever happens next, just know we won't forget it.""
+OR
+The message is perfunctory. ""Damn you.""  Further hails go unanswered.",cutCommLink:Cut the comm link,
+greetingSHIHostileStronger,OpenCommLink,"$faction.id == shadow_industry
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"Cooly regarding you, the Yardie $personRank gives a wolfish grin.  ""Seems you've a fight on your hands, Captain.""
+OR
+""Time for this game to end.""",cutCommLink:Cut the comm link,
+greetingSHIFriendly,OpenCommLink,"$faction.id == shadow_industry
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""We've got your signal, recognition looks good.  Looks like things are going well on your end $playerName.  Clear skies.""
+OR
+Unconcerned, sedate activity ensues as codes are checked and verified; the watch officer gives a jaunty salute.
+
+""Beacon checks out, you're clear to proceed comrade; burn bright out there!""
+OR
+The SRA fleets communique is preceded by a markedly friendly sounding electronic chirp. ""Secure codes check out; the cooperative authority sends their regards, Captain.""",,
+greetingSHIHostileWeakerDefiant,OpenCommLink,"$faction.id == shadow_industry
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The Yardie $personRank meets your gaze levelly for a few moments, before simply nodding curtly in acknowledgement and signaling $hisOrHer crew to their stations.  The comms signal cuts out a moment later.
+OR
+The SRA fleet meets your call with bravado, though you're unsure if the person on the other end is the fleet leader. 
+
+""Hoping for our surrender then, are you? Piss off, we're tougher than you think you damn running dog!"" The message is accompanied by a particularly rude gesture.",cutCommLink:Cut the comm link,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketLumen,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == shadow_industry
+$market.id == lumen","AddText ""Lumen's small docking facilities echo with the boisterous noise of the dock crew, as a small number of merchants haggle in front of the tiny commodities exchange office.  Deeper in you can see coloful banners advertising a number of locally brewed drinks, an abiding passion of the locals."" textGrayColor",,,
+flavorTextMarketAuris,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == pirates
+$market.id == auris_grip","AddText ""Pirate crews carouse loudly as various captains of less than legal status strut throughout the Port Concourse or haggle energetically with the flunkies of the pirate currently in charge over their stolen goods. The entire place is thick with rogues, drawn in by the promise of easy pickings."" textGrayColor",,,
+flavorTextMarketTheramin,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == shadow_industry
+$market.id == theramin","AddText ""The monolithic presence of one of the Domain's ancient radiation absorbers looms over the Concourse, even at some tens of kilometers away, its tip lost in the leaden sky.  Traders meander here and there, meeting with the exotic looking locals while ignoring the steady drizzle."" textGrayColor",,,
+flavorTextMarketBerins,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == pirates
+$market.id == berins_stash","AddText ""Furtive groups of sullen rogues stalk across the cavernous docking bay dominating the dark side of this asteroid.  Despite being packed with ships and Pit Crews to service them, everything is eerily quiet, the steady hiss of air processors broken only occasionally by the distant sound of heavy machinery."" textGrayColor",,,
+flavorTextMarketSHI,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == shadow_industry","AddText ""The docks are a riot of color and noise as cargoes are energetically off and onloaded.  An SRA official in a rather eye catching outfit waves you down to see if you need any help."" textGrayColor",,,
+flavorTextMarketEuripides,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == shadow_industry
+$market.id == euripides","AddText ""Euripides' extensive landing facilities are packed with a motley array of spacecraft; cantinas and small restaurants fill much of the free space in and around the Starport Concourse.  The scene is a riot of color and barely organized chaos, spacers of all walks hurrying to and fro on business beneath the distant peaks of Marions great arcologies."" textGrayColor",,,
+flavorTextMarketStilness,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == shadow_industry
+$market.id == stillness","AddText ""The air of the extensive hangar facilities is thick with tension.  Yardie pit crews carry out maintenance on docked ships with uncharacteristic silence; the banners which once hung from the hangars back wall are gone now, replaced with boards filled with tallies and small memorials.""  textGrayColor",,,
+,,,,,,
+# portside bar stuff,,,,,,
+bar_descSRA,BarPrintDesc,$faction.id == shadow_industry,ShowImageVisual space_bar,"The bar is typically Yardie, favoring a large communal open floor surrounded by low tables; the lighting is warm, broken by the occasional flash of garish neon. Draped banners of the local cooperatives cross the ceiling proudly. Servers in sparse, colorful garb dance between tables and small clusters of people, the buzz of conversation and music filling the space with a hum of energy.",,
+,,,,,,
+# turning AI cores in,,,,,,
+aiCores_turnInOptionSelSRA,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == shadow_industry",FireAll PopulateCoresTurnInOptions,"""I see you've found an interesting object there, Captain. And, perhaps, a very dangerous one. These things are scattered all over the outer reaches, much more common than most of the other factions will let on. If you're of the mind for it, the SRA will take it off your hands; don't worry, we'll see to it that it isn't put to use.""",,
+aiCores_turnInResponseSRA,AICoresTurnedIn,$faction.id == shadow_industry,FireAll PopulateOptions,"$PersonRank $personLastName nods, releasing a pleased hum before filling the void with small talk while the cores transfer is confirmed. That done, $HeOrShe thanks you for your assistance, and gives a jaunty salute.",,
+,,,,,,
+# Game Starts,,,,,,
+ncgSRAStartOptions,AddNewGameChoices,,"SetTooltip ngcSRAStarts ""Hailing from Anar, perhaps you manage a small salvage coop, or possibly you assist the SRA more directly… or have strayed to desperate piracy…""",,16435:ngcSRAStarts:A traveler from a foreign land… (Start options added by the Shadowyards mod),
+ngcSRAStartOptionPicked,NewGameOptionSelected,$option == ngcSRAStarts,FireAll NewGameSRAOptions,Your journey begins as a…,,
+ngcSRANewGameCancel,NewGameSRAOptions,,,,9:ngcSRANewGameCancel:Return to the regular start menu,
+ngcSRANewGameCancelled,NewGameOptionSelected,$option == ngcSRANewGameCancel,FireAll AddNewGameChoices,,,
+,,,,,,
+ngcSRASalvager,NewGameSRAOptions,,"SetTooltip ngcSRASalvager""Your flagship is an Enlil, a versatile combat frigate with good endurance, though it is somewhat vulnerable to being flanked.\n\nYou are escorted by a small fleet with decent range, suitable for survey and salvage operations at the far ends of the sector.""",,0:ngcSRASalvager:Coordinating officer of a small salvage cooperative out to explore the sector,
+ngcSRASalvagerPicked,NewGameOptionSelected,$option == ngcSRASalvager,"NGCAddShip ms_enlil_Attack
+NGCAddShip ms_ashnan_Junker
+NGCAddShip ms_ashnan_Fast
+NGCAddShip ms_lambent_Standard
+NGCAddCredits 12000
+AddTextSmall ""The Shadowyards Reconstruction Authority and their allies will have an improved relationship"" good
+SetTextHighlights ""Shadowyards Reconstruction Authority and their allies""",,0:ngcSRASalvagerContinue:Continue,
+ngcSRASalvagerContinue,NewGameOptionSelected,$option == ngcSRASalvagerContinue,"NGCAddCharacterPoints 1
+NGCSRATrySetStartingLocation Anar -4300 -555
+NGCSRASalvagerStartScript
+NGCSRABaseStartingScript
+NGCDone",,,
+,,,,,,
+ngcSRAPartisan,NewGameSRAOptions,,"SetTooltip ngcSRAPartisan""Your flagship is a Shamash, a phase frigate centered around the dangerous and risky Phase/Mass Bubble Projector, a vessel particularly well suited to pursuit and interdiction.\n\nEscorting you are a small force of partisans in frigates to provide fire and combat support.""",,"0:ngcSRAPartisan:Leader of a small Partisan cadre, working to help secure the revolution",
+ngcSRAPartisanPicked,NewGameOptionSelected,$option == ngcSRAPartisan,"NGCAddShip ms_shamash_Starter
+NGCAddShip ms_inanna_EMP
+$ngcAddCadre = true
+NGCAddShip ms_beletSeri_Starter
+NGCAddCredits 6000
+AddTextSmall ""Open hostilites with factions opposed to the SRA"" bad
+SetTextHighlights ""Open hostilities""
+AddTextSmall ""The Shadowyards Reconstruction Authority and allies have an improved relationship"" good
+SetTextHighlights ""Shadowyards Reconstruction Authority""
+AddTextSmall ""You have a level 1 officer among your cadre"" good
+SetTextHighlights ""level 1 officer""",,0:ngcSRAPartisanContinue:Continue,
+ngcSRAPartisanContinue,NewGameOptionSelected,$option == ngcSRAPartisanContinue,"NGCAddCharacterPoints 1
+NGCSRATrySetStartingLocation Yajna -4050 3000
+NGCSRAPartisanStartScript
+NGCSRABaseStartingScript
+NGCDone",,,
+,,,,,,
+ngcSRAPirate,NewGameSRAOptions,,"SetTooltip ngcSRAPirate""Your flagship is a Southpaw, a fast if somewhat awkwardly configured frigate with heavy firepower, well suited for use as a commerce raider.\n\nAccompanying you is a small fleet of various pirate attack craft, suitable for raiding those rich trade lanes.\n\nNote that this option may be quite challenging, as you will be hostile with most of the sector.""",,"0:ngcSRAPirate:Master of a small pirate armada, seeking riches and glory",
+ngcSRAPiratePicked,NewGameOptionSelected,$option == ngcSRAPirate,"NGCAddShip msp_southpaw_Balanced
+NGCAddShip msp_southpaw_CS
+NGCAddShip wolf_d_pirates_Attack
+NGCAddShip cerberus_d_pirates_Shielded
+NGCAddShip hound_d_pirates_Standard
+NGCAddCredits 8000
+AddTextSmall ""Reputation with scabs and toadies across the sector ruined"" bad
+SetTextHighlights ""scabs and toadies across the sector""
+AddTextSmall ""Reputation as a renegade and dashing rogue established"" good
+SetTextHighlights ""renegade and dashing rogue""",,0:ngcSRAPirateContinue:Continue,
+ngcSRAPirateContinue,NewGameOptionSelected,$option == ngcSRAPirateContinue,"NGCAddCharacterPoints 1
+NGCSRATrySetStartingLocation Magec 555 4222
+NGCSRAPirateStartScript
+NGCSRABaseStartingScript
+NGCDone",,,
+,,,,,,
+ncgSRAMerc,NewGameSRAOptions,,"SetTooltip ngcSRAMerc”You are a lone mercenary captaining a Morningstar (L), a league refit of an SRA light destroyer that has been retrofitted with a plasma jets system and a number of Ballistics mounts.\n\nYour sole escorts are a wing of Thunders carried in your small fighter bay.”",,0:ngcSRAMerc:A mercenary commanding a solitary Morningstar,
+ngcSRAMercPicked,NewGameOptionSelected,$option == ngcSRAMerc,"NGCAddShip ms_morningstar_L_EMP
+NGCAddCredits 6000
+AddTextSmall ""Some trust with independent planets across the sector"" good
+SetTextHighlights ""with independent planets""",,0:ngcSRAMercContinue:Continue,
+ngcSRAMercContinue,NewGameOptionSelected,$option == ngcSRAMercContinue,"NGCAddCharacterPoints 3
+NGCSRATrySetStartingLocation Corvus -2500 3000
+NGCSRAMercStartScript
+NGCSRABaseStartingScript
+NGCDone",,,
+,,,,,,
+# getting a faction commission,,,,,,
+# SRA commission,,,,,,
+CMSNRejectHostileText_shadow_industry,CMSNTextRejectHostile,$faction.id == shadow_industry,,"""Hm. Funny. Obviously we are not going to accept your... generous offer of service. Do stick around though, Captain; the Security Service would love to say hello.""",,
+CMSNTextHasOther_shadow_industry,CMSNTextHasOther,$faction.id == shadow_industry,,"""Well, you're ballsy, I'll give you that but uh... no. Seeing as you're currently on commission by $theOtherCommissionFaction it would, at the very least, represent something of a security risk for us to enlist you in our reserves. Maybe if you resign your other commission first, we can talk. Until then, clear skies.""",,
+CMSNTextUnsuited_shadow_industry,CMSNTextUnsuited,$faction.id == shadow_industry,,"""I'm afraid we cannot accept your entry into our commissioned reserve forces, Captain. You do not currently meet our criteria for entry; clear skies $playerName.""",,
+CMSNTextSuitedPart1_shadow_industry,CMSNTextSuitedPart1,$faction.id == shadow_industry,,"""Yes, well, I see here that you're already reasonably well regarded by Fleet Coord, and our databases are clean, at least of anything sufficient to keep you from the Reserve. You pass, I suppose.
+
+I'm certain you're expecting a spiel here, Captain, so I won't disappoint you. Accepting a commission with the SRA bears with it a number of responsibilities and requirements; you will be expected to fight to further secure our Coalition from its foes and, where possible, to advance the revolution. You may also be expected to smile for cameras and look silly in a dress uniform. It is a matter I advise you think seriously on before accepting.
+
+You will, of course, have the right to resign your commission at any time, though it will likely damage your reputation with the Coordinators Office. Possibly even cause the Security Service to wonder if it made an error in trusting you with these responsibilities.""",,
+CMSNTextSuitedPart2_shadow_industry,CMSNTextSuitedPart2,$faction.id == shadow_industry,,"""So that's the song and dance out of the way. If you're still up for it I'll get your commission sorted out, and... well, then you'll be part of the Reserve Naval Force. Do you accept?""",,
+CMSNTextWelcomePart1_shadow_industry,CMSNTextWelcomePart1,$faction.id == shadow_industry,,"""Glad to hear you're with us, Captain. Welcome to the SRA Reserves.""",,
+CMSNTextWelcomePart2_shadow_industry,CMSNTextWelcomePart2,$faction.id == shadow_industry,,"""$personRank $personLastName chats for a bit, giving a bit of clarification over the expectations you've taken on, but eventually has to break off the meeting in order to to deal with another issue.""",,
+CMSNTextChangeMind_shadow_industry,CMSNTextChangeMind,$faction.id == shadow_industry,,"""Yeah, I suppose it is a lot to ask of someone, isn't it? Don't worry about it Captain.
+
+Is there anything else I can do for you?""",,
+CMSNResignAskToConfirm_shadow_industry,CMSNResignAskToConfirm,$faction.id == shadow_industry,,"""If you're certain; we can't keep you and you'd be within your rights. Still there are those among our ranks who might feel a bit... jilted shall we say? And we really could use your help, still. So, again, are you really sure about this?""",,
+CMSNResignConfirmed_shadow_industry,CMSNResignConfirmed,$faction.id == shadow_industry,,"""Well, so it goes. Thank you for your efforts on our behalf. And thank you for being willing to tender your resignation in person.\n\nIf you'll excuse me I have to register your separation from the Reserve. Clear skies, Captain.""",,
+CMSNResignCancelled_shadow_industry,CMSNResignCancelled,$faction.id == shadow_industry,,"""Glad to hear you've decided to stay with us. Sometimes it can difficult to keep going, I know, but the SRA is lucky to have people who can push through such difficulty and keep going. Clear skies, Captain.""",,

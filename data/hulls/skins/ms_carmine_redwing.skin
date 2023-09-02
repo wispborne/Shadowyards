@@ -1,0 +1,64 @@
+{
+	"baseHullId":"msp_carmine",
+	"skinHullId":"ms_carmine_redwing",
+	"hullName":"Carmine (R)",
+	"descriptionId":"msp_carmine",  # optional
+	"descriptionPrefix":"Bearing a red feather insignia and a substantial number of system upgrades, this vessel has been refitted to the elite Redwings Naval Detachments exacting standards. The Carmine blueprints, recently recovered on a secret mission by an SRA affiliated privateer, provide the Redwings with an ideal small carrier for their operations.",
+	"hints":[],
+	"tags":["HIDE_IN_CODEX"],
+	"tech":"Redwings",
+	"spriteName":"graphics/shadow_ships/ships/redwings/ms_carmine_red.png",
+	"baseValueMult":1.2,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"ms_booster",
+	"builtInMods":["ms_harShields", "ms_redwingsPackage"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+           "WS0001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0003":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0004":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0007":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0008":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0020":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "SYNERGY"
+	   },
+    },
+}

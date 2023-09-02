@@ -1,0 +1,29 @@
+{
+	"id":"ms_woopDrive",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_woopDriveAI",
+	
+	"statsScript":"data.shipsystems.scripts.MS_woopDrive",
+	
+	#"engineGlowColor":[207,123,103,125],
+	#"engineGlowContrailColor":[160,80,105,25],
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	#"alwaysAccelerate":true,
+	
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":0,
+	}
+}

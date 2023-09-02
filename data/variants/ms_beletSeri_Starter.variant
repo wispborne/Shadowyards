@@ -1,0 +1,27 @@
+{
+    "displayName": "Partisan",
+    "fluxCapacitors": 5,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "ms_belet-seri",
+    "hullMods": ["reinforcedhull"],
+    "permaMods": [],
+    "variantId": "ms_beletSeri_Starter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_lempGun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_cepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_pdcepc"}
+        }
+    ]
+}

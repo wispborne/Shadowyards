@@ -1,0 +1,45 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "ms_clade",
+    "hullMods": [
+        "reinforcedhull",
+        "magazines"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_clade_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_slowbeamH"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_cepc",
+                "WS0003": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "phasebeam",
+                "WS0007": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdburst",
+                "WS0006": "pdburst"
+            }
+        }
+    ]
+}

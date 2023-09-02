@@ -1,0 +1,30 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_shamash_redwing",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "variantId": "ms_shamash_redwing_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_phasegun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        }
+    ]
+}

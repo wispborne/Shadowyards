@@ -1,0 +1,192 @@
+{
+  "bounds": [
+    -16.5,
+    25.5,
+    -68.5,
+    90.5,
+    15,
+    99.5,
+    102.5,
+    18.5,
+    102.5,
+    -18.5,
+    15,
+    -99.5,
+    -68.5,
+    -90.5,
+    -16.5,
+    -25.5,
+    40,
+    -0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "chassis_storage",
+    "missile_reload",
+    "ms_harShields"
+  ],
+  "center": [
+    130,
+    72.5
+  ],
+  "collisionRadius": 170,
+  "engineSlots": [],
+  "height": 185,
+  "hullId": "ms_module_support",
+  "hullName": "Module, Multirole Support",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    20,
+    1
+  ],
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 154,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_supportModule.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -46,
+      "arc": 160,
+      "id": "WS0001",
+      "locations": [
+        65.5,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 46,
+      "arc": 160,
+      "id": "WS0002",
+      "locations": [
+        65.5,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -79.5,
+      "arc": 160,
+      "id": "WS0003",
+      "locations": [
+        8.5,
+        -90
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 79.5,
+      "arc": 160,
+      "id": "WS0004",
+      "locations": [
+        8.5,
+        90
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 130,
+      "id": "WS0005",
+      "locations": [
+        92.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 130,
+      "id": "WS0006",
+      "locations": [
+        54,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -103,
+      "arc": 130,
+      "id": "WS0007",
+      "locations": [
+        -41.5,
+        -64
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 103,
+      "arc": 130,
+      "id": "WS0008",
+      "locations": [
+        -41.5,
+        64
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 130,
+      "id": "WS0009",
+      "locations": [
+        2.5,
+        -46.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 130,
+      "id": "WS0010",
+      "locations": [
+        2.5,
+        46.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -39,
+        -85.5,
+        -24.5,
+        -88,
+        -40.5,
+        86,
+        -23,
+        90
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 260
+}

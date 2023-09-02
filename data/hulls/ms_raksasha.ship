@@ -1,0 +1,150 @@
+{
+  "bounds": [
+    8,
+    -20,
+    15,
+    0,
+    8,
+    20,
+    -14.5,
+    0
+  ],
+  "builtInMods": [
+    "ms_enjector",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ms_rakpod",
+    "WS0003": "ms_miniflak"
+  },
+  "center": [
+    30.5,
+    25
+  ],
+  "collisionRadius": 35.046398,
+  "engineSlots": [
+    {
+      "angle": -146.309937,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -1,
+        -21.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 146.309937,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -1,
+        21.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -163.300751,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -3,
+        -17.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 163.300751,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -3,
+        17.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 173.758087,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -6,
+        -14.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -173.758087,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -6,
+        14.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 48,
+  "hullId": "ms_raksasha",
+  "hullName": "Raksasha",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 32,
+  "spriteName": "graphics/shadow_ships/ships/ms_raksasha.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        9.5,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 61
+}

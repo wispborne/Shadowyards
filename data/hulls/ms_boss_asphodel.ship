@@ -1,0 +1,386 @@
+{
+  "hullName": "Asphodel",
+  "hullId": "ms_boss_asphodel",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ssp/ships/boss/ms_boss_asphodel.png",
+  "style": "SHADOW_TECH",
+  "height": 270,
+  "width": 200,
+  "center": [100, 135],
+  "collisionRadius": 215,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 175,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0009": "ms_derazhoObject",
+    "WS0010": "ms_pandoraEmitter",
+    "WS0011": "ms_pandoraEmitterTarg",
+    "WS0012": "ms_pandoraEmitter",
+    "WS0013": "ms_pandoraEmitter",
+    "WS0014": "ms_blinkyB",
+    "WS0015": "ms_blinkyB",
+    "WS0016": "ms_blinky",
+    "WS0017": "ms_blinky",
+    "WS0018": "ms_blinky",
+    "WS0019": "ms_blinky",
+    "WS0020": "ms_blinkyB",
+    "WS0021": "ms_blinkyB",
+    "WS0022": "ms_blinky",
+    "WS0023": "ms_blinky",
+    "WS0024": "ms_enCapMid",
+    "WS0025": "ms_enCapMid",
+    "WS0026": "ms_enCapMid",
+    "WS0027": "ms_enCapMid",
+    "WS0028": "ms_enCapSmall",
+    "WS0029": "ms_enCapSmall"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -70,
+      "locations": [94.5, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 70,
+      "locations": [94.5, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -70,
+      "locations": [41.5, -31.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 70,
+      "locations": [41.5, 31.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -75,
+      "locations": [13, -41]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 75,
+      "locations": [13, 41]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -135,
+      "locations": [-18.5, -41]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 135,
+      "locations": [-18.5, 41]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [110, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [67, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -100,
+      "locations": [22.5, 24]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 100,
+      "locations": [22.5, -24]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [129.5, -30]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [129.5, 30]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66.5, -79.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [66.5, 79.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-43, -64]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-43, 64]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -109.133644,
+      "locations": [-113.5, -18]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 109.133644,
+      "locations": [-113.5, 18]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 45,
+      "locations": [5.5, -19]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -45,
+      "locations": [-3.5, 21.5]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -45,
+      "locations": [86.5, -45.5]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 45,
+      "locations": [86.5, 45.5]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-77, -43]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-77, 43]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -164.5,
+      "locations": [-115, -9]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 164.5,
+      "locations": [-115, 9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115.5, -9.5],
+      "length": 5,
+      "width": 10,
+      "angle": -165,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    },
+    {
+      "location": [-115.5, 9.5],
+      "length": 5,
+      "width": 10,
+      "angle": 165,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    },
+    {
+      "location": [87, -45.5],
+      "length": 5,
+      "width": 6,
+      "angle": -42,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    },
+    {
+      "location": [87, 45.5],
+      "length": 5,
+      "width": 6,
+      "angle": 42,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    },
+    {
+      "location": [-77, -43],
+      "length": 5,
+      "width": 10,
+      "angle": -136,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    },
+    {
+      "location": [-77, 43],
+      "length": 5,
+      "width": 10,
+      "angle": 136,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare"
+    }
+  ],
+  "bounds": [
+    122.5, -4.5,
+    128.5, -11,
+    118.5, -30,
+    102.5, -34,
+    80.5, -70.5,
+    60, -79,
+    81, -36,
+    -20.5, -64,
+    -47, -55.5,
+    -79.5, -53,
+    -108, -35.5,
+    -83.5, -29.5,
+    -90.5, -20.5,
+    -131, -12.5,
+    -131, 12.5,
+    -90.5, 20.5,
+    -83.5, 29.5,
+    -108, 35.5,
+    -79.5, 53,
+    -47, 55.5,
+    -20.5, 64,
+    81, 36,
+    60, 79,
+    80.5, 70.5,
+    102.5, 34,
+    118.5, 30,
+    128.5, 11,
+    122.5, 4.5
+  ]
+}

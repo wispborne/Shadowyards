@@ -1,0 +1,32 @@
+{
+    "displayName": "Gunboat",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "ms_shamash_P",
+    "hullMods": [
+        "blast_doors",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_shamash_P_Gun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualac",
+                "WS0002": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "chaingun",
+                "WS0004": "lightag"
+            }
+        }
+    ]
+}

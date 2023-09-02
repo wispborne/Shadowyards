@@ -1,0 +1,42 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "ms_kabaloi",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ms_kabaloi_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_trishula",
+                "WS0002": "ms_trishula"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "ms_raksasha_wing",
+        "ms_raksasha_wing",
+        "ms_wraith_wing"
+    ]
+}

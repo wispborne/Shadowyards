@@ -1,0 +1,56 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 21,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "ms_mimir_redwing",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "ms_mimir_redwing_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"MAIN": "ms_rhpbc"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "ms_splinter_pod",
+                "WS0009": "ms_splinter_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_stormBlaster",
+                "WS0006": "ms_stormBlaster",
+                "WS0007": "ms_stormBlaster",
+                "WS0010": "ms_cepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_particleLance",
+                "WS0003": "ms_particleLance",
+                "WS0004": "ms_particleLance",
+                "WS0011": "ms_particleDart",
+                "WS0012": "ms_particleDart"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "ms_pdcepc",
+                "WS0014": "ms_pdcepc",
+                "WS0015": "ms_lempGun",
+                "WS0016": "ms_lempGun"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+	"id":"ms_sensordrones",
+	"type":"STAT_MOD",
+	#"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_telemetryAI",
+	
+	"statsScript":"data.shipsystems.scripts.MS_ScanDroneStats",
+	
+	"weaponGlowColor":[0,255,120,200],
+	"weaponTypes":[BALLISTIC, ENERGY],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.3,
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",
+}

@@ -1,0 +1,69 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 500,
+  "fireSoundTwo": "splinter_launch",
+  "hardpointAngleOffsets": [
+    -5,
+    5,
+    0,
+    -2.5,
+    2.5
+  ],
+  "hardpointOffsets": [
+    5.5,
+    -2,
+    5.5,
+    2,
+    5.5,
+    0,
+    6.5,
+    -1,
+    6.5,
+    1
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_splinter_launcher_hardpoint.png",
+  "id": "ms_splinter_launcher",
+  "projectileSpecId": "ms_splinter_rocket",
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 6,
+    "cloudDuration": 1.5,
+    "cloudParticleCount": 3,
+    "cloudRadius": 12,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 14
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    -0,
+    0,
+    0,
+    -3.5,
+    3.5
+  ],
+  "turretOffsets": [
+    4.5,
+    -2,
+    4.5,
+    2,
+    4.5,
+    0,
+    5.5,
+    -1,
+    5.5,
+    1
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_splinter_launcher_turret.png",
+  "type": "MISSILE"
+}

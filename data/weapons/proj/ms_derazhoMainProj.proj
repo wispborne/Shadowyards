@@ -1,0 +1,17 @@
+{
+	"id":"ms_derazhoMainProj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":10.0,
+	"width":30,
+	"hitGlowRadius":30,
+	"fadeTime":0.2,
+	"fringeColor":[255,115,165,115],
+	"coreColor":[85,65,115,255],
+	"darkCore":true,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"sprite":"graphics/shadow_weapons/missiles/ms_spark.png",
+}

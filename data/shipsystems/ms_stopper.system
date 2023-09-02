@@ -1,0 +1,9 @@
+{
+	"id":"ms_stopper",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_reisAI",
+	
+	"weaponDataId":"ms_stopper1",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

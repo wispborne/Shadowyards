@@ -1,0 +1,43 @@
+{
+    "displayName": "Overload",
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_morningstar_L",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "ms_morningstar_L_EMP",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "ms_lockdown"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0002": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightdualmg",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker"
+            }
+        }
+    ],
+    "wings": ["thunder_wing"]
+}

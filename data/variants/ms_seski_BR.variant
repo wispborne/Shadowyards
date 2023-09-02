@@ -1,0 +1,27 @@
+{
+    "displayName": "Blockade Runner",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "ms_seski",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "variantId": "ms_seski_BR",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_pdcepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_mcepc"}
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 39,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "ms_vardr",
+    "hullMods": [
+        "insulatedengine",
+        "stabilizedshieldemitter",
+        "dedicated_targeting_core"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_vardr_Common",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_gigacepc",
+                "WS0002": "ms_gigacepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0022": "ms_splinter_pod",
+                "WS0025": "ms_splinter_launcher",
+                "WS0026": "ms_splinter_launcher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "ms_tusk_pod",
+                "WS0019": "ms_tusk_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_cepc",
+                "WS0004": "ms_cepc",
+                "WS0005": "ms_cepc",
+                "WS0006": "ms_cepc",
+                "WS0009": "ms_cepc",
+                "WS0010": "ms_cepc",
+                "WS0016": "ms_mcepc",
+                "WS0017": "ms_mcepc",
+                "WS0020": "ms_mcepc",
+                "WS0021": "ms_mcepc",
+                "WS0023": "ms_wamgun",
+                "WS0024": "ms_wamgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ms_pdcepc",
+                "WS0008": "ms_pdcepc",
+                "WS0011": "ms_spreadbeam",
+                "WS0012": "ms_spreadbeam",
+                "WS0013": "ms_pdcepc",
+                "WS0014": "ms_pdcepc",
+                "WS0015": "ms_spreadbeam"
+            }
+        }
+    ],
+    "wings": ["ms_neriad_wing"]
+}

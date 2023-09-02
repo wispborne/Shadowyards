@@ -1,0 +1,19 @@
+{
+	"id":"ms_scattercepc_emp",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":19.0,
+	"width":4.0,
+	"fadeTime":0.2,
+	"fringeColor":[155,65,126,255],
+	"coreColor":[255,150,200,255],
+	"glowColor":[165,89,217,75],
+	"textureType":"ROUGH",
+	"glowRadius":15,
+	"hitGlowRadius":26,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/cecp_med.png"
+}

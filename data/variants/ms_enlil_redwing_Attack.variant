@@ -1,0 +1,33 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_enlil_redwing",
+    "hullMods": ["ms_fluxLock"],
+    "permaMods": [],
+    "variantId": "ms_enlil_redwing_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_stormBlaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_trishula",
+                "WS0003": "ms_trishula"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ms_lempGun",
+                "WS0005": "ms_lempGun"
+            }
+        }
+    ]
+}

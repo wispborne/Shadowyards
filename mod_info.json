@@ -1,0 +1,24 @@
+{
+        "id":"shadow_ships", # internal id
+	"name":"Shadowyards (Wisp)", # displayed to the player
+	"author":"MShadowy",
+	"version":"0.9.6-rc1-Wisp-001",
+	"description":"=Requires LazyLib, MagicLib and GraphicsLib= Adds the Shadowyards Reconstruction Authority faction and related ships.",
+	"modPlugin":"data.scripts.ShadowyardsModPlugin", # Insert the path to your mod's implementation of ModPlugin here
+	"gameVersion":"0.96a-RC10",
+	"jars":["jars/SHI.jar"],
+	"dependencies": [
+        	{
+        	    "id": "lw_lazylib",
+        	    "name": "LazyLib",
+        	},
+        	{
+        	    "id": "MagicLib",
+        	    "name": "MagicLib",
+        	},
+        	{
+        	    "id": "shaderLib",
+        	    "name": "ZZ GraphicsLib",
+        	}
+    	],
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_shamash",
+    "hullMods": [
+        "magazines",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_shamash_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_splinter_launcher",
+                "WS0002": "ms_splinter_launcher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_phasegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ms_lempGun"}
+        }
+    ]
+}

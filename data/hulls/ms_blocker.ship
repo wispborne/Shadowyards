@@ -1,0 +1,43 @@
+{
+  "bounds": [
+    -77.5,
+    16,
+    45,
+    14,
+    81.5,
+    -0,
+    45,
+    -14,
+    -77.5,
+    -16
+  ],
+    "builtInMods": [
+        "reduced_explosion",
+        "always_detaches",
+        "do_not_fire_through"
+    ],
+  "center": [
+    20,
+    82.5
+  ],
+  "collisionRadius": 86,
+  "engineSlots": [],
+  "height": 165,
+  "hullId": "ms_blocker",
+  "hullName": "Station Structural Spur",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    -70,
+    0
+  ],
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 131,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_armorBuffer.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 40
+}

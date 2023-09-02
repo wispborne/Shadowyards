@@ -1,0 +1,22 @@
+{
+	"baseHullId":"msp_carmine",
+	"skinHullId":"ms_carmine_vayra_revolutionary",
+	"hullName":"Carmine (RC)",
+	"descriptionId":"msp_carmine",  # optional
+	"descriptionPrefix":"This vessel bears the markings of the verbosely named Persean Democratic Revolutionary People's Council, the ship has had a substantive systems overhaul but is otherwise largely identical to its more common pirate variant.",
+	"hints":["HIDE_IN_CODEX"],
+	"tags":["revolutionary"],
+	"tech":"Red Guards",
+	"spriteName":"graphics/shadow_ships/ships/carmine/ms_carmineARC.png",
+	"baseValueMult":1,
+	"ordnancePoints":85,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["ms_harShields"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+    },
+}

@@ -1,0 +1,33 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_shikome",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "ms_shikome_Elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ms_microLance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ms_slowShiki"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ms_blackcap_3x",
+        "WS0002": "ms_blackcap_3x"
+      }
+    }
+  ]
+}

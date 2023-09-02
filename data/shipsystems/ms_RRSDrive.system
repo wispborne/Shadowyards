@@ -1,0 +1,28 @@
+{
+	"id":"ms_RRSDrive",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.MS_mimirSlideDriveAI",
+	
+	"statsScript":"data.shipsystems.scripts.MS_mimirSlideDrive",
+	
+	#"jitterColor":[207,123,103,155],
+	#"jitterCopies":12,
+	#"jitterRange":0,
+	#"jitterRangeRadiusFraction":0.25,
+	
+	"engineGlowColor":[207,123,103,125],
+	"engineGlowContrailColor":[160,80,105,25],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":1.5,
+
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"lockCreeper_loop",
+	"outOfUsesSound":"engine_disabled",
+}

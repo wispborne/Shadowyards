@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna",
+    "hullMods": [
+        "magazines",
+        "augmentedengines"
+    ],
+    "permaMods": [],
+    "variantId": "ms_inanna_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_scattercepc",
+                "WS0003": "ms_stormBlaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

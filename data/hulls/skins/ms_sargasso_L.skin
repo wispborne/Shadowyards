@@ -1,0 +1,32 @@
+{
+	"baseHullId":"ms_sargasso",
+	"skinHullId":"ms_sargasso_L",
+	"hullName":"Sargasso (L)",
+	"descriptionId":"ms_sargasso",  # optional
+	"descriptionPrefix":"This vessel has been transferred to the Persean League as part of a lend-lease equipment program, and has been put through a comprehensive refit to match it to League standards.  Most offensive energy weapons slots have been replaced with ballistic mounts, and additional armor plating has been fitted at some cost to flux capacity.",
+	"tags":["sra_export_bp"],
+	"spriteName":"graphics/shadow_ships/ships/sargasso/ms_sargasso_L.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["ms_leagueRefit"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0002":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }	
+    },
+}

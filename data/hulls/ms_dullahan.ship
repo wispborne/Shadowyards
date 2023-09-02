@@ -1,0 +1,99 @@
+{
+  "bounds": [
+    -3,
+    13.5,
+    13.5,
+    7.5,
+    13.5,
+    -7.5,
+    -3,
+    -13.5,
+    -16,
+    -0
+  ],
+  "center": [
+    20,
+    19.5
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_dullahan_ghostfire"
+  },
+  "collisionRadius": 26.5,
+  "engineSlots": [
+    {
+      "angle": 152.5,
+      "contrailSize": 10,
+      "length": 15,
+      "location": [
+        -7,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    },
+    {
+      "angle": -152.5,
+      "contrailSize": 10,
+      "length": 15,
+      "location": [
+        -7,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    },
+    {
+      "angle": -173.5,
+      "contrailSize": 15,
+      "length": 15,
+      "location": [
+        -11,
+        -3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 8
+    },
+    {
+      "angle": 173.5,
+      "contrailSize": 15,
+      "length": 15,
+      "location": [
+        -11,
+        3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 8
+    }
+  ],
+  "height": 39,
+  "hullId": "ms_dullahan",
+  "hullName": "Dullahan",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 24,
+  "spriteName": "graphics/shadow_ships/ships/ms_dullahan.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        13,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 40
+}

@@ -1,0 +1,136 @@
+{
+  "bounds": [
+    3.5,
+    -23.5,
+    3.5,
+    23.5,
+    -19.5,
+    0
+  ],
+  "builtInWeapons": {
+    WS0001:"ms_splinterKol",
+    WS0002:"ms_pdburstCustom"
+  },
+  "builtInMods": [
+    "ms_enjector",
+    "no_weapon_flux"
+  ],
+  "center": [
+    30,
+    23.5
+  ],
+  "collisionRadius": 30.232433,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -18.5,
+        -3
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -18.5,
+        3
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    },
+    {
+      "angle": -158.629379,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -17,
+        -7
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    },
+    {
+      "angle": 158.629379,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -17,
+        7
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 6
+    }
+  ],
+  "height": 35,
+  "hullId": "ms_kobold",
+  "hullName": "Kobold",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 31.91003,
+  "spriteName": "graphics/shadow_ships/ships/ms_kobold.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        1,
+        -3
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -8.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -110,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        -7.5,
+        -18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 110,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        -7.5,
+        18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 60,
+}

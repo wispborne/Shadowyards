@@ -1,0 +1,44 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+ms_modularFac,Modular Fabricators,80,80,,8,,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/shi/icons/markets/ms_modularFac.png,data.campaign.econ.industries.MS_modularFac,"Centralized industrial complexes of modular fabricators for the production of heavy industrial equipment, supplies, and weapons. An older technology that predates the first nanoforges, modular fabricators had to be able to produce components to a higher standard than most heavy industrial setups common to the sector, but ships produced with such equipment are often only marginally more spaceworthy than normal.",160,MEDIUM
+ms_massIndustry,Massively Parallel Fabricators,30,60,,8,ms_modularFac,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/shi/icons/markets/ms_parallelProd.png,data.campaign.econ.industries.MS_fabUpgrader,"Centralized industrial complexes of modular fabricators for the production of heavy industrial equipment, supplies, and weapons. An older technology that predates the first nanoforges, modular fabricators had to be able to produce components to a higher standard than most heavy industrial setups common to the sector, but ships produced with such equipment are often only marginally more spaceworthy than normal.
+
+This particular array of Fabricators has been retooled to focus on the production of massive quantities of industrial goods, and a significant production of supplies. This comes at the cost of quality control, however, and a lower production rate for viable spacecraft and small arms.",160,MEDIUM
+ms_militaryProduction,Military Production Lines,30,60,,8,ms_modularFac,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/shi/icons/markets/ms_milLines.png,data.campaign.econ.industries.MS_fabUpgrader,"Centralized industrial complexes of modular fabricators for the production of heavy industrial equipment, supplies, and weapons. An older technology that predates the first nanoforges, modular fabricators had to be able to produce components to a higher standard than most heavy industrial setups common to the sector, but ships produced with such equipment are often only marginally more spaceworthy than normal.
+
+This particular array of Fabricators has been retooled to focus on the production of supplies and military grade small arms, vehicles and other such specialist gear. Though the demands of such items requires somewhat more vigorous quality control, this comes at the cost of lower production rates for spacecraft and industrial equipment.",160,MEDIUM
+ms_orbitalShipyard,Integrated Shipyards,45,80,,8,ms_modularFac,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/shi/icons/markets/ms_integratedShipyards.png,data.campaign.econ.industries.MS_fabUpgrader,"Centralized industrial complexes of modular fabricators for the production of heavy industrial equipment, supplies, and weapons. An older technology that predates the first nanoforges, modular fabricators had to be able to produce components to a higher standard than most heavy industrial setups common to the sector.
+
+This particular array of Fabricators has been retooled and heavily intergrated with orbital supply lines and specialized facilities to produce high quality spacecraft. The demands of this particular, and particularly important, focus consume much of the supplies and industrial machinery this industry would otherwise produce, and leaves very limited capacity for other military production.",160,HIGH
+,,,,,,,,,,,,,,
+ms_redwingsCommand,Redwings Command,0,0,,,,,"military, unraidable, tactical_bombardment, structure",,graphics/shi/icons/markets/ms_redwingsCommand.png,data.campaign.econ.industries.MS_redWingsHQ,"A fairly unassuming administrative and logistical block, functioning as the command center of the SRA’s Naval Assault Battalion, the Redwings. ",290,
+,,,,,,,,,,,,,,
+ms_supersolar,Massive Solar Collectors,30,30,,2,,,"power, industry",,graphics/shi/icons/markets/ms_supersolar.png,data.campaign.econ.industries.MS_supersolar,"A planet encircling orbital solar collection plant, with skilled workers to handle the charging of High Capacitance Storage.  Requires heavy machinery to replace worn equipment.",185,
+ms_medCenter,Medical Center,45,30,,4,,,"medical, structure",,graphics/shi/icons/markets/ms_medCenter.png,data.campaign.econ.industries.MS_medCenter,A sophisticated medical facility capable of providing some of the best medical care available in the Sector.,270,
+ms_radiationAbsorbers,Radiation Absorbers,0,0,,13,,,"important, unraidable, structure",,graphics/shi/icons/markets/ms_radiationAbsorbers.png,data.campaign.econ.industries.MS_radiationAbsorbers,"An arcane and esoteric piece of Domain technology that absorbs radiation through unknown means, making the vicinity safe for human habitation; installed in numbers and sufficiently distributed they can gradually render irradiated worlds safe for human habitation.",300,HIGH
+,,,,,,,,,,,,,,
+ms_orbitalstation,Orbital Station - Shadowyards,50,60,,3,,ms_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:ms_station1_SRA_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,data.campaign.econ.industries.MS_orbitalStationChecker,"A shadowyards space station, featuring moderate firepower and heavy fighter defenses.
+
+Must be reduced before invasions or bombardment can be attempted.",2010,
+ms_battlestation,Battlestation - Shadowyards,100,120,,4,ms_orbitalstation,ms_starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:ms_station2_SRA_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station, augmented with a pair of support batteries featuring moderate armaments and a fighter squadron.
+
+Must be reduced before invasions or bombardment can be attempted.",2020,
+ms_starfortress,Star Fortress - Shadowyards,200,180,,5,ms_battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:ms_station3_SRA_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A battlestation that has been enhanced with a mixture of heavy armor and a superheavy weapons battery, featuring Upelluri-class defense drones and an extensive minefield.
+
+Must be reduced before invasions or bombardment can be attempted.",2030,
+,,,,,,,,,,,,,,
+heavyindustry,Heavy Industry,100,60,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,data.campaign.econ.industries.MS_heavyIndustryChecker,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.",1600,
+orbitalworks,Orbital Works,60,60,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,data.campaign.econ.industries.MS_heavyIndustryChecker,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.
+
+Upgraded with an orbital component that further facilitates ship construction, resulting in fewer manufacturing defects.",1700,

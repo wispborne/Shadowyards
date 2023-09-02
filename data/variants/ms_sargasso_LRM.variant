@@ -1,0 +1,34 @@
+{
+    "displayName": "Ranged Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "ms_sargasso",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "variantId": "ms_sargasso_LRM",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_barrago"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "ms_spreadbeam"}
+        }
+    ],
+    "wings": [
+        "ms_wraith_wing",
+        "ms_raksasha_wing"
+    ]
+}

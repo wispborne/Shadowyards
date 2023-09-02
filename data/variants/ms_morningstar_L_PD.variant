@@ -1,0 +1,38 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_morningstar_L",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_morningstar_L_PD",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "swarmer",
+                "WS0008": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0006": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmg",
+                "WS0002": "lightmg",
+                "WS0003": "lightdualmg",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

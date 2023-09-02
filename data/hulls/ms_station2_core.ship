@@ -1,0 +1,187 @@
+{
+  "bounds": [
+    -42,
+    159,
+    33,
+    170,
+    78,
+    50,
+    78,
+    -50,
+    33,
+    -170,
+    -42,
+    -159
+  ],
+  "builtInMods": [
+    "vastbulk",
+    "axialrotation",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "center": [
+    256,
+    277
+  ],
+  "collisionRadius": 200,
+  "engineSlots": [],
+  "height": 512,
+  "hullId": "ms_station2_core",
+  "hullName": "Battlestation, Shadowyards",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    -21,
+    0
+  ],
+  "shieldRadius": 200,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_station.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -17,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        81,
+        -92.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 17,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        81,
+        92.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        119.5,
+        -0.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -34,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        61.5,
+        -189.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 34,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        61.5,
+        189.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -148,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -82,
+        -192
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 148,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -82,
+        192
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -99.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -14,
+        -236.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -14,
+        236.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -90,
+      "arc": 8,
+      "id": "WS0011",
+      "locations": [
+        -14,
+        -384
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 90,
+      "arc": 8,
+      "id": "WS0012",
+      "locations": [
+        -14,
+        384
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
+    }
+  ],
+  "width": 512
+}

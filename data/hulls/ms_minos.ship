@@ -1,0 +1,389 @@
+{
+  "bounds": [
+    -96.5,
+    -5,
+    -70.5,
+    -7,
+    -51,
+    -35.5,
+    -91,
+    -36.5,
+    -84,
+    -56.5,
+    -38.5,
+    -83.5,
+    52,
+    -77,
+    74,
+    -66.5,
+    88.5,
+    -27,
+    70.5,
+    -21.5,
+    70.5,
+    21.5,
+    88.5,
+    27,
+    74,
+    66.5,
+    52,
+    77,
+    -38.5,
+    83.5,
+    -84,
+    56.5,
+    -91,
+    36.5,
+    -51,
+    35.5,
+    -70.5,
+    7,
+    -96.5,
+    5
+  ],
+  "builtInWeapons": {
+    "WS0011": "ms_blinky",
+    "WS0012": "ms_blinky",
+    "WS0013": "ms_blinky",
+    "WS0014": "ms_blinky",
+    "WS0015": "ms_blinkyB",
+    "WS0016": "ms_blinkyB",
+    "WS0017": "ms_blinky",
+    "WS0018": "ms_blinky",
+    "WS0019": "ms_blinkyB",
+    "WS0020": "ms_blinkyB"
+  },
+  "builtInWings": ["ms_dromedary_wing"],
+  "builtInMods": [
+    "ms_harShields",
+    "surveying_equipment",
+    "repair_gantry",
+    "ms_scienceShip"
+  ],
+  "center": [
+    95,
+    110
+  ],
+  "collisionRadius": 169,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 60,
+      "length": 50,
+      "location": [
+        -90,
+        -42
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 60,
+      "length": 50,
+      "location": [
+        -90,
+        42
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 40,
+      "location": [
+        -86,
+        -51.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 50,
+      "length": 40,
+      "location": [
+        -86,
+        51.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 12
+    }
+  ],
+  "height": 212,
+  "hullId": "ms_minos",
+  "hullName": "Minos",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 144.5,
+  "spriteName": "graphics/shadow_ships/ships/minos/ms_minos.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        78,
+        -13.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        78,
+        13.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        89.5,
+        28
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        89.5,
+        -28
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS0005",
+      "locations": [
+        40,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -66,
+      "arc": 190,
+      "id": "WS0006",
+      "locations": [
+        0,
+        -54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 66,
+      "arc": 210,
+      "id": "WS0007",
+      "locations": [
+        0,
+        54
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -105,
+      "arc": 190,
+      "id": "WS0008",
+      "locations": [
+        -25,
+        -58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 105,
+      "arc": 190,
+      "id": "WS0009",
+      "locations": [
+        -25,
+        58
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 190,
+      "id": "WS0010",
+      "locations": [
+        -34,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        83.5,
+        -49
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        83.5,
+        49
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        11,
+        90
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        11,
+        -90
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        15,
+        82
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0016",
+      "locations": [
+        15,
+        -82
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0017",
+      "locations": [
+        -64.5,
+        -58
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0018",
+      "locations": [
+        -64.5,
+        58
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0019",
+      "locations": [
+        -86,
+        -16.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0020",
+      "locations": [
+        -86,
+        16.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        4,
+        -32.5,
+        0,
+        -35.5,
+        9.5,
+        -30
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 190
+}

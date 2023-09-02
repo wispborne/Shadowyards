@@ -1,0 +1,10 @@
+{
+	"id":"ms_swflares",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	#"aiType":"CUSTOM",
+	#"aiScript":"data.shipsystems.scripts.ai.MS_fighterFlareAI",
+	
+	"weaponDataId":"ms_swflares",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

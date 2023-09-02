@@ -1,0 +1,54 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "blackcap_launch",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    28.5,
+    -6,
+    28.5,
+    6
+  ],
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_blackcap_2x_hardpoint.png",
+  "id": "ms_blackcap_pod",
+  "projectileSpecId": "ms_blackcap",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    17,
+    -6,
+    17,
+    6
+  ],
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_blackcap_2x_turret.png",
+  "type": "MISSILE"
+}

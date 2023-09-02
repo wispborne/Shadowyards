@@ -1,0 +1,33 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "ms_inanna_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_slowbeamM"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_stormBlaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_cepc",
+                "WS0005": "ms_cepc"
+            }
+        }
+    ]
+}

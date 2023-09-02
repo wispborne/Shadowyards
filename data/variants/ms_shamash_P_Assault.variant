@@ -1,0 +1,21 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "ms_shamash_P",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_shamash_P_Assault",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "lightag",
+            "WS0002": "lightag",
+            "WS0003": "heavymauler",
+            "WS0004": "lightmg"
+        }
+    }]
+}

@@ -1,0 +1,30 @@
+{
+	"id":"ms_derazhoObject",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"everyFrameEffect":"data.scripts.weapons.MS_SparkMaster",
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/shadow_weapons/weapons/ms_pandora_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/shadow_weapons/weapons/ms_pandora_glow.png",
+	"turretOffsets":[25, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",
+	"glowColor":[155,155,255,125],
+	"muzzleFlashSpec":{"length":100.0,
+					   "spread":45.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.45,
+					   "particleCount":25,
+					   "particleColor":[165,215,145,255]},		
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"ms_derazhoMainProj",  # projectile that will be fired
+	"fireSoundOne":"tanith_charge",
+	"fireSoundTwo":"tanith_fire",
+}

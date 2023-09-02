@@ -1,0 +1,39 @@
+{
+    "displayName": "Common",
+    "fluxCapacitors": 7,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "ms_clade_vayra_revolutionary",
+    "hullMods": ["extendedshieldemitter"],
+    "permaMods": [],
+    "variantId": "ms_cladeRC_Common",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualac",
+                "WS0003": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "taclaser"
+            }
+        }
+    ]
+}

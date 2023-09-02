@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "ms_potnia",
+    "hullMods": [
+        "blast_doors",
+        "magazines"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_potnia_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_cepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_pdcepc",
+                "WS0003": "ms_pdcepc"
+            }
+        }
+    ]
+}

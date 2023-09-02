@@ -1,0 +1,47 @@
+{
+  "id": "ms_particleDart",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 150,
+  "everyFrameEffect":"data.scripts.weapons.MS_particleDartProjSpawner",
+  "turretSprite": "graphics/shadow_weapons/weapons/ms_particleDart.png",
+  "turretGlowSprite": "graphics/shadow_weapons/weapons/ms_particleDart_glow.png",
+  "hardpointSprite": "graphics/shadow_weapons/weapons/ms_particleDart_HP.png",
+  "hardpointGlowSprite": "graphics/shadow_weapons/weapons/ms_particleDart_glow.png",
+  "beamFireOnlyOnFullCharge": true,
+  "renderAboveAllWeapons": 0,
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    12.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    21.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [55,120,155,255],
+  "coreColor": [175,255,200,255],
+  "glowColor":[55,120,155,255],
+  "width": 8,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "particle_dart_charge",
+  "fireSoundTwo": "graviton_beam_loop"
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Reaper",
+    "fluxCapacitors": 13,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "msp_boss_potniaBis",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "msp_boss_potniaBis_nuke",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "typhoon",
+                "WS0006": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightneedler",
+                "WS0011": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_lempGun",
+                "WS0003": "ms_lempGun"
+            }
+        }
+    ]
+}

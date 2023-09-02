@@ -1,0 +1,18 @@
+{
+	"id":"ms_phaseblast",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":20.0,
+	"width":20,
+	"glowRadius":35,
+	"hitGlowRadius":75,
+	"fadeTime":0.3,
+	"fringeColor":[215,145,165,55],
+	"coreColor":[155,115,125,20],
+	"glowColor":[120,50,70,15],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/ms_phaseblast.png"
+}

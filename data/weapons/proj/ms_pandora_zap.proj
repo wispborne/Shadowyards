@@ -1,0 +1,18 @@
+{
+	"id":"ms_pandora_zap",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+        "onHitEffect":"data.scripts.weapons.MS_LightningGunOnHitEffect",
+  	#"everyFrameEffect": "data.scripts.plugins.MS_PandoraZapMaster",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":15.0,
+	"hitGlowRadius":15,
+	"width":2.5,
+	"fadeTime":"0.2",
+	"fringeColor":[125,155,115,20],
+	"coreColor":[165,215,145,45],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/ms_pandora.png",
+}

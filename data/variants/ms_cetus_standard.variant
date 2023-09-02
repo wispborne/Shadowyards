@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "ms_cetus",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_cetus_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_cepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_barrago"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_pdcepc",
+                "WS0004": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": ["ms_wraith_wing"]
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_inanna_vayra_revolutionary",
+    "hullMods": [
+        "blast_doors",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_inannaRC_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualmg",
+                "WS0005": "lightdualmg"
+            }
+        }
+    ]
+}

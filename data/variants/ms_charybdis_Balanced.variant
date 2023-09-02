@@ -1,0 +1,50 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "ms_charybdis_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0002": "irpulse",
+                "WS0006": "pulselaser",
+                "WS0007": "pulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoon",
+                "WS0010": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdburst",
+                "WS0004": "pdburst",
+                "WS0005": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "ms_skinwalker_wing",
+        "ms_neriad_wing"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "displayName": "Armour",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_module_armour",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "ms_module_armour_Standard",
+  "weaponGroups": []
+}

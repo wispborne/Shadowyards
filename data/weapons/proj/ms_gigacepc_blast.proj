@@ -1,0 +1,18 @@
+{
+	"id":"ms_gigacepc_blast",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":37.5,
+	"width":7.5,
+	"fadeTime":0.19,
+	"fringeColor":[75,250,220,255],
+	"coreColor":[165,255,248,255],
+	"glowColor":[100,255,100,75],
+	"glowRadius":25,
+	"hitGlowRadius":35,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/cecp_med.png"
+}

@@ -1,0 +1,23 @@
+{
+	"id":"ms_rhpbc_chargeAnim",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"MEDIUM",
+	"showDamageWhenDecorative":true,
+	"turretSprite":"graphics/shadow_weapons/weapons/decorative/nidhoggrLance/ms_nidCharge_0000.png",
+	"hardpointSprite":"graphics/shadow_weapons/weapons/decorative/nidhoggrLance/ms_nidCharge_0000.png",
+	"numFrames":80,	
+	"frameRate":20,	
+	"renderBelowAllWeapons":"true",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,	
+}

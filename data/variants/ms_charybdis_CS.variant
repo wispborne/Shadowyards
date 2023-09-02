@@ -1,0 +1,51 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+        "armoredweapons",
+        "targetingunit",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "variantId": "ms_charybdis_CS",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_trishula",
+                "WS0004": "ms_trishula",
+                "WS0005": "ms_trishula"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_particleDart",
+                "WS0002": "ms_particleDart",
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam"
+            }
+        }
+    ],
+    "wings": [
+        "ms_wraith_wing",
+        "ms_neriad_wing"
+    ]
+}

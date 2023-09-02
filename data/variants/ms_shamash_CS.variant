@@ -1,0 +1,30 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_shamash",
+    "hullMods": [
+        "insulatedengine",
+        "targetingunit",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "variantId": "ms_shamash_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_phasegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_trishula",
+                "WS0002": "ms_trishula",
+                "WS0004": "ms_trishula"
+            }
+        }
+    ]
+}

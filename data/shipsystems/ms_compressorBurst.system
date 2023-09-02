@@ -1,0 +1,18 @@
+{
+	"id":"ms_compressorBurst",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.MS_compressorBurst",
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"sra_compressor_start",
+	"loopSound":"sra_compressor_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	}
+}

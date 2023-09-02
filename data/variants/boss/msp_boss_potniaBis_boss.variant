@@ -1,0 +1,57 @@
+{
+    "displayName": "Boss",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "hullId": "msp_boss_potniaBis",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [
+        "missleracks",
+        "eccm",
+        "stabilizedshieldemitter",
+        "frontemitter"
+    ],
+    "quality": 1,
+    "variantId": "msp_boss_potniaBis_boss",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "railgun",
+                "WS0011": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "ms_tusk_rack",
+                "WS0008": "ms_tusk_rack",
+                "WS0009": "ms_tusk_rack",
+                "WS0010": "ms_tusk_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavymauler",
+                "WS0006": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "irpulse",
+                "WS0003": "irpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "displayName": "Point Defence",
+    "fluxCapacitors": 19,
+    "fluxVents": 30,
+    "hullId": "ms_mimir",
+    "hullMods": [
+        "magazines",
+        "advancedshieldemitter",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "ms_mimir_PD",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"MAIN": "ms_rhpbc"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "ms_shrike_pod",
+                "WS0009": "ms_shrike_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_mcepc",
+                "WS0010": "ms_cepc",
+                "WS0013": "ms_cepc",
+                "WS0014": "ms_cepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_wamgun",
+                "WS0003": "ms_wamgun",
+                "WS0004": "ms_wamgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_chaingang",
+                "WS0007": "ms_chaingang",
+                "WS0011": "ms_lempGun",
+                "WS0012": "ms_lempGun",
+                "WS0015": "ms_lempGun",
+                "WS0016": "ms_lempGun"
+            }
+        }
+    ]
+}

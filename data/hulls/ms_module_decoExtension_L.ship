@@ -1,0 +1,41 @@
+{
+  "bounds": [
+    -66.5,
+    55,
+    81.5,
+    24,
+    81.5,
+    -24,
+    -66.5,
+    -55
+  ],
+  "builtInMods": [
+    "vastbulk",
+    "never_detaches"
+  ],
+  "center": [
+    118,
+    83.5
+  ],
+  "collisionRadius": 147,
+  "engineSlots": [],
+  "height": 198,
+  "hullId": "ms_module_decoExtension_L",
+  "hullName": "Deco Module L",
+  "hullSize": "FRIGATE",
+  "moduleAnchor": [
+    -66,
+    1
+  ],
+  "shieldCenter": [
+    0,
+    -0.5
+  ],
+  "shieldRadius": 168.5,
+  "spriteName": "graphics/shadow_ships/ships/stations/ms_deco_Extender_L.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+  ],
+  "width": 236
+}

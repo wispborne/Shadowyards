@@ -1,0 +1,18 @@
+{
+	"id":"player",
+	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/ms_portrait_006.png",
+			"graphics/portraits/ms_portrait_007.png",
+			"graphics/portraits/ms_portrait_008.png",
+		],
+		"standard_female":[
+			"graphics/portraits/ms_portrait_001.png",
+			"graphics/portraits/ms_portrait_002.png",
+			"graphics/portraits/ms_portrait_003.png",
+			"graphics/portraits/ms_portrait_005.png",
+			"graphics/portraits/ms_player_f_01.png",
+		],
+	},
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Barrage",
+    "fluxCapacitors": 5,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "msp_boss_potniaBis",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "msp_boss_potniaBis_barrage",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "annihilator",
+                "WS0008": "annihilator",
+                "WS0009": "annihilator",
+                "WS0010": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavymg",
+                "WS0006": "heavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightag",
+                "WS0011": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser"
+            }
+        }
+    ]
+}

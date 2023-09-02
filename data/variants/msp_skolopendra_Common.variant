@@ -1,0 +1,49 @@
+{
+    "displayName": "Common",
+    "fluxCapacitors": 8,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "msp_skolopendra",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "msp_skolopendra_Common",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "annihilator",
+                "WS0015": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0002": "heavyac",
+                "WS0007": "irpulse",
+                "WS0016": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser",
+                "WS0005": "lightdualmg",
+                "WS0006": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "salamanderpod",
+                "WS0009": "salamanderpod"
+            }
+        }
+    ]
+}

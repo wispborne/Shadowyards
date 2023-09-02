@@ -1,0 +1,46 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 16,
+    "hullId": "ms_morningstar",
+    "hullMods": [
+        "insulatedengine",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_morningstar_CS",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_particleDart",
+                "WS0002": "ms_particleDart",
+                "WS0003": "ms_trishula"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdburst",
+                "WS0005": "pdburst"
+            }
+        }
+    ],
+    "wings": ["ms_wraith_wing"]
+}

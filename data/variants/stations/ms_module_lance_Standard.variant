@@ -1,0 +1,18 @@
+{
+  "displayName": "Lance",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_module_lance",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "ms_module_lance_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MAIN": "ms_rhpbc_turr"
+      }
+    }
+  ]
+}

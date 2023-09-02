@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "ms_module_decoExtension_R",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "ms_module_decoExtension_R_Standard",
+    "weaponGroups": []
+}

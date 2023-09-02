@@ -1,0 +1,48 @@
+{
+    "displayName": "Sweep",
+    "fluxCapacitors": 21,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "ms_boss_asphodel",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "ms_chargeCycler"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ms_boss_asphodel_Sweep",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "ms_derazhoObject"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_slowbeamM",
+                "WS0006": "ms_slowbeamM"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc",
+                "WS0003": "ms_cepc",
+                "WS0004": "ms_cepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ms_spreadbeam",
+                "WS0008": "ms_spreadbeam"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "displayName": "Fast",
+    "fluxCapacitors": 7,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "ms_cetus",
+    "hullMods": ["augmentedengines"],
+    "permaMods": [],
+    "variantId": "ms_cetus_fast",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ms_stormBlaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_pdcepc",
+                "WS0003": "ms_pdcepc",
+                "WS0004": "ms_pdcepc"
+            }
+        }
+    ],
+    "wings": ["ms_wraith_wing"]
+}

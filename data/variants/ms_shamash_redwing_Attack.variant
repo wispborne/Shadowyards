@@ -1,0 +1,30 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ms_shamash_redwing",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ms_shamash_redwing_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ms_phasegun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "amblaster",
+                "WS0002": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ms_pdcepc"}
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+Skinwalker,ms_skinwalker,,Shadowyards,ms_bitdrones,,350,40,650,,100,0,,225,400,100,80,160,30,OMNI,,135,0.25,0.9,,,2,2,,,,,,,,,,,,,,,,0,,,,52701
+Neriad,ms_neriad,,Shadowyards,ms_neriadjets,,300,30,400,,50,0,,300,450,140,120,240,20,FRONT,,100,0.25,0.9,,,1,1,,,,,,,,,,,,,,,,0,,,,52702
+Rakshasa,ms_raksasha,,Shadowyards,ms_rakporter,,600,50,400,,90,0,,140,150,75,55,120,65,OMNI,,120,0.25,0.9,,,3,3,,,,,,,,,,,,,,,,0,,,,52703
+Kobold,ms_kobold,,Shadowyards,ms_swflares,,300,30,350,,70,0,,175,225,200,65,120,30,OMNI,,90,0.25,0.9,,,2,2,,,,,,,,,,,,,,,,0,,,,52704
+Shikome,ms_shikome,,Shadowyards,ms_combatshell,,600,100,1000,,200,0,,200,400,300,140,300,80,OMNI,,145,0.25,0.7,,,5,5,,,,,,,,,,,,,,,,0,,,,52705
+Heckler,msp_heckler,,Pirate,,,500,50,300,,30,0,,250,400,100,130,260,30,OMNI,,90,0.25,1,,,1,1,,,,,,,,,,,,,,,,0,,,,52706
+Vulgar,msp_vulgar,,Pirate,,,650,50,350,,50,0,,120,100,50,40,80,50,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,0,,,,52707
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Enlil,ms_enlil,Gunship,Shadowyards,ms_booster,5,1350,200,2250,180,160,55,,160,80,80,90,120,200,FRONT,,190,0.2,0.7,,,12,30,40,25,1,25,10,10000,8,10,340,0.25,5,4,,sra_bp,,0.3,2,2,,54913
+Seski,ms_seski,Corvette Courier,Shadowyards,ms_displacer,4,750,150,2000,160,130,40,,185,170,120,140,200,100,OMNI,,90,0.3,0.8,,,7,18,65,35,1,35,10,8000,10,15,180,0.25,3,3,,sra_bp,,0.4,2,2,,54914
+Shamash,ms_shamash,Phase Frigate,Shadowyards,ms_stopper,7,1200,300,3000,240,230,40,,170,140,120,130,150,150,PHASE,ms_phaseanchor,,,,0.02,0.07,8,25,25,30,1,30,10,36000,8,20,180,0.25,7,7,PHASE,"rare_bp, shadowyards",,0.7,2,4,,54915
+Inanna,ms_inanna,Frigate,Shadowyards,ms_gat,6,1600,350,2500,200,250,60,,140,90,70,70,70,300,OMNI,,160,0.3,1,,,15,40,50,20,1,20,10,12000,8,12,300,0.25,5,5,,sra_bp,,0.4,2,2,,54918
+Southpaw,msp_southpaw,Gunship,Pirate,ms_overdrive,5,1500,170,3000,240,220,50,,165,65,50,95,105,200,OMNI,,120,0.4,0.9,,,25,35,50,25,1,25,10,9000,8,10,300,0.25,4,4,,"rare_bp, pirates",,0.5,2,2,,54913.2
+Ashnan,ms_ashnan,Freighter,Shadowyards,ms_booster,4,1750,225,1500,120,120,25,1,165,115,65,110,90,200,OMNI,,75,0.3,0.8,,,12,30,100,50,1,50,9,9000,10,10,210,0.25,2,2,"CIVILIAN, FREIGHTER",sra_aux_bp,,0.5,2,2,,54919
+Belet-Seri,ms_belet-seri,Frigate,Shadowyards,ms_tagSystem,6,800,100,2000,160,170,35,,160,125,65,115,280,100,OMNI,,170,0.2,0.7,,,8,24,40,25,1,25,10,11000,10,20,180,0.25,4,4,,sra_high_bp,,0.6,2,2,,
+Baseplate,msp_baseplate,Ultralight Carrier,Pirate,flarelauncher,4,1000,50,500,40,40,12,1,165,60,32,40,9,150,NONE,,,,,,,45,6,5,18,1,18,8,9000,10,25,170,0.25,4,4,CARRIER,"rare_bp, pirates",,0.8,2,2,,54919.2
+Anu,ms_anu,Shuttle,Shadowyards,ms_flare_shamash,4,1250,100,1500,120,90,27,,135,80,80,70,70,100,OMNI,,110,0.5,0.8,,,2,30,15,40,1,40,10,4250,5,20,120,0.25,2,2,,sra_aux_bp,,0.65,2,2,,54920
+Ninurta,ms_ninurta,Advanced Gunship,Redwings,ms_compressorBurst,12,1750,300,3200,256,200,65,,175,140,100,160,120,240,FRONT,,210,0.4,0.6,,,10,30,30,25,1,30,10,36000,8,25,180,0.25,12,12,,"rare_bp, redwings_bp",,0.33,2,3,,54913
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Morningstar,ms_morningstar,Light Destroyer,Shadowyards,ms_sensordrones,10,2400,350,5000,300,315,90,,100,80,60,60,100,300,FRONT,,260,0.2,0.7,,,25,60,70,70,0.75,50,9,50000,5,15,300,0.25,10,10,,sra_bp,,0.3,2,3,,54912
+Morningstar (L),ms_morningstar_L,Light Destroyer,Shadowyards,plasmajets,10,2400,350,5000,300,315,90,,100,80,60,60,100,300,FRONT,,260,0.3,0.8,,,25,60,70,70,0.75,50,9,50000,5,15,300,0.25,10,10,,sra_export_bp,,0.3,2,3,,54912
+Sargasso,ms_sargasso,Light Carrier,Shadowyards,ms_swacs,11,3000,200,3500,210,200,80,2,70,50,40,40,45,400,FRONT,,200,0.7,0.7,,,80,130,80,40,2.2,40,9,48000,4,15,360,0.25,12,12,CARRIER,sra_bp,,0.4,2,4,,54917
+Solidarity,ms_solidarity,Armed Freighter,Shadowyards,ms_booster,9,3500,350,4500,270,160,70,,70,55,50,45,50,400,OMNI,,120,0.4,0.7,,,30,80,270,100,2,35,9,44000,4,12,420,0.25,7,7,,sra_aux_bp,,0.3,2,3,,54922
+Potnia-bis,msp_potniaBis,Destroyer,Pirate,damper,9,3000,350,7000,420,360,70,,80,60,40,50,45,350,OMNI,,160,0.5,1,,,60,90,80,40,3,35,9,38000,4,12,360,0.25,8,8,,"rare_bp, pirates",,0.4,2,3,,59971
+Clade,ms_clade,Destroyer,Shadowyards,ms_woopDrive,11,3300,400,8000,480,350,100,,95,85,70,35,35,450,FRONT,,270,0.4,0.8,,,35,80,90,50,1.6,45,9,45000,5,15,420,0.25,11,11,,sra_high_bp,,0.5,2,3,,54923
+Minarette,ms_minarette,Missile Destroyer,Shadowyards,forgevats,10,2600,300,4000,240,250,80,,85,60,40,35,35,350,OMNI,,160,0.3,0.8,,,30,80,75,50,1.5,50,9,42000,5,12,360,0.25,11,11,,sra_high_bp,,0.6,2,3,,54924
+Lobatus,ms_lobatus,Heavy Destroyer,Shadowyards,ms_siegemode,10,4000,500,5500,330,315,110,,70,45,45,30,40,450,FRONT,,270,0.4,0.7,,,30,70,60,60,1.75,40,9,40000,5,12,420,0.25,11,11,,sra_high_bp,,0.3,2,3,,54999
+Carmine,msp_carmine,Light Battle Carrier,Pirate,ammofeed,14,3000,300,6000,360,280,105,2,80,35,25,100,80,400,FRONT,,220,0.5,1,,,70,120,60,50,2.4,40,9,60000,5,20,300,0.25,14,14,"CARRIER, COMBAT","rare_bp, pirates",,0.2,2,4,,55210
+Potnia-tris,ms_potniaTris_vayra_revolutionary,Destroyer,Red Guards,ms_dumper,9,3000,300,4500,270,240,70,,80,60,40,50,45,350,FRONT,,220,0.4,0.8,,,60,90,80,40,3,35,9,42000,4,12,360,0.25,8,8,,"rare_bp, revolutionary",,0.4,2,3,,59971
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Charybdis,ms_charybdis,Strike-Carrier,Shadowyards,ms_booster,18,7000,700,12000,600,540,165,3,65,40,30,35,35,1800,FRONT,,300,0.7,0.8,,,170,380,110,110,2.75,40,8,140000,3,20,420,0.25,30,30,,"rare_bp, shadowyards",0.75,0.6,2,3,,54911
+Elysium,ms_elysium,Light Cruiser,Shadowyards,ms_stopper,14,4000,800,10000,500,450,100,,85,50,35,35,45,900,OMNI,,120,0.2,0.7,,,75,170,110,110,1.25,50,9,90000,4,15,480,0.25,20,20,,sra_high_bp,,0.7,2,4,,54916
+Elysium (P),ms_elysium_P,Light Cruiser,Pirate,ammofeed,14,4000,800,10000,500,450,100,,85,50,35,35,45,900,OMNI,,120,0.2,0.7,,,75,170,110,110,1.25,50,9,75000,4,15,480,0.25,18,18,,"rare_bp, pirates",,0.7,2,4,,54916
+Tartarus,ms_tartarus,Heavy Cruiser,Shadowyards,ms_siegemode,16,8000,1000,11000,550,630,150,,65,45,45,20,30,1800,FRONT,,270,0.4,0.7,,,140,340,140,110,3.75,30,7,125000,3,12,480,0.25,23,23,,"rare_bp, shadowyards",,0.3,2,3,,54920
+Scylla,ms_scylla,Phase Cruiser,Shadowyards,ms_gat,17,7000,1500,10000,500,900,160,1,75,55,40,45,50,1400,PHASE,ms_phaseanchor,,,,0.02,0.07,85,200,110,160,2.5,35,8,260000,3,20,420,0.25,30,30,PHASE,"rare_bp, shadowyards",0.75,0.4,2,3,,59421
+Thresher,msp_thresher,Light Cruiser,Pirate,ms_overdrive,13,4500,600,11000,550,450,95,,75,75,45,75,45,800,FRONT,,160,0.4,1.3,,,80,235,140,80,4.5,30,9,80000,3,12,480,0.25,18,18,,"rare_bp, pirates",,0.6,2,4,,54922
+Cetus,ms_cetus,Frieghter,Shadowyards,ms_flare_shamash,12,5000,300,6000,300,400,60,1,60,20,15,25,15,1800,OMNI,,100,0.7,1,,,60,240,800,110,2.5,40,7,42500,3,20,420,0.25,9,9,"CIVILIAN, FREIGHTER, CARRIER",sra_aux_bp,,0.4,2,4,,54924
+Skolopendra,msp_skolopendra,Phase Cruiser,Pirate,ammofeed,16,7000,800,8000,400,500,120,,70,15,15,35,15,1800,PHASE,phasecloak,100,,,0.05,0.05,100,200,90,90,4,30,8,180000,3,25,420,0.25,22,22,,"rare_bp, pirates",0.75,0.4,2,4,,54924.2
+Semele,ms_semele,Tanker,Shadowyards,ms_jammer,12,5000,400,6000,300,350,55,,55,25,15,30,15,1800,OMNI,,120,0.7,1,,,40,100,100,1200,2.5,40,7,45000,3,20,420,0.25,7,7,"CIVILIAN, TANKER",sra_aux_bp,,0.65,3,5,,654652
+Delphi,ms_delphi,Cruiser,Shadowyards,ms_gat,15,7500,900,10000,500,600,130,,75,60,45,40,35,1600,FRONT,,240,0.4,0.7,,,110,220,120,110,2.75,50,8,85000,3,10,480,0.25,18,18,,sra_bp,,0.5,2,5,,54321
+Minos,ms_minos,Cruiser,Shadowyards,ms_minosPing,13,9000,1100,8000,400,400,100,1,50,20,15,20,20,1500,FRONT,,200,0.7,1,,,120,150,300,300,2.5,90,8,115000,3,15,480,0.25,25,25,,sra_aux_bp,,0.3,2,4,,54923
+Kabaloi,ms_kabaloi,Carrier,Shadowyards,ms_swacs,15,5000,500,8000,400,300,100,3,75,60,45,30,30,1250,OMNI,,200,0.4,0.7,,,140,260,80,80,2.5,30,8,120000,4,20,360,0.25,20,20,CARRIER,sra_bp,,0.55,2,3,,54911.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mimir,ms_mimir,Battlecruiser,Shadowyards,ms_RRSDrive,25,9000,1200,18000,720,1000,240,,55,35,25,25,20,2500,FRONT,,260,0.4,0.7,,,340,750,300,300,10,30,8,340000,3,25,540,0.25,45,45,,"rare_bp, shadowyards",,0.3,2,4,,54919
+Skadi,ms_skadi,Carrier,Shadowyards,ms_swacs,25,8000,800,15000,600,800,260,5,55,35,25,25,20,2250,FRONT,,260,0.6,0.7,,,400,900,250,250,10,25,7,380000,3,14,720,0.25,45,45,CARRIER,"rare_bp, shadowyards",,0.6,2,4,,54920
+Vardr,ms_vardr,Battleship,Shadowyards,ms_drivecharger,28,17000,1600,21000,840,1100,360,1,35,15,10,6,6,3250,FRONT,,280,0.5,0.7,,,400,1000,250,300,10,30,7,415000,3,20,720,0.25,50,50,,"rare_bp, shadowyards",,0.5,2,5,,54921
+Eir,ms_eir,Liner,Shadowyards,ms_dMatrix,12,9000,1000,9000,360,350,90,,50,25,20,15,9,2750,OMNI,,160,0.3,0.7,,,150,6000,800,240,10,24,7,200000,2,20,600,0.25,15,15,"CIVILIAN, LINER","rare_bp, shadowyards",0.5,0.5,2,5,,54922
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lambent,ms_lambent,Fueler,Shadowyards,flarelauncher,8,2000,300,2500,150,160,25,,60,35,30,35,35,400,OMNI,,80,0.3,0.9,,,8,15,20,450,1.25,500,9,20000,5,15,420,0.25,3,3,"CIVILIAN, TANKER",sra_aux_bp,,0.6,2,4,,54970
+Potnia,ms_potnia,Troop Transport,Shadowyards,ms_jammer,7,3000,300,3000,180,160,40,,70,50,30,40,35,350,OMNI,,110,0.4,0.8,,,15,215,60,90,1.5,90,8,18000,5,10,360,0.25,3,3,"CIVILIAN, TRANSPORT",sra_aux_bp,,0.35,2,3,,59971
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hydra Drone,ms_hydra_drone,,,,,170,40,1000,,180,,,260,280,20,260,240,5,PHASE,ms_phaseanchor,,,,0.02,0.06,0,0,,,,,,,,,,,,,,,,0,,,,52201
+Wraith Drone,ms_wraith_drone,,Shadowyards,,,170,40,400,,100,,,300,320,60,200,210,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,,52202
+Dullahan Drone,ms_dullahan,,Shadowyards,,,300,35,300,,50,,,215,300,80,180,210,8,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,,52202.5
+Bit Auxiliary Drone,ms_bit_drone,,,,,60,120,200,,50,,,450,600,200,200,220,0.5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,,52203
+Scan Drone,ms_scandrone,,,,,100,100,500,,100,,,125,150,80,140,190,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,,52204
+Stevedore Drone,ms_loader_drone,,,,,150,100,300,,50,,,125,200,200,140,190,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,,52204
+Dromedary Drone,ms_dromedary_drone,,,,,450,75,150,,100,0,,140,80,80,50,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,,52206
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Asphodel,ms_boss_asphodel,Testbed Cruiser,Shadowyards,ms_drivecharger,20,5500,800,12000,600,600,150,,90,70,50,55,60,1750,OMNI,,140,0.5,0.7,,,90,180,90,90,3,80,9,350000,3,18,420,0.25,22,22,HIDE_IN_CODEX,"no_autofit, no_drop, no_bp_drop",,0,,,,
+Poseidon,ms_boss_charybdis,Mod-Strike-Carrier,Madmen,ms_siegemode,20,7500,600,14000,700,700,180,3,90,60,45,40,45,2000,FRONT,,300,0.6,0.7,,,170,380,140,90,3,100,8,500000,3,18,420,0.25,30,30,HIDE_IN_CODEX,"no_autofit, no_drop, no_bp_drop",,0,,,,54911
+Maleficent,msp_boss_potniaBis,Mod-Destroyer,Madmen,ms_overdrive,11,4000,500,6500,390,390,100,,90,75,50,60,50,450,OMNI,,180,0.5,0.8,,,75,100,120,80,2,45,8,110000,4,15,360,0.25,12,12,HIDE_IN_CODEX,"no_autofit, no_drop, no_bp_drop",,0,,,,59971
+Odin,ms_boss_mimir,Mod-Battlecruiser,Madmen,ms_overdrive,30,11000,1400,20000,800,1200,290,,65,40,30,20,15,3000,FRONT,,260,0.4,0.7,,,340,750,450,300,10,75,7,1200000,3,18,540,0.25,50,50,HIDE_IN_CODEX,"no_autofit, no_drop, no_bp_drop",,0,,,,54919
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Orbital Station,ms_station1_core,Orbital Station,,,100,40000,1600,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002
+Battlestation,ms_station2_core,Battlestation,,,200,80000,2000,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002
+Star Fortress,ms_station3_core,Star Fortress,,ms_drone_station,400,160000,2400,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,,2002
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,ms_blocker,Station Structural Spur,,,1,5000,1500,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,,2058
+,ms_module_decoExtension_R,Station Extension,,,1,5000,1500,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,,2060
+,ms_module_decoExtension_L,Station Extension,,,1,5000,1500,0,2500,100,0,,0,0,0,2,2,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,,2061
+,ms_module_gunplatform_R,Station Battery,,ms_gat,1,12000,1750,15000,25000,1000,1000,,0,0,0,10,10,1000,FRONT,,50,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2076
+,ms_module_gunplatform_L,Station Battery,,ms_gat,1,12000,1750,15000,25000,1000,1000,,0,0,0,10,10,1000,FRONT,,50,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2076
+,ms_module_hangar,Large Hangar Module,,ms_swacs,1,7000,1250,7500,12500,500,1000,6,0,0,0,10,10,2500,FRONT,,60,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2073
+,ms_module_hangar_OSBS,Large Hangar Module,,ms_swacs,1,7000,1250,7500,12500,500,1000,4,0,0,0,10,10,2500,FRONT,,60,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2073
+,ms_module_support,Support Battery,,ms_gat,1,10000,1500,12000,25000,1000,1000,1,0,0,0,10,10,1000,FRONT,,200,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,2076
+,ms_module_understrut,Station Extension,,,1,5000,1500,0,2500,100,0,,0,0,0,3,10,500,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, UNDER_PARENT",,,1,2,3,,2075
+,ms_module_armour,Station Armour,,,1,17500,4000,0,2500,100,0,0,0,0,0,3,6,1000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,,45415
+,ms_module_lance,Heavy Weapon Battery,,,1,10000,1500,12000,10000,400,1000,,0,0,0,10,10,240,FRONT,,240,0.3,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,2,,2070
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Upelluri,ms_upelluri,,,ms_fighterdrones,,3000,500,3500,,600,90,0,250,400,300,60,90,200,FRONT,,360,0.3,0.8,,,1,1,,,,,,,,,,,,,,,,0.4,2,2,,7

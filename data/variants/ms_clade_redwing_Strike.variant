@@ -1,0 +1,43 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "ms_clade_redwing",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "ms_clade_redwing_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ms_particleLance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "ms_shrike_rack",
+                "WS0003": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ms_mcepc"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ms_pdcepc",
+                "WS0006": "ms_pdcepc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "ms_particleDart"}
+        }
+    ]
+}

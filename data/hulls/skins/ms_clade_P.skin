@@ -1,0 +1,62 @@
+{
+	"baseHullId":"ms_clade",
+	"skinHullId":"ms_clade_P",
+	"hullName":"Clade (P)",
+	"descriptionId":"ms_clade",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/shadow_ships/ships/clade/ms_clade_P.png",
+	"baseValueMult":.8,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["ms_harShields"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0002":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0003":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "ENERGY"
+	   },
+	   "WS0004":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "MISSILE"
+	   },
+	   "WS0006":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   },
+	   "WS0005":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "BALLISTIC"
+	   }
+    },
+}
