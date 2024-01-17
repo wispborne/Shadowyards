@@ -2,57 +2,71 @@ package com.fs.starfarer.api.impl.campaign.econ;
 
 import com.fs.starfarer.api.EveryFrameScript;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.BaseCampaignEventListener;
-import com.fs.starfarer.api.campaign.CargoAPI;
-import com.fs.starfarer.api.campaign.FactionAPI;
-import com.fs.starfarer.api.campaign.SectorAPI;
-import com.fs.starfarer.api.campaign.SpecialItemData;
+import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import data.campaign.econ.MS_industries;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-
 public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
-    
+
     private static final List<String> SHIP_SELECT = new ArrayList<>(Arrays.asList(new String[]{
-        "ms_ninurta",
-        "ms_enlil_redwing",
-        "ms_seski_redwing",
-        "ms_shamash_redwing",
-        "ms_morningstar_redwing",
-        "ms_clade_redwing",
-        "ms_elysium_redwing",
-        "ms_scylla_redwing",
-        "ms_charybdis_redwing",
-        "ms_mimir_redwing",
-        "ms_skadi_redwing",
-        "ms_vardr_redwing",
-        "ms_carmine_redwing" //remove this one when the actual mission gets set up
+            "ms_ninurta",
+            "ms_enlil_redwing",
+            "ms_seski_redwing",
+            "ms_shamash_redwing",
+            "ms_morningstar_redwing",
+            "ms_clade_redwing",
+            "ms_elysium_redwing",
+            "ms_scylla_redwing",
+            "ms_charybdis_redwing",
+            "ms_mimir_redwing",
+            "ms_skadi_redwing",
+            "ms_vardr_redwing",
+            "ms_carmine_redwing" //remove this one when the actual mission gets set up
     }));
-    
+
     private static final List<String> SPECIAL_ITEMS = new ArrayList<>(Arrays.asList(new String[]{
-        "ms_parallelTooling",
-        "ms_militaryLogistics",
-        "ms_specializedSystemsFabs",
-        "industry_bp"
+            "ms_parallelTooling",
+            "ms_militaryLogistics",
+            "ms_specializedSystemsFabs",
+            "industry_bp"
     }));
-    
+
+    // Wisp: backwards compat.
     private RedwingsMarketListener listener;
-    
+
     @Override
-    public void advance (float amount) {
+    public void advance(float amount) {
         SectorAPI sector = Global.getSector();
-        
+
         if (sector == null) return;
-        
-        //Ensure we have a listener
-        if (listener == null) {
-            listener = new RedwingsMarketListener();
+
+        // Remove old script and clear it.
+        if (listener != null) {
+            listener.sector = null;
+            listener.targetMarkets = null;
+            listener = null;
+        }
+
+        // Wisp:
+        // Remove old, non-transient listener that had a memory leak.
+        if (sector.getListenerManager().hasListenerOfClass(RedwingsMarketListener.class)) {
+            for (RedwingsMarketListener marketListener : sector.getListenerManager().getListeners(RedwingsMarketListener.class)) {
+                marketListener.sector = null;
+                marketListener.targetMarkets = null;
+            }
+            sector.getListenerManager().removeListenerOfClass(RedwingsMarketListener.class);
+        }
+
+        // Ensure we have a listener
+        if (!sector.getListenerManager().hasListenerOfClass(RedwingsMarketListener2.class)) {
+            sector.addTransientListener(new RedwingsMarketListener2(false));
         }
     }
 
@@ -65,35 +79,47 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
     public boolean runWhilePaused() {
         return false;
     }
-    
+
+    // Wisp: Kept to prevent breaking saves, but unused because `sector` as a field variable is a memory leak.
+    @Deprecated
     private class RedwingsMarketListener extends BaseCampaignEventListener {
         private List<MarketAPI> targetMarkets = new ArrayList<>();
         private boolean hasRedwings = false;
-        SectorAPI sector = Global.getSector();
-        
+        // Wisp: This was a memory leak, keeping a ref to Sector in a listener that was added to the Sector.
+        SectorAPI sector = null;
+
         private RedwingsMarketListener() {
-            super(true);
+            super(false);
         }
-        
+    }
+
+    private class RedwingsMarketListener2 extends BaseCampaignEventListener {
+        private final List<String> targetMarketIds = new ArrayList<>();
+        private boolean hasRedwings = false;
+
+        public RedwingsMarketListener2(boolean permaRegister) {
+            super(permaRegister);
+        }
+
         @Override
         public void reportPlayerOpenedMarketAndCargoUpdated(MarketAPI market) {
             MarketAPI commandMarket = null;
-            FactionAPI shadow = sector.getFaction("shadow_industry");
-            FactionAPI red = sector.getFaction("redwings");
-            
+            FactionAPI shadow = Global.getSector().getFaction("shadow_industry");
+            FactionAPI red = Global.getSector().getFaction("redwings");
+
             for (MarketAPI m : Global.getSector().getEconomy().getMarketsCopy()) {
                 if (m.hasIndustry(MS_industries.REDWINGS)) {
                     commandMarket = m;
                 }
             }
-            
+
             if (commandMarket != null) {
                 hasRedwings = true;
             }
-            
+
             if (!red.knowsShip("ms_carmine_redwing")) red.addKnownShip("ms_carmine_redwing", false);
-            
-            if (!targetMarkets.contains(market)) {
+
+            if (!targetMarketIds.contains(market.getId())) {
                 if (market.getFactionId().contains(shadow.getId())) {
                     //Redwings need their command structure to exist:
                     if (hasRedwings) {
@@ -114,7 +140,7 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
                                         }
                                     }
                                 }
-                                
+
                                 cargo.initMothballedShips(shadow.getId());
                             }
                         }
@@ -136,10 +162,10 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
 
                                 blackM.initMothballedShips(shadow.getId());
                             }
-                        }    
+                        }
                     }
-                
-                    
+
+
                     if (market.getSubmarket(Submarkets.GENERIC_MILITARY) != null) {
                         CargoAPI cargo = market.getSubmarket(Submarkets.GENERIC_MILITARY).getCargo();
                         if (cargo != null) {
@@ -148,14 +174,15 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
                                     Random rand = new Random();
                                     String specialItem = SPECIAL_ITEMS.get(rand.nextInt(SPECIAL_ITEMS.size()));
                                     if (specialItem != null) {
-                                        if (specialItem.equals("industry_bp")) cargo.addSpecial(new SpecialItemData(specialItem, "ms_orbitalstation"), 1);
+                                        if (specialItem.equals("industry_bp"))
+                                            cargo.addSpecial(new SpecialItemData(specialItem, "ms_orbitalstation"), 1);
                                         else cargo.addSpecial(new SpecialItemData(specialItem, null), 1);
                                     }
                                 }
                             }
-                        }    
+                        }
                     }
-                    
+
                     if (market.getSubmarket(Submarkets.SUBMARKET_OPEN) != null) {
                         CargoAPI open = market.getSubmarket(Submarkets.SUBMARKET_OPEN).getCargo();
                         if (open != null) {
@@ -164,22 +191,23 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
                                     Random rand = new Random();
                                     String specialItem = SPECIAL_ITEMS.get(rand.nextInt(SPECIAL_ITEMS.size()));
                                     if (specialItem != null) {
-                                        if (specialItem.equals("industry_bp")) open.addSpecial(new SpecialItemData(specialItem, "ms_orbitalstation"), 1);
+                                        if (specialItem.equals("industry_bp"))
+                                            open.addSpecial(new SpecialItemData(specialItem, "ms_orbitalstation"), 1);
                                         else open.addSpecial(new SpecialItemData(specialItem, null), 1);
                                     }
                                 }
                             }
                         }
                     }
-                    
-                    targetMarkets.add(market);
+
+                    targetMarketIds.add(market.getId());
                 }
             }
         }
-        
+
         @Override
         public void reportEconomyMonthEnd() {
-            targetMarkets.clear();
+            targetMarketIds.clear();
         }
     }
 }

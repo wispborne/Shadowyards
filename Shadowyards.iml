@@ -8,10 +8,6 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="LazyLib" level="application" />
-    <orderEntry type="library" name="GraphicsLib" level="application" />
-    <orderEntry type="library" name="MagicLib" level="application" />
-    <orderEntry type="library" name="Starsector" level="application" />
-    <orderEntry type="library" name="ExerelinCore" level="application" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -21,5 +17,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="starfarer-api" level="project" />
+    <orderEntry type="library" name="Nexerelin" level="project" />
+    <orderEntry type="library" name="jars-MagicLib" level="project" />
+    <orderEntry type="library" name="GraphicsLib" level="project" />
   </component>
 </module>
