@@ -66,7 +66,7 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
 
         // Ensure we have a listener
         if (!sector.getListenerManager().hasListenerOfClass(RedwingsMarketListener2.class)) {
-            sector.addTransientListener(new RedwingsMarketListener2(false));
+            sector.getListenerManager().addListener(new RedwingsMarketListener2(false), true);
         }
     }
 
