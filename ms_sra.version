@@ -1,6 +1,8 @@
 {
     "masterVersionFile":"https://raw.githubusercontent.com/wispborne/Shadowyards/main/ms_sra.version",
     "modName":"Shadowyards (Wisp)",
+    "modThreadId":3491,
+    "directDownloadURL": "https://github.com/wispborne/Shadowyards/releases/download/003/Shadowyards_Wisp.zip",
     "modVersion":
     {
         "major":"0",
