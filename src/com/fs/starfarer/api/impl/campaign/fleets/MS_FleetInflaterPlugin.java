@@ -412,6 +412,11 @@ public class MS_FleetInflaterPlugin implements FleetInflater, AutofitPlugin.Auto
         this.p.quality = quality;
     }
 
+    @Override
+    public int getAverageNumSMods() {
+        return 0;
+    }
+
     public Long getTimestamp()
     {
         return p.timestamp;
