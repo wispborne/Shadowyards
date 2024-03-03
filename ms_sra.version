@@ -2,11 +2,11 @@
     "masterVersionFile":"https://raw.githubusercontent.com/wispborne/Shadowyards/main/ms_sra.version",
     "modName":"Shadowyards (Wisp)",
     "modThreadId":3491,
-    "directDownloadURL": "https://github.com/wispborne/Shadowyards/releases/download/003/Shadowyards_Wisp.zip",
+    "directDownloadURL": "https://github.com/wispborne/Shadowyards/releases/download/004/Shadowyards_Wisp.zip",
     "modVersion":
     {
         "major":"0",
         "minor":"9",
-        "patch":"6-rc1-Wisp-003"
+        "patch":"6-rc1-Wisp-004"
     },
 }
