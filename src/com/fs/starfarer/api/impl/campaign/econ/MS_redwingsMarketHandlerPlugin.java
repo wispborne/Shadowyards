@@ -56,17 +56,25 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
 
         // Wisp:
         // Remove old, non-transient listener that had a memory leak.
-        if (sector.getListenerManager().hasListenerOfClass(RedwingsMarketListener.class)) {
-            for (RedwingsMarketListener marketListener : sector.getListenerManager().getListeners(RedwingsMarketListener.class)) {
-                marketListener.sector = null;
-                marketListener.targetMarkets = null;
+        for (CampaignEventListener listener : sector.getAllListeners()) {
+            if (listener instanceof RedwingsMarketListener) {
+                ((RedwingsMarketListener) listener).sector = null;
+                ((RedwingsMarketListener) listener).targetMarkets = null;
+                sector.removeListener(listener);
             }
-            sector.getListenerManager().removeListenerOfClass(RedwingsMarketListener.class);
         }
 
         // Ensure we have a listener
-        if (!sector.getListenerManager().hasListenerOfClass(RedwingsMarketListener2.class)) {
-            sector.getListenerManager().addListener(new RedwingsMarketListener2(false), true);
+        boolean hasListener = false;
+        for (CampaignEventListener listener : sector.getAllListeners()) {
+            if (listener instanceof RedwingsMarketListener2) {
+                hasListener = true;
+                break;
+            }
+        }
+
+        if (!hasListener) {
+            sector.addTransientListener(new RedwingsMarketListener2(false));
         }
     }
 
