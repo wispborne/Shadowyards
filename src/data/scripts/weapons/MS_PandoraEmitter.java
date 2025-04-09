@@ -208,6 +208,16 @@ public class MS_PandoraEmitter implements EveryFrameWeaponEffectPlugin {
         @Override
         public void setHitpoints(float hp) {
         }
+
+        @Override
+        public boolean isPointInBounds(Vector2f p) {
+            return false;
+        }
+
+        @Override
+        public boolean wasRemoved() {
+            return false;
+        }
     }
     //</editor-fold>
 }

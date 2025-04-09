@@ -4,6 +4,7 @@ import com.fs.starfarer.api.EveryFrameScript;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import data.campaign.econ.MS_industries;
@@ -129,27 +130,30 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
 
             if (!targetMarketIds.contains(market.getId())) {
                 if (market.getFactionId().contains(shadow.getId())) {
-                    //Redwings need their command structure to exist:
+                    // Redwings need their command structure to exist:
                     if (hasRedwings) {
                         if (market.getSubmarket(Submarkets.GENERIC_MILITARY) != null) {
                             CargoAPI cargo = market.getSubmarket(Submarkets.GENERIC_MILITARY).getCargo();
                             if (cargo != null) {
                                 int size = market.getSize();
-                                for (int i = 0; i < size; i++) {
+                                for (int i = 0; i < size + 20; i++) {
                                     //run a random against a set float
                                     //on success we add a random ship from the redwings lineup
                                     if (Math.random() > 0.8f) {
                                         Random rand = new Random();
                                         String shipToAdd = SHIP_SELECT.get(rand.nextInt(SHIP_SELECT.size())) + "_Hull";
                                         String name = shadow.pickRandomShipName();
-                                        if (shipToAdd != null) {
-                                            //log.debug("Adding Ship: type = " + shipToAdd + " at " + market.getName());
-                                            cargo.addMothballedShip(FleetMemberType.SHIP, shipToAdd, name);
-                                        }
+                                        //log.debug("Adding Ship: type = " + shipToAdd + " at " + market.getName());
+                                        cargo.addMothballedShip(FleetMemberType.SHIP, shipToAdd, name);
                                     }
                                 }
 
                                 cargo.initMothballedShips(shadow.getId());
+                                // Wisp: fixed bug where Redwings ships had 0 CR until hovered over.
+                                for (FleetMemberAPI member : cargo.getMothballedShips().getMembersListCopy()) {
+                                    member.getRepairTracker().setCR(0.5f);
+                                    cargo.getMothballedShips().addFleetMember(member);
+                                }
                             }
                         }
 
@@ -162,13 +166,16 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
                                         Random rand = new Random();
                                         String shipToAdd = SHIP_SELECT.get(rand.nextInt(SHIP_SELECT.size())) + "_Hull";
                                         String name = shadow.pickRandomShipName();
-                                        if (shipToAdd != null) {
-                                            blackM.addMothballedShip(FleetMemberType.SHIP, shipToAdd, name);
-                                        }
+                                        blackM.addMothballedShip(FleetMemberType.SHIP, shipToAdd, name);
                                     }
                                 }
 
                                 blackM.initMothballedShips(shadow.getId());
+                                // Wisp: fixed bug where Redwings ships had 0 CR until hovered over.
+                                for (FleetMemberAPI member : blackM.getMothballedShips().getMembersListCopy()) {
+                                    member.getRepairTracker().setCR(0.5f);
+                                    blackM.getMothballedShips().addFleetMember(member);
+                                }
                             }
                         }
                     }

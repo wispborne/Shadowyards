@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.FleetInflater;
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipVariantAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
@@ -448,5 +449,15 @@ public class MS_FleetInflaterPlugin implements FleetInflater, AutofitPlugin.Auto
     @Override
     public boolean isAllowSlightRandomization() {
 	return true;
+    }
+
+    @Override
+    public MarketAPI getMarket() {
+        return null;
+    }
+
+    @Override
+    public FleetMemberAPI getFleetMember() {
+        return null;
     }
 }
