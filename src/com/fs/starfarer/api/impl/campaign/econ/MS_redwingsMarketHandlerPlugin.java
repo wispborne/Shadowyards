@@ -136,7 +136,7 @@ public class MS_redwingsMarketHandlerPlugin implements EveryFrameScript {
                             CargoAPI cargo = market.getSubmarket(Submarkets.GENERIC_MILITARY).getCargo();
                             if (cargo != null) {
                                 int size = market.getSize();
-                                for (int i = 0; i < size; i++) {
+                                for (int i = 0; i < size + 20; i++) {
                                     //run a random against a set float
                                     //on success we add a random ship from the redwings lineup
                                     if (Math.random() > 0.8f) {

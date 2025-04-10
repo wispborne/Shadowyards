@@ -1,7 +1,7 @@
 {
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["sra_export_bp", "sra_bp"],
+		"tags":["ms_export_bp", "sra_bp"],
 	},
 	"knownFighters":{
 	        "fighters":[
