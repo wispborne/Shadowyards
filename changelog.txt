@@ -1,9 +1,3 @@
-Wisp 006
-- 0.98a recompile/info update.
-- Fixed bug where Redwings ships had 0 CR until hovered over.
-- Fixed red SRA flag.
-- Specified that the Charge Cycler affects Energy weapons only.
-
 0.9.6-rc1 Dev Changleog
 
     Updated the SRA's relationships on generation to include more factions, which should resolve some weirdness in Nexerelin
