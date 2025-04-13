@@ -2,9 +2,11 @@ Wisp 006
 - 0.98a recompile/info update.
 - Fixed bug where Redwings ships had 0 CR until hovered over.
 - Fixed red SRA flag.
+  - The change to a red flag is intentional by MShadowy, to reflect that SRA are essentially rebels.
 - Specified that the Charge Cycler affects Energy weapons only.
 - Added SRA ships to simulator.
 - Fixed SRA export ships not being known to the Persean League, Independents, and Scavengers.
+- Added SRA Defense Fleet.
 
 0.9.6-rc1 Dev Changleog
 

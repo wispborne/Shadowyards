@@ -4,12 +4,15 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
+import com.fs.starfarer.api.campaign.FactionAPI;
+import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.FullName.Gender;
 import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.impl.campaign.fleets.MS_SDFShadowyards;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Skills;
@@ -153,5 +156,11 @@ public class ShadowyardsModPlugin extends BaseModPlugin {
     
     private static void initShadowyards() {
         new SHIGen().generate(Global.getSector());
+
+        SectorAPI sector = Global.getSector();
+        MarketAPI homeworld = Global.getSector().getEconomy().getMarket("euripides");
+        if (!sector.hasScript(MS_SDFShadowyards.class) || homeworld != null) {
+            sector.addScript(new MS_SDFShadowyards());
+        }
     }
 }
