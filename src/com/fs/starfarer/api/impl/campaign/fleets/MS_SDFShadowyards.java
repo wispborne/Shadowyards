@@ -62,11 +62,9 @@ public class MS_SDFShadowyards extends SDFBase {
 
         Vector2f loc = euripides.getLocationInHyperspace();
 
-        m.triggerCreateFleet(FleetSize.HUGE, FleetQuality.SMOD_1, "redwings", FleetTypes.PATROL_LARGE, loc);
+        m.triggerCreateFleet(FleetSize.MAXIMUM, FleetQuality.SMOD_2, "redwings", FleetTypes.PATROL_LARGE, loc);
         // Wisp: Very important! Otherwise the fleet is oops all ventures.
         m.triggerFleetSetShipPickMode(FactionAPI.ShipPickMode.PRIORITY_THEN_ALL);
-
-        m.triggerSetFleetSizeFraction(1.25f);
 
         m.triggerSetFleetOfficers(OfficerNum.MORE, OfficerQuality.HIGHER);
         m.triggerSetFleetDoctrineComp(3, 0, 1);
@@ -81,7 +79,7 @@ public class MS_SDFShadowyards extends SDFBase {
         m.triggerSetPatrol();
         m.triggerSetFleetMemoryValue(MemFlags.MEMORY_KEY_SOURCE_MARKET, euripides);
         m.triggerFleetSetNoFactionInName();
-        m.triggerFleetSetName("The Fist of Inokkenti");
+        m.triggerFleetSetName("Redwings Reserve Armada");
         m.triggerPatrolAllowTransponderOff();
         //m.triggerFleetSetPatrolActionText("patrolling");
         m.triggerOrderFleetPatrol(euripides.getStarSystem());
