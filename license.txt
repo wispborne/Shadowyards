@@ -1,6 +1,6 @@
 Creative Commons License (CC)
 
-Copyright (c) 2012 - 2016 Graham Chambers ("MShadowy")
+Copyright (c) 2012 - 2016 MShadowy
 
 Attribution-NonCommercial-ShareAlike
 CC BY-NC-SA (https://creativecommons.org/licenses/by-nc-sa/4.0/)

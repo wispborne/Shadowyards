@@ -1,8 +1,11 @@
+Wisp 007
+- Fixed campaign music being the same song over and over.
+    - If you use Audio Plus, you would not be affected by the bug.
+
 Wisp 006
 - 0.98a recompile/info update.
 - Fixed bug where Redwings ships had 0 CR until hovered over.
-- Fixed red SRA flag.
-  - The change to a red flag is intentional by MShadowy, to reflect that SRA are essentially rebels.
+- Note: The change to a red faction flag is intentional by MShadowy, to reflect that SRA are essentially rebels.
 - Specified that the Charge Cycler affects Energy weapons only.
 - Added SRA ships to simulator.
 - Fixed SRA export ships not being known to the Persean League, Independents, and Scavengers.
