@@ -5,9 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="LazyLib" level="application" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -21,5 +20,18 @@
     <orderEntry type="library" name="Nexerelin" level="project" />
     <orderEntry type="library" name="jars-MagicLib" level="project" />
     <orderEntry type="library" name="GraphicsLib" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$STARSECTOR_INSTALL_DIR$/mods/LazyLib-3.0.0/jars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$STARSECTOR_INSTALL_DIR$/mods/LazyLib-3.0.0/jars" />
+        </SOURCES>
+        <jarDirectory url="file://$STARSECTOR_INSTALL_DIR$/mods/LazyLib-3.0.0/jars" recursive="false" />
+        <jarDirectory url="file://$STARSECTOR_INSTALL_DIR$/mods/LazyLib-3.0.0/jars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

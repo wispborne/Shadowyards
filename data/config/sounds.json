@@ -2,9 +2,11 @@
     ######MUSIC########
     "music":{
         "music_campaign":[
+            {"file":"miscallenous_corvus_campaign_music.ogg","source":"sounds/music/music.bin","volume":1.00},
         	{"file":"A Dreaming Sky.ogg","source":"sounds/sra/music","volume":0.65},
         ],
         "music_campaign_hyperspace":[
+            {"file":"campaign_music_part_2_v28.ogg","source":"sounds/music/music.bin","volume":0.60},
         	{"file":"A Dreaming Sky.ogg","source":"sounds/sra/music","volume":0.65},
         ],
         "music_sra_market_neutral":[
